@@ -1,0 +1,20 @@
+{
+  "name": "wikipedia-airport-scraper",
+  "version": "0.1.0",
+  "description": "Get flight connections info from Wikipedia airport pages",
+  "type": "module",
+  "exports": "./get.js",
+  "author": "Raphael Cockx",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "got": "^14.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1"
+  }
+}
