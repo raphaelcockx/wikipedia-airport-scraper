@@ -18,31 +18,32 @@ const data = await got(url)
 
     return $rows.map(function () {
       const $cols = $('td', $(this))
-
       const $airlineCol = $cols.eq(0)
       const $destinationsCol = $cols.eq(1)
 
-      // First column
+      // Get airline data
       const $airlineLink = $('a[title]', $airlineCol)
-
       const airline = {
         name: $airlineLink.text() || $('span.nowrap', $airlineCol).text(),
         link: $airlineLink.attr('href')?.replace('/wiki/', '') || null
       }
 
-      // Second column
-      const destinations = $destinationsCol.html()
+      // Parse destinations
+      const $destinationEntries = $destinationsCol.html()
         .split(/,|<br>/)
         .map((html) => {
-          console.log(`${html.trim()}\n`)
           return $(`<div>${html.trim()}</div>`)
         })
-        .map(($destinationEntry) => {
+
+      const seasonalFrom = $destinationEntries.findIndex(($destinationEntry) => $('b', $destinationEntry).text() === 'Seasonal:')
+      const destinations = $destinationEntries
+        .map(($destinationEntry, i) => {
           const $destinationLink = $('a[title]', $destinationEntry)
 
           const destination = {
             name: $destinationLink.text(),
-            link: $destinationLink.attr('href')?.replace('/wiki/', '') || null
+            link: $destinationLink.attr('href')?.replace('/wiki/', '') || null,
+            isSeasonal: seasonalFrom !== -1 && i >= seasonalFrom
           }
 
           return {
