@@ -1,7 +1,6 @@
 import * as cheerio from 'cheerio'
 import got from 'got'
 
-// const url = 'https://en.m.wikipedia.org/wiki/Amsterdam_Schiphol_Airport'
 const url = 'https://en.m.wikipedia.org/wiki/Antwerp_International_Airport'
 
 const data = await got(url)
@@ -20,19 +19,39 @@ const data = await got(url)
     return $rows.map(function () {
       const $cols = $('td', $(this))
 
-      const $airline = $cols.eq(0)
-      const $destinations = $cols.eq(1)
+      const $airlineCol = $cols.eq(0)
+      const $destinationsCol = $cols.eq(1)
 
-      const airlineName = $('span, a', $airline).text()
-      const airlineLink = $('a', $airline).attr('href') || null
+      // First column
+      const $airlineLink = $('a[title]', $airlineCol)
 
-      return {
-        airline: {
-          name: airlineName,
-          link: airlineLink ? airlineLink.split('/')[2] : null
-        },
-        destinations: $destinations.text()
+      const airline = {
+        name: $airlineLink.text() || $('span.nowrap', $airlineCol).text(),
+        link: $airlineLink.attr('href')?.replace('/wiki/', '') || null
       }
+
+      // Second column
+      const destinations = $destinationsCol.html()
+        .split(/,|<br>/)
+        .map((html) => {
+          console.log(`${html.trim()}\n`)
+          return $(`<div>${html.trim()}</div>`)
+        })
+        .map(($destinationEntry) => {
+          const $destinationLink = $('a[title]', $destinationEntry)
+
+          const destination = {
+            name: $destinationLink.text(),
+            link: $destinationLink.attr('href')?.replace('/wiki/', '') || null
+          }
+
+          return {
+            airline,
+            destination
+          }
+        })
+
+      return destinations
     }).toArray()
   })
 
