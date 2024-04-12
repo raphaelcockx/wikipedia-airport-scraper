@@ -1,5 +1,7 @@
 import * as cheerio from 'cheerio'
+import dayjs from 'dayjs'
 import got from 'got'
+import write from 'write'
 
 const url = 'https://en.m.wikipedia.org/wiki/Antwerp_International_Airport'
 
@@ -46,9 +48,28 @@ const data = await got(url)
             isSeasonal: seasonalFrom !== -1 && i >= seasonalFrom
           }
 
+          const extraText = $destinationEntry.contents()
+            .filter(function () {
+              return this.nodeType === 3
+            })
+            .map(function () {
+              const trimmedText = this.nodeValue.trim()
+
+              return trimmedText !== '' ? trimmedText : null
+            })
+            .get() // We'll keep this as an array for now, to detect multiple text nodes
+
+          const startDate = extraText.length > 0
+            ? (() => {
+                const matched = extraText[0].match(/\(begins (.+)\)/)
+                return matched ? dayjs(matched[1]).format('YYYY-MM-DD') : null
+              })()
+            : null
+
           return {
             airline,
-            destination
+            destination,
+            startDate
           }
         })
 
@@ -56,4 +77,5 @@ const data = await got(url)
     }).toArray()
   })
 
-console.log(data)
+const outputPath = new URL('./data/ANR.json', import.meta.url).pathname
+await write(outputPath, JSON.stringify(data, null, 2))

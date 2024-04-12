@@ -1,0 +1,218 @@
+[
+  {
+    "airline": {
+      "name": "ASL Fly Executive",
+      "link": null
+    },
+    "destination": {
+      "name": "Ibiza",
+      "link": "Ibiza_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Luxair",
+      "link": "Luxair"
+    },
+    "destination": {
+      "name": "London–City",
+      "link": "London_City_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "SkyAlps",
+      "link": "SkyAlps"
+    },
+    "destination": {
+      "name": "Bolzano",
+      "link": "Bolzano_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Alicante",
+      "link": "Alicante%E2%80%93Elche_Miguel_Hern%C3%A1ndez_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Málaga",
+      "link": "M%C3%A1laga_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Murcia",
+      "link": "Regi%C3%B3n_de_Murcia_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Nador",
+      "link": "Nador_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Tangier",
+      "link": "Tangier_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Tel Aviv",
+      "link": "Ben_Gurion_Airport",
+      "isSeasonal": false
+    },
+    "startDate": "2024-09-25"
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Tenerife–South",
+      "link": "Tenerife_South_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Antalya",
+      "link": "Antalya_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Gran Canaria",
+      "link": "Gran_Canaria_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Heraklion",
+      "link": "Heraklion_International_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Ibiza",
+      "link": "Ibiza_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Innsbruck",
+      "link": "Innsbruck_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Oujda",
+      "link": "Angads_Airport",
+      "isSeasonal": true
+    },
+    "startDate": "2024-06-26"
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Palma de Mallorca",
+      "link": "Palma_de_Mallorca_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Split",
+      "link": "Split_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  }
+]
