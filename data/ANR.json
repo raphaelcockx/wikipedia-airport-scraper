@@ -1,8 +1,1220 @@
 [
   {
     "airline": {
-      "name": "ASL Fly Executive",
-      "link": null
+      "name": "Aegean Airlines",
+      "link": "Aegean_Airlines"
+    },
+    "destination": {
+      "name": "Athens",
+      "link": "Athens_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Aegean Airlines",
+      "link": "Aegean_Airlines"
+    },
+    "destination": {
+      "name": "Thessaloniki",
+      "link": "Thessaloniki_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Aer Lingus",
+      "link": "Aer_Lingus"
+    },
+    "destination": {
+      "name": "Dublin",
+      "link": "Dublin_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Air Algérie",
+      "link": "Air_Alg%C3%A9rie"
+    },
+    "destination": {
+      "name": "Algiers",
+      "link": "Houari_Boumediene_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Air Algérie",
+      "link": "Air_Alg%C3%A9rie"
+    },
+    "destination": {
+      "name": "Oran",
+      "link": "Oran_Es_S%C3%A9nia_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Air Arabia",
+      "link": "Air_Arabia"
+    },
+    "destination": {
+      "name": "Casablanca",
+      "link": "Mohammed_V_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Air Arabia",
+      "link": "Air_Arabia"
+    },
+    "destination": {
+      "name": "Fès",
+      "link": "F%C3%A8s%E2%80%93Sa%C3%AFs_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Air Arabia",
+      "link": "Air_Arabia"
+    },
+    "destination": {
+      "name": "Nador",
+      "link": "Nador_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Air Arabia",
+      "link": "Air_Arabia"
+    },
+    "destination": {
+      "name": "Oujda",
+      "link": "Angads_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Air Arabia",
+      "link": "Air_Arabia"
+    },
+    "destination": {
+      "name": "Rabat",
+      "link": "Rabat_Airport",
+      "isSeasonal": false
+    },
+    "startDate": "2024-05-01"
+  },
+  {
+    "airline": {
+      "name": "Air Arabia",
+      "link": "Air_Arabia"
+    },
+    "destination": {
+      "name": "Tangier",
+      "link": "Tangier_Ibn_Battouta_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Air Arabia",
+      "link": "Air_Arabia"
+    },
+    "destination": {
+      "name": "Tétouan",
+      "link": "Sania_Ramel_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "airBaltic",
+      "link": "AirBaltic"
+    },
+    "destination": {
+      "name": "Riga",
+      "link": "Riga_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "airBaltic",
+      "link": "AirBaltic"
+    },
+    "destination": {
+      "name": "Tallinn",
+      "link": "Tallinn_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Air Canada",
+      "link": "Air_Canada"
+    },
+    "destination": {
+      "name": "Montréal–Trudeau",
+      "link": "Montr%C3%A9al%E2%80%93Trudeau_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Air Canada",
+      "link": "Air_Canada"
+    },
+    "destination": {
+      "name": "Toronto–Pearson",
+      "link": "Toronto_Pearson_International_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Air Europa",
+      "link": "Air_Europa"
+    },
+    "destination": {
+      "name": "Madrid",
+      "link": "Madrid%E2%80%93Barajas_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Air Serbia",
+      "link": "Air_Serbia"
+    },
+    "destination": {
+      "name": "Belgrade",
+      "link": "Belgrade_Nikola_Tesla_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Air Transat",
+      "link": "Air_Transat"
+    },
+    "destination": {
+      "name": "Montréal–Trudeau",
+      "link": "Montr%C3%A9al%E2%80%93Trudeau_International_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "All Nippon Airways",
+      "link": "All_Nippon_Airways"
+    },
+    "destination": {
+      "name": "Tokyo–Narita",
+      "link": "Narita_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Amelia",
+      "link": "Amelia_(airline)"
+    },
+    "destination": {
+      "name": "Brive",
+      "link": "Brive%E2%80%93Souillac_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "AnadoluJet",
+      "link": "AnadoluJet"
+    },
+    "destination": {
+      "name": "Istanbul–Sabiha Gökçen",
+      "link": "Istanbul_Sabiha_G%C3%B6k%C3%A7en_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "AnadoluJet",
+      "link": "AnadoluJet"
+    },
+    "destination": {
+      "name": "Ankara",
+      "link": "Esenbo%C4%9Fa_International_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Austrian Airlines",
+      "link": "Austrian_Airlines"
+    },
+    "destination": {
+      "name": "Vienna",
+      "link": "Vienna_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "BH Air",
+      "link": "BH_Air"
+    },
+    "destination": {
+      "name": "Burgas",
+      "link": "Burgas_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "British Airways",
+      "link": "British_Airways"
+    },
+    "destination": {
+      "name": "London–Heathrow",
+      "link": "Heathrow_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Abidjan",
+      "link": "F%C3%A9lix-Houphou%C3%ABt-Boigny_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Accra",
+      "link": "Kotoka_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Alicante",
+      "link": "Alicante%E2%80%93Elche_Miguel_Hern%C3%A1ndez_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Banjul",
+      "link": "Banjul_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Barcelona",
+      "link": "Josep_Tarradellas_Barcelona%E2%80%93El_Prat_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Berlin",
+      "link": "Berlin_Brandenburg_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Bilbao",
+      "link": "Bilbao_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Billund",
+      "link": "Billund_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Bologna",
+      "link": "Bologna_Guglielmo_Marconi_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Budapest",
+      "link": "Budapest_Ferenc_Liszt_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Bujumbura",
+      "link": "Bujumbura_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Conakry",
+      "link": "Conakry_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Copenhagen",
+      "link": "Copenhagen_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Cotonou",
+      "link": "Cadjehoun_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Dakar–Diass",
+      "link": "Blaise_Diagne_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Douala",
+      "link": "Douala_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Edinburgh",
+      "link": "Edinburgh_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Entebbe",
+      "link": "Entebbe_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Faro",
+      "link": "Faro_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Frankfurt",
+      "link": "Frankfurt_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Freetown",
+      "link": "Lungi_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Geneva",
+      "link": "Geneva_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Gothenburg",
+      "link": "Gothenburg_Landvetter_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Gran Canaria",
+      "link": "Gran_Canaria_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Hamburg",
+      "link": "Hamburg_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Hurghada",
+      "link": "Hurghada_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Kigali",
+      "link": "Kigali_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Kinshasa–N'djili",
+      "link": "N%27djili_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Kraków",
+      "link": "Krak%C3%B3w_John_Paul_II_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Lanzarote",
+      "link": "Lanzarote_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Lisbon",
+      "link": "Lisbon_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Ljubljana",
+      "link": "Ljubljana_Jo%C5%BEe_Pu%C4%8Dnik_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Lomé",
+      "link": "Lom%C3%A9-Tokoin_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "London–Heathrow",
+      "link": "Heathrow_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Luanda",
+      "link": "Quatro_de_Fevereiro_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Lyon",
+      "link": "Lyon%E2%80%93Saint-Exup%C3%A9ry_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Madrid",
+      "link": "Adolfo_Su%C3%A1rez_Madrid-Barajas_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Málaga",
+      "link": "M%C3%A1laga_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Manchester",
+      "link": "Manchester_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Marseille",
+      "link": "Marseille_Provence_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Milan–Linate",
+      "link": "Linate_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Milan–Malpensa",
+      "link": "Milan_Malpensa_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Monrovia–Roberts",
+      "link": "Roberts_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Munich",
+      "link": "Munich_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Nairobi–Jomo Kenyatta",
+      "link": "Jomo_Kenyatta_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "New York–JFK",
+      "link": "John_F._Kennedy_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Nice",
+      "link": "Nice_C%C3%B4te_d%27Azur_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Ouagadougou",
+      "link": "Ouagadougou_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Paris–Charles de Gaulle",
+      "link": "Charles_de_Gaulle_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Porto",
+      "link": "Porto_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Prague",
+      "link": "V%C3%A1clav_Havel_Airport_Prague",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Rome–Fiumicino",
+      "link": "Leonardo_da_Vinci%E2%80%93Fiumicino_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Stockholm–Arlanda",
+      "link": "Stockholm_Arlanda_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Tel Aviv",
+      "link": "Ben_Gurion_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Tenerife–South",
+      "link": "Tenerife_South_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Toulouse",
+      "link": "Toulouse-Blagnac_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Valencia",
+      "link": "Valencia_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Venice",
+      "link": "Venice_Marco_Polo_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Vienna",
+      "link": "Vienna_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Vilnius",
+      "link": "Vilnius_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Warsaw–Chopin",
+      "link": "Warsaw_Chopin_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Yaoundé",
+      "link": "Yaound%C3%A9_Nsimalen_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Yerevan",
+      "link": "Zvartnots_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Zürich",
+      "link": "Z%C3%BCrich_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Athens",
+      "link": "Athens_International_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Birmingham",
+      "link": "Birmingham_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Bordeaux",
+      "link": "Bordeaux%E2%80%93M%C3%A9rignac_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Brindisi",
+      "link": "Brindisi_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Catania",
+      "link": "Catania%E2%80%93Fontanarossa_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Chania",
+      "link": "Chania_International_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Corfu",
+      "link": "Corfu_International_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Djerba",
+      "link": "Djerba%E2%80%93Zarzis_International_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Dubrovnik",
+      "link": "Dubrovnik_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Florence",
+      "link": "Peretola_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Heraklion",
+      "link": "Heraklion_International_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
     },
     "destination": {
       "name": "Ibiza",
@@ -13,25 +1225,1381 @@
   },
   {
     "airline": {
-      "name": "Luxair",
-      "link": "Luxair"
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
     },
     "destination": {
-      "name": "London–City",
-      "link": "London_City_Airport",
+      "name": "Kos",
+      "link": "Kos_International_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Marrakesh",
+      "link": "Marrakesh_Menara_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Monastir",
+      "link": "Monastir_Habib_Bourguiba_International_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Mytilene",
+      "link": "Mytilene_International_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Nador",
+      "link": "Nador_International_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Naples",
+      "link": "Naples_International_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Olbia",
+      "link": "Olbia_%E2%80%93_Costa_Smeralda_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Oujda",
+      "link": "Angads_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Palma de Mallorca",
+      "link": "Palma_de_Mallorca_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Rabat",
+      "link": "Rabat%E2%80%93Sal%C3%A9_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Rhodes",
+      "link": "Rhodes_International_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Samos",
+      "link": "Samos_International_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Sharm El Sheikh",
+      "link": "Sharm_El_Sheikh_International_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Split",
+      "link": "Split_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Tangier",
+      "link": "Tangier_Ibn_Battouta_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Washington–Dulles",
+      "link": "Washington_Dulles_International_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Zadar",
+      "link": "Zadar_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Brussels Airlines",
+      "link": "Brussels_Airlines"
+    },
+    "destination": {
+      "name": "Zakynthos",
+      "link": "Zakynthos_International_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Bulgaria Air",
+      "link": "Bulgaria_Air"
+    },
+    "destination": {
+      "name": "Sofia",
+      "link": "Sofia_Airport",
       "isSeasonal": false
     },
     "startDate": null
   },
   {
     "airline": {
-      "name": "SkyAlps",
-      "link": "SkyAlps"
+      "name": "Corendon Airlines",
+      "link": "Corendon_Airlines"
     },
     "destination": {
-      "name": "Bolzano",
-      "link": "Bolzano_Airport",
+      "name": "Antalya",
+      "link": "Antalya_Airport",
       "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Corendon Airlines",
+      "link": "Corendon_Airlines"
+    },
+    "destination": {
+      "name": "Bodrum",
+      "link": "Milas%E2%80%93Bodrum_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Corendon Airlines",
+      "link": "Corendon_Airlines"
+    },
+    "destination": {
+      "name": "Burgas",
+      "link": "Burgas_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Corendon Airlines",
+      "link": "Corendon_Airlines"
+    },
+    "destination": {
+      "name": "Dalaman",
+      "link": "Dalaman_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Corendon Airlines",
+      "link": "Corendon_Airlines"
+    },
+    "destination": {
+      "name": "Eskişehir",
+      "link": "Hasan_Polatkan_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Corendon Airlines",
+      "link": "Corendon_Airlines"
+    },
+    "destination": {
+      "name": "Heraklion",
+      "link": "Heraklion_International_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Corendon Airlines",
+      "link": "Corendon_Airlines"
+    },
+    "destination": {
+      "name": "Izmir",
+      "link": "%C4%B0zmir_Adnan_Menderes_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Corendon Airlines",
+      "link": "Corendon_Airlines"
+    },
+    "destination": {
+      "name": "Kos",
+      "link": "Kos_International_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Corendon Airlines",
+      "link": "Corendon_Airlines"
+    },
+    "destination": {
+      "name": "Palma de Mallorca",
+      "link": "Palma_de_Mallorca_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Corendon Airlines",
+      "link": "Corendon_Airlines"
+    },
+    "destination": {
+      "name": "Rhodes",
+      "link": "Rhodes_International_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Corendon Airlines",
+      "link": "Corendon_Airlines"
+    },
+    "destination": {
+      "name": "Tenerife–South",
+      "link": "Tenerife_South_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Croatia Airlines",
+      "link": "Croatia_Airlines"
+    },
+    "destination": {
+      "name": "Zagreb",
+      "link": "Zagreb_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Cyprus Airways",
+      "link": "Cyprus_Airways"
+    },
+    "destination": {
+      "name": "Larnaca",
+      "link": "Larnaca_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Dan Air",
+      "link": "Dan_Air_(Romania)"
+    },
+    "destination": {
+      "name": "Bacău",
+      "link": "George_Enescu_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Delta Air Lines",
+      "link": "Delta_Air_Lines"
+    },
+    "destination": {
+      "name": "New York–JFK",
+      "link": "John_F._Kennedy_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "easyJet",
+      "link": "EasyJet"
+    },
+    "destination": {
+      "name": "Geneva",
+      "link": "Geneva_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "easyJet",
+      "link": "EasyJet"
+    },
+    "destination": {
+      "name": "Nice",
+      "link": "Nice_C%C3%B4te_d%27Azur_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Egyptair",
+      "link": "Egyptair"
+    },
+    "destination": {
+      "name": "Cairo",
+      "link": "Cairo_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Emirates",
+      "link": "Emirates_(airline)"
+    },
+    "destination": {
+      "name": "Dubai–International",
+      "link": "Dubai_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Ethiopian Airlines",
+      "link": "Ethiopian_Airlines"
+    },
+    "destination": {
+      "name": "Addis Ababa",
+      "link": "Addis_Ababa_Bole_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Etihad Airways",
+      "link": "Etihad_Airways"
+    },
+    "destination": {
+      "name": "Abu Dhabi",
+      "link": "Abu_Dhabi_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Finnair",
+      "link": "Finnair"
+    },
+    "destination": {
+      "name": "Helsinki",
+      "link": "Helsinki_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Flynas",
+      "link": "Flynas"
+    },
+    "destination": {
+      "name": "Jeddah",
+      "link": "King_Abdulaziz_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "FlyOne",
+      "link": "FlyOne"
+    },
+    "destination": {
+      "name": "Chișinău",
+      "link": "Chi%C8%99in%C4%83u_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Georgian Airways",
+      "link": "Georgian_Airways"
+    },
+    "destination": {
+      "name": "Tbilisi",
+      "link": "Shota_Rustaveli_Tbilisi_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Hainan Airlines",
+      "link": "Hainan_Airlines"
+    },
+    "destination": {
+      "name": "Beijing–Capital",
+      "link": "Beijing_Capital_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Hainan Airlines",
+      "link": "Hainan_Airlines"
+    },
+    "destination": {
+      "name": "Shanghai–Pudong",
+      "link": "Shanghai_Pudong_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Hainan Airlines",
+      "link": "Hainan_Airlines"
+    },
+    "destination": {
+      "name": "Shenzhen",
+      "link": "Shenzhen_Bao%27an_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "HiSky",
+      "link": "HiSky"
+    },
+    "destination": {
+      "name": "Bucharest–Otopeni",
+      "link": "Henri_Coand%C4%83_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Iberia",
+      "link": "Iberia_(airline)"
+    },
+    "destination": {
+      "name": "Madrid",
+      "link": "Madrid%E2%80%93Barajas_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Icelandair",
+      "link": "Icelandair"
+    },
+    "destination": {
+      "name": "Reykjavík–Keflavík",
+      "link": "Keflav%C3%ADk_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "ITA Airways",
+      "link": "ITA_Airways"
+    },
+    "destination": {
+      "name": "Milan–Linate",
+      "link": "Linate_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "ITA Airways",
+      "link": "ITA_Airways"
+    },
+    "destination": {
+      "name": "Rome–Fiumicino",
+      "link": "Leonardo_da_Vinci%E2%80%93Fiumicino_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Juneyao Airlines",
+      "link": "Juneyao_Airlines"
+    },
+    "destination": {
+      "name": "Shanghai–Pudong",
+      "link": "Shanghai_Pudong_Airport",
+      "isSeasonal": false
+    },
+    "startDate": "2024-07-01"
+  },
+  {
+    "airline": {
+      "name": "KLM",
+      "link": "KLM"
+    },
+    "destination": {
+      "name": "Amsterdam",
+      "link": "Amsterdam_Airport_Schiphol",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "KM Malta Airlines",
+      "link": "KM_Malta_Airlines"
+    },
+    "destination": {
+      "name": "Malta",
+      "link": "Malta_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "LOT Polish Airlines",
+      "link": "LOT_Polish_Airlines"
+    },
+    "destination": {
+      "name": "Warsaw–Chopin",
+      "link": "Warsaw_Chopin_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Lufthansa",
+      "link": "Lufthansa"
+    },
+    "destination": {
+      "name": "Frankfurt",
+      "link": "Frankfurt_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Lufthansa",
+      "link": "Lufthansa"
+    },
+    "destination": {
+      "name": "Munich",
+      "link": "Munich_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Middle East Airlines",
+      "link": "Middle_East_Airlines"
+    },
+    "destination": {
+      "name": "Beirut",
+      "link": "Beirut_Rafic_Hariri_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Nouvelair",
+      "link": "Nouvelair"
+    },
+    "destination": {
+      "name": "Djerba",
+      "link": "Djerba%E2%80%93Zarzis_International_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Nouvelair",
+      "link": "Nouvelair"
+    },
+    "destination": {
+      "name": "Tunis",
+      "link": "Tunis%E2%80%93Carthage_International_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Play",
+      "link": "Play_(airline)"
+    },
+    "destination": {
+      "name": "Reykjavík–Keflavík",
+      "link": "Keflav%C3%ADk_International_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Qatar Airways",
+      "link": "Qatar_Airways"
+    },
+    "destination": {
+      "name": "Doha",
+      "link": "Hamad_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Royal Air Maroc",
+      "link": "Royal_Air_Maroc"
+    },
+    "destination": {
+      "name": "Casablanca",
+      "link": "Mohammed_V_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Royal Air Maroc",
+      "link": "Royal_Air_Maroc"
+    },
+    "destination": {
+      "name": "Marrakesh",
+      "link": "Marrakesh_Menara_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Royal Air Maroc",
+      "link": "Royal_Air_Maroc"
+    },
+    "destination": {
+      "name": "Nador",
+      "link": "Nador_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Royal Air Maroc",
+      "link": "Royal_Air_Maroc"
+    },
+    "destination": {
+      "name": "Rabat",
+      "link": "Rabat-Sal%C3%A9_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Royal Air Maroc",
+      "link": "Royal_Air_Maroc"
+    },
+    "destination": {
+      "name": "Tangier",
+      "link": "Tangier_Ibn_Battouta_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Royal Air Maroc",
+      "link": "Royal_Air_Maroc"
+    },
+    "destination": {
+      "name": "Al Hoceima",
+      "link": "Cherif_Al_Idrissi_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Royal Air Maroc",
+      "link": "Royal_Air_Maroc"
+    },
+    "destination": {
+      "name": "Oujda",
+      "link": "Angads_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Royal Jordanian",
+      "link": "Royal_Jordanian"
+    },
+    "destination": {
+      "name": "Amman–Queen Alia",
+      "link": "Queen_Alia_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "RwandAir",
+      "link": "RwandAir"
+    },
+    "destination": {
+      "name": "Kigali",
+      "link": "Kigali_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Ryanair",
+      "link": "Ryanair"
+    },
+    "destination": {
+      "name": "Barcelona",
+      "link": "Barcelona%E2%80%93El_Prat_Josep_Tarradellas_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Ryanair",
+      "link": "Ryanair"
+    },
+    "destination": {
+      "name": "Berlin",
+      "link": "Berlin_Brandenburg_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Ryanair",
+      "link": "Ryanair"
+    },
+    "destination": {
+      "name": "Dublin",
+      "link": "Dublin_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Ryanair",
+      "link": "Ryanair"
+    },
+    "destination": {
+      "name": "Madrid",
+      "link": "Madrid%E2%80%93Barajas_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Ryanair",
+      "link": "Ryanair"
+    },
+    "destination": {
+      "name": "Málaga",
+      "link": "M%C3%A1laga_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Ryanair",
+      "link": "Ryanair"
+    },
+    "destination": {
+      "name": "Marrakesh",
+      "link": "Marrakesh_Menara_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Ryanair",
+      "link": "Ryanair"
+    },
+    "destination": {
+      "name": "Porto",
+      "link": "Porto_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Ryanair",
+      "link": "Ryanair"
+    },
+    "destination": {
+      "name": "Rome–Fiumicino",
+      "link": "Leonardo_da_Vinci-Fiumicino_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Ryanair",
+      "link": "Ryanair"
+    },
+    "destination": {
+      "name": "Valencia",
+      "link": "Valencia_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Ryanair",
+      "link": "Ryanair"
+    },
+    "destination": {
+      "name": "Girona",
+      "link": "Girona%E2%80%93Costa_Brava_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Ryanair",
+      "link": "Ryanair"
+    },
+    "destination": {
+      "name": "Palma de Mallorca",
+      "link": "Palma_de_Mallorca_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Ryanair",
+      "link": "Ryanair"
+    },
+    "destination": {
+      "name": "Pisa",
+      "link": "Pisa_International_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Scandinavian Airlines",
+      "link": "Scandinavian_Airlines"
+    },
+    "destination": {
+      "name": "Copenhagen",
+      "link": "Copenhagen_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Scandinavian Airlines",
+      "link": "Scandinavian_Airlines"
+    },
+    "destination": {
+      "name": "Stockholm–Arlanda",
+      "link": "Stockholm_Arlanda_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Singapore Airlines",
+      "link": "Singapore_Airlines"
+    },
+    "destination": {
+      "name": "Singapore",
+      "link": "Changi_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Sky Express",
+      "link": "Sky_Express_(Greece)"
+    },
+    "destination": {
+      "name": "Athens",
+      "link": "Athens_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Sky Express",
+      "link": "Sky_Express_(Greece)"
+    },
+    "destination": {
+      "name": "Heraklion",
+      "link": "Heraklion_International_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "SunExpress",
+      "link": "SunExpress"
+    },
+    "destination": {
+      "name": "Eskişehir",
+      "link": "Hasan_Polatkan_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "SunExpress",
+      "link": "SunExpress"
+    },
+    "destination": {
+      "name": "Adana",
+      "link": "Adana_%C5%9Eakirpa%C5%9Fa_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "SunExpress",
+      "link": "SunExpress"
+    },
+    "destination": {
+      "name": "Ankara",
+      "link": "Esenbo%C4%9Fa_International_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "SunExpress",
+      "link": "SunExpress"
+    },
+    "destination": {
+      "name": "Antalya",
+      "link": "Antalya_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "SunExpress",
+      "link": "SunExpress"
+    },
+    "destination": {
+      "name": "Dalaman",
+      "link": "Dalaman_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "SunExpress",
+      "link": "SunExpress"
+    },
+    "destination": {
+      "name": "Izmir",
+      "link": "%C4%B0zmir_Adnan_Menderes_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Swiss International Air Lines",
+      "link": "Swiss_International_Air_Lines"
+    },
+    "destination": {
+      "name": "Geneva",
+      "link": "Geneva_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Swiss International Air Lines",
+      "link": "Swiss_International_Air_Lines"
+    },
+    "destination": {
+      "name": "Zürich",
+      "link": "Z%C3%BCrich_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TAP Air Portugal",
+      "link": "TAP_Air_Portugal"
+    },
+    "destination": {
+      "name": "Lisbon",
+      "link": "Lisbon_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TAROM",
+      "link": "TAROM"
+    },
+    "destination": {
+      "name": "Bucharest–Otopeni",
+      "link": "Henri_Coand%C4%83_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Transavia",
+      "link": "Transavia"
+    },
+    "destination": {
+      "name": "Alicante",
+      "link": "Alicante%E2%80%93Elche_Miguel_Hern%C3%A1ndez_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Transavia",
+      "link": "Transavia"
+    },
+    "destination": {
+      "name": "Bari",
+      "link": "Bari_Karol_Wojty%C5%82a_Airport",
+      "isSeasonal": false
+    },
+    "startDate": "2024-06-27"
+  },
+  {
+    "airline": {
+      "name": "Transavia",
+      "link": "Transavia"
+    },
+    "destination": {
+      "name": "Faro",
+      "link": "Faro_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Transavia",
+      "link": "Transavia"
+    },
+    "destination": {
+      "name": "Marrakesh",
+      "link": "Marrakesh_Menara_Airport",
+      "isSeasonal": false
+    },
+    "startDate": "2024-06-27"
+  },
+  {
+    "airline": {
+      "name": "Transavia",
+      "link": "Transavia"
+    },
+    "destination": {
+      "name": "Thessaloniki",
+      "link": "Thessaloniki_Airport",
+      "isSeasonal": false
+    },
+    "startDate": "2024-06-28"
+  },
+  {
+    "airline": {
+      "name": "Transavia",
+      "link": "Transavia"
+    },
+    "destination": {
+      "name": "Ibiza",
+      "link": "Ibiza_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Transavia",
+      "link": "Transavia"
+    },
+    "destination": {
+      "name": "Innsbruck",
+      "link": "Innsbruck_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Transavia",
+      "link": "Transavia"
+    },
+    "destination": {
+      "name": "Málaga",
+      "link": "M%C3%A1laga_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Transavia",
+      "link": "Transavia"
+    },
+    "destination": {
+      "name": "Salzburg",
+      "link": "Salzburg_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Transavia",
+      "link": "Transavia"
+    },
+    "destination": {
+      "name": "Santorini",
+      "link": "Santorini_(Thira)_International_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Transavia",
+      "link": "Transavia"
+    },
+    "destination": {
+      "name": "Seville",
+      "link": "Seville_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Transavia",
+      "link": "Transavia"
+    },
+    "destination": {
+      "name": "Tenerife–South",
+      "link": "Tenerife_South_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Transavia",
+      "link": "Transavia"
+    },
+    "destination": {
+      "name": "Zakynthos",
+      "link": "Zakynthos_International_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Agadir",
+      "link": "Agadir%E2%80%93Al_Massira_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Algiers",
+      "link": "Houari_Boumediene_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Al Hoceima",
+      "link": "Cherif_Al_Idrissi_Airport",
+      "isSeasonal": false
     },
     "startDate": null
   },
@@ -43,6 +2611,210 @@
     "destination": {
       "name": "Alicante",
       "link": "Alicante%E2%80%93Elche_Miguel_Hern%C3%A1ndez_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Antalya",
+      "link": "Antalya_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Béjaïa",
+      "link": "Abane_Ramdane_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Boa Vista",
+      "link": "Aristides_Pereira_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Cancún",
+      "link": "Canc%C3%BAn_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Casablanca",
+      "link": "Mohammed_V_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Constantine",
+      "link": "Mohamed_Boudiaf_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Curaçao",
+      "link": "Cura%C3%A7ao_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": "2024-11-05"
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Dakar–Diass",
+      "link": "Blaise_Diagne_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Djerba",
+      "link": "Djerba%E2%80%93Zarzis_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Enfidha",
+      "link": "Enfidha%E2%80%93Hammamet_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Eskişehir",
+      "link": "Anadolu_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Fès",
+      "link": "F%C3%A8s%E2%80%93Sa%C3%AFs_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Fuerteventura",
+      "link": "Fuerteventura_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Funchal",
+      "link": "Madeira_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Gran Canaria",
+      "link": "Gran_Canaria_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Hurghada",
+      "link": "Hurghada_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Lanzarote",
+      "link": "Lanzarote_Airport",
       "isSeasonal": false
     },
     "startDate": null
@@ -65,8 +2837,8 @@
       "link": "TUI_fly_Belgium"
     },
     "destination": {
-      "name": "Murcia",
-      "link": "Regi%C3%B3n_de_Murcia_International_Airport",
+      "name": "Marrakesh",
+      "link": "Marrakesh_Menara_Airport",
       "isSeasonal": false
     },
     "startDate": null
@@ -77,8 +2849,8 @@
       "link": "TUI_fly_Belgium"
     },
     "destination": {
-      "name": "Nador",
-      "link": "Nador_International_Airport",
+      "name": "Marsa Alam",
+      "link": "Marsa_Alam_International_Airport",
       "isSeasonal": false
     },
     "startDate": null
@@ -89,8 +2861,8 @@
       "link": "TUI_fly_Belgium"
     },
     "destination": {
-      "name": "Tangier",
-      "link": "Tangier_Airport",
+      "name": "Oran",
+      "link": "Oran_Es_S%C3%A9nia_Airport",
       "isSeasonal": false
     },
     "startDate": null
@@ -101,11 +2873,59 @@
       "link": "TUI_fly_Belgium"
     },
     "destination": {
-      "name": "Tel Aviv",
-      "link": "Ben_Gurion_Airport",
+      "name": "Oujda",
+      "link": "Angads_Airport",
       "isSeasonal": false
     },
-    "startDate": "2024-09-25"
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Punta Cana",
+      "link": "Punta_Cana_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Rabat",
+      "link": "Rabat%E2%80%93Sal%C3%A9_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Sal",
+      "link": "Am%C3%ADlcar_Cabral_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Sharm El Sheikh",
+      "link": "Sharm_El_Sheikh_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
   },
   {
     "airline": {
@@ -125,8 +2945,56 @@
       "link": "TUI_fly_Belgium"
     },
     "destination": {
-      "name": "Antalya",
-      "link": "Antalya_Airport",
+      "name": "Tirana",
+      "link": "Tirana_International_Airport_N%C3%ABn%C3%AB_Tereza",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Tlemcen",
+      "link": "Zenata_%E2%80%93_Messali_El_Hadj_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Tunis",
+      "link": "Tunis%E2%80%93Carthage_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Varadero",
+      "link": "Juan_Gualberto_G%C3%B3mez_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Almería",
+      "link": "Almer%C3%ADa_Airport",
       "isSeasonal": true
     },
     "startDate": null
@@ -137,8 +3005,128 @@
       "link": "TUI_fly_Belgium"
     },
     "destination": {
-      "name": "Gran Canaria",
-      "link": "Gran_Canaria_Airport",
+      "name": "Banjul",
+      "link": "Banjul_International_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Bodrum",
+      "link": "Milas%E2%80%93Bodrum_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Brindisi",
+      "link": "Brindisi_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Burgas",
+      "link": "Burgas_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Catania",
+      "link": "Catania-Fontanarossa_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Chania",
+      "link": "Chania_International_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Corfu",
+      "link": "Corfu_International_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Dalaman",
+      "link": "Dalaman_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Dubrovnik",
+      "link": "Dubrovnik_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Faro",
+      "link": "Faro_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Girona",
+      "link": "Girona-Costa_Brava_Airport",
       "isSeasonal": true
     },
     "startDate": null
@@ -173,8 +3161,8 @@
       "link": "TUI_fly_Belgium"
     },
     "destination": {
-      "name": "Innsbruck",
-      "link": "Innsbruck_Airport",
+      "name": "Izmir",
+      "link": "%C4%B0zmir_Adnan_Menderes_Airport",
       "isSeasonal": true
     },
     "startDate": null
@@ -185,11 +3173,155 @@
       "link": "TUI_fly_Belgium"
     },
     "destination": {
-      "name": "Oujda",
-      "link": "Angads_Airport",
+      "name": "Jerez de la Frontera",
+      "link": "Jerez_Airport",
       "isSeasonal": true
     },
-    "startDate": "2024-06-26"
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Kittilä",
+      "link": "Kittil%C3%A4_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Kos",
+      "link": "Kos_International_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Lamezia Terme",
+      "link": "Lamezia_Terme_International_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Larnaca",
+      "link": "Larnaca_International_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Luxor",
+      "link": "Luxor_International_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Menorca",
+      "link": "Menorca_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Montego Bay",
+      "link": "Sangster_International_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Mykonos",
+      "link": "Mykonos_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Mytilene",
+      "link": "Mytilene_International_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Nador",
+      "link": "Nador_International_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Naples",
+      "link": "Naples_International_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Palermo",
+      "link": "Palermo_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
   },
   {
     "airline": {
@@ -209,10 +3341,310 @@
       "link": "TUI_fly_Belgium"
     },
     "destination": {
-      "name": "Split",
-      "link": "Split_Airport",
+      "name": "Paphos",
+      "link": "Paphos_International_Airport",
       "isSeasonal": true
     },
     "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Patras",
+      "link": "Araxos_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Ponta Delgada",
+      "link": "Jo%C3%A3o_Paulo_II_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Pristina",
+      "link": "Pristina_International_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Reus",
+      "link": "Reus_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Rhodes",
+      "link": "Rhodes_International_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Samos",
+      "link": "Samos_International_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Santorini",
+      "link": "Santorini_(Thira)_International_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Tangier",
+      "link": "Tangier_Ibn_Battouta_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Tétouan",
+      "link": "Sania_Ramel_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Thessaloniki",
+      "link": "Thessaloniki_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Tivat",
+      "link": "Tivat_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Varna",
+      "link": "Varna_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "TUI fly Belgium",
+      "link": "TUI_fly_Belgium"
+    },
+    "destination": {
+      "name": "Zakynthos",
+      "link": "Zakynthos_International_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Tunisair",
+      "link": "Tunisair"
+    },
+    "destination": {
+      "name": "Tunis",
+      "link": "Tunis%E2%80%93Carthage_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Turkish Airlines",
+      "link": "Turkish_Airlines"
+    },
+    "destination": {
+      "name": "Istanbul",
+      "link": "Istanbul_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "United Airlines",
+      "link": "United_Airlines"
+    },
+    "destination": {
+      "name": "Chicago–O'Hare",
+      "link": "O%27Hare_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "United Airlines",
+      "link": "United_Airlines"
+    },
+    "destination": {
+      "name": "Newark",
+      "link": "Newark_Liberty_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "United Airlines",
+      "link": "United_Airlines"
+    },
+    "destination": {
+      "name": "Washington–Dulles",
+      "link": "Washington_Dulles_International_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Vueling",
+      "link": "Vueling"
+    },
+    "destination": {
+      "name": "Alicante",
+      "link": "Alicante%E2%80%93Elche_Miguel_Hern%C3%A1ndez_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Vueling",
+      "link": "Vueling"
+    },
+    "destination": {
+      "name": "Barcelona",
+      "link": "Josep_Tarradellas_Barcelona%E2%80%93El_Prat_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Vueling",
+      "link": "Vueling"
+    },
+    "destination": {
+      "name": "Málaga",
+      "link": "M%C3%A1laga_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Vueling",
+      "link": "Vueling"
+    },
+    "destination": {
+      "name": "Valencia",
+      "link": "Valencia_Airport",
+      "isSeasonal": false
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Vueling",
+      "link": "Vueling"
+    },
+    "destination": {
+      "name": "Bilbao",
+      "link": "Bilbao_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Vueling",
+      "link": "Vueling"
+    },
+    "destination": {
+      "name": "Seville",
+      "link": "Seville_Airport",
+      "isSeasonal": true
+    },
+    "startDate": null
+  },
+  {
+    "airline": {
+      "name": "Wizz Air",
+      "link": "Wizz_Air"
+    },
+    "destination": {
+      "name": "Budapest",
+      "link": "Budapest_Airport",
+      "isSeasonal": false
+    },
+    "startDate": "2024-06-19"
   }
 ]

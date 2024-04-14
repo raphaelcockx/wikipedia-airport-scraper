@@ -3,7 +3,7 @@ import dayjs from 'dayjs'
 import got from 'got'
 import write from 'write'
 
-const url = 'https://en.m.wikipedia.org/wiki/Antwerp_International_Airport'
+const url = 'https://en.wikipedia.org/wiki/Brussels_Airport'
 
 const data = await got(url)
   .then((response) => response.body)
@@ -43,7 +43,7 @@ const data = await got(url)
           const $destinationLink = $('a[title]', $destinationEntry)
 
           const destination = {
-            name: $destinationLink.text(),
+            name: $destinationLink.length > 0 ? $destinationLink.text() : null, // Return null when the destinations end in a comma and a reference note
             link: $destinationLink.attr('href')?.replace('/wiki/', '') || null,
             isSeasonal: seasonalFrom !== -1 && i >= seasonalFrom
           }
@@ -73,7 +73,7 @@ const data = await got(url)
           }
         })
 
-      return destinations
+      return destinations.filter((d) => d.destination.name !== null)
     }).toArray()
   })
 
