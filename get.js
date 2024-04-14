@@ -30,50 +30,54 @@ const data = await got(url)
         link: $airlineLink.attr('href')?.replace('/wiki/', '') || null
       }
 
-      // Parse destinations
-      const $destinationEntries = $destinationsCol.html()
-        .split(/,|<br>/)
-        .map((html) => {
-          return $(`<div>${html.trim()}</div>`)
-        })
-
-      const seasonalFrom = $destinationEntries.findIndex(($destinationEntry) => $('b', $destinationEntry).text() === 'Seasonal:')
-      const destinations = $destinationEntries
-        .map(($destinationEntry, i) => {
-          const $destinationLink = $('a[title]', $destinationEntry)
-
-          const destination = {
-            name: $destinationLink.length > 0 ? $destinationLink.text() : null, // Return null when the destinations end in a comma and a reference note
-            link: $destinationLink.attr('href')?.replace('/wiki/', '') || null,
-            isSeasonal: seasonalFrom !== -1 && i >= seasonalFrom
-          }
-
-          const extraText = $destinationEntry.contents()
-            .filter(function () {
-              return this.nodeType === 3
-            })
-            .map(function () {
-              const trimmedText = this.nodeValue.trim()
-
-              return trimmedText !== '' ? trimmedText : null
-            })
-            .get() // We'll keep this as an array for now, to detect multiple text nodes
-
-          const startDate = extraText.length > 0
-            ? (() => {
-                const matched = extraText[0].match(/\((begins|resumes) (.+)\)/)
-                return matched ? dayjs(matched[2]).format('YYYY-MM-DD') : null
-              })()
-            : null
+      const destinationsNodes = $destinationsCol.contents()
+        .map(function () {
+          const tagName = $(this).prop('tagName') || null
+          const link = $(this).attr('href')?.replace('/wiki/', '') || null
+          const value = this.nodeValue ? this.nodeValue.trim() : $(this).text()
 
           return {
-            airline,
-            destination,
-            startDate
+            tagName,
+            link,
+            value
           }
         })
+        .get()
+        .filter((d) => !['BR', 'SUP'].includes(d.tagName))
+        .filter(({ tagName, value }) => !(tagName === null && ['', ','].includes(value)))
+        .map((d, index) => ({ index, ...d }))
 
-      return destinations.filter((d) => d.destination.name !== null)
+      const markers = destinationsNodes.filter((node) => node.tagName === 'B')
+      const airportEntries = destinationsNodes.filter((node) => node.tagName === 'A')
+
+      const destinations = airportEntries.map((airport, i) => {
+        const { index, value: name, link } = airport
+
+        const seasonalFrom = markers.find((marker) => marker.value === 'Seasonal:')?.index || null
+        const seasonalCharterFrom = markers.find((marker) => marker.value === 'Seasonal charter:')?.index || null
+
+        const isSeasonal = seasonalFrom ? index > seasonalFrom : false
+        const isCharter = seasonalCharterFrom ? index > seasonalCharterFrom : false
+
+        const extraTextEntry = destinationsNodes.slice(index + 1, airportEntries[i + 1]?.index).filter((node) => node.tagName !== 'B')[0] || null
+        const startDateMatch = extraTextEntry?.value.match(/\((begins|resumes) (.+)\)/) || null
+        const startDate = startDateMatch ? dayjs(startDateMatch[2]).format('YYYY-MM-DD') : null
+
+        const destination = {
+          name,
+          link,
+          isCharter,
+          isSeasonal,
+          startDate
+        }
+
+        return {
+          airline,
+          destination
+        }
+      })
+
+      return destinations
     }).toArray()
   })
 
