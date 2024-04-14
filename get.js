@@ -61,8 +61,8 @@ const data = await got(url)
 
           const startDate = extraText.length > 0
             ? (() => {
-                const matched = extraText[0].match(/\(begins (.+)\)/)
-                return matched ? dayjs(matched[1]).format('YYYY-MM-DD') : null
+                const matched = extraText[0].match(/\((begins|resumes) (.+)\)/)
+                return matched ? dayjs(matched[2]).format('YYYY-MM-DD') : null
               })()
             : null
 
