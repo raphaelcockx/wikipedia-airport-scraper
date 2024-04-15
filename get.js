@@ -53,11 +53,11 @@ const data = await got(url)
       const destinations = airportEntries.map((airport, i) => {
         const { index, value: name, link } = airport
 
-        const seasonalFrom = markers.find((marker) => marker.value === 'Seasonal:')?.index || null
-        const seasonalCharterFrom = markers.find((marker) => marker.value === 'Seasonal charter:')?.index || null
+        const seasonalFrom = markers.find((marker) => marker.value === 'Seasonal:')?.index
+        const seasonalCharterFrom = markers.find((marker) => marker.value === 'Seasonal charter:')?.index
 
-        const isSeasonal = seasonalFrom ? index > seasonalFrom : false
-        const isCharter = seasonalCharterFrom ? index > seasonalCharterFrom : false
+        const isSeasonal = seasonalFrom !== undefined ? index > seasonalFrom : false
+        const isCharter = seasonalCharterFrom !== undefined ? index > seasonalCharterFrom : false
 
         const extraTextEntry = destinationsNodes.slice(index + 1, airportEntries[i + 1]?.index).filter((node) => node.tagName !== 'B')[0] || null
         const startDateMatch = extraTextEntry?.value.match(/\((begins|resumes) (.+)\)/) || null

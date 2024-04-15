@@ -242,7 +242,7 @@
       "name": "Montréal–Trudeau",
       "link": "Montr%C3%A9al%E2%80%93Trudeau_International_Airport",
       "isCharter": false,
-      "isSeasonal": false,
+      "isSeasonal": true,
       "startDate": null
     }
   },
@@ -320,7 +320,7 @@
       "name": "Burgas",
       "link": "Burgas_Airport",
       "isCharter": false,
-      "isSeasonal": false,
+      "isSeasonal": true,
       "startDate": null
     }
   },
@@ -1607,7 +1607,7 @@
       "name": "Antalya",
       "link": "Antalya_Airport",
       "isCharter": false,
-      "isSeasonal": false,
+      "isSeasonal": true,
       "startDate": null
     }
   },
@@ -1620,7 +1620,7 @@
       "name": "Bodrum",
       "link": "Milas%E2%80%93Bodrum_Airport",
       "isCharter": false,
-      "isSeasonal": false,
+      "isSeasonal": true,
       "startDate": null
     }
   },
@@ -1633,7 +1633,7 @@
       "name": "Burgas",
       "link": "Burgas_Airport",
       "isCharter": false,
-      "isSeasonal": false,
+      "isSeasonal": true,
       "startDate": null
     }
   },
@@ -1646,7 +1646,7 @@
       "name": "Dalaman",
       "link": "Dalaman_Airport",
       "isCharter": false,
-      "isSeasonal": false,
+      "isSeasonal": true,
       "startDate": null
     }
   },
@@ -1659,7 +1659,7 @@
       "name": "Eskişehir",
       "link": "Hasan_Polatkan_Airport",
       "isCharter": false,
-      "isSeasonal": false,
+      "isSeasonal": true,
       "startDate": null
     }
   },
@@ -1672,7 +1672,7 @@
       "name": "Heraklion",
       "link": "Heraklion_International_Airport",
       "isCharter": false,
-      "isSeasonal": false,
+      "isSeasonal": true,
       "startDate": null
     }
   },
@@ -1685,7 +1685,7 @@
       "name": "Izmir",
       "link": "%C4%B0zmir_Adnan_Menderes_Airport",
       "isCharter": false,
-      "isSeasonal": false,
+      "isSeasonal": true,
       "startDate": null
     }
   },
@@ -1698,7 +1698,7 @@
       "name": "Kos",
       "link": "Kos_International_Airport",
       "isCharter": false,
-      "isSeasonal": false,
+      "isSeasonal": true,
       "startDate": null
     }
   },
@@ -1711,7 +1711,7 @@
       "name": "Palma de Mallorca",
       "link": "Palma_de_Mallorca_Airport",
       "isCharter": false,
-      "isSeasonal": false,
+      "isSeasonal": true,
       "startDate": null
     }
   },
@@ -1724,7 +1724,7 @@
       "name": "Rhodes",
       "link": "Rhodes_International_Airport",
       "isCharter": false,
-      "isSeasonal": false,
+      "isSeasonal": true,
       "startDate": null
     }
   },
@@ -1737,7 +1737,7 @@
       "name": "Tenerife–South",
       "link": "Tenerife_South_Airport",
       "isCharter": false,
-      "isSeasonal": false,
+      "isSeasonal": true,
       "startDate": null
     }
   },
@@ -2127,7 +2127,7 @@
       "name": "Djerba",
       "link": "Djerba%E2%80%93Zarzis_International_Airport",
       "isCharter": false,
-      "isSeasonal": false,
+      "isSeasonal": true,
       "startDate": null
     }
   },
@@ -2140,7 +2140,7 @@
       "name": "Tunis",
       "link": "Tunis%E2%80%93Carthage_International_Airport",
       "isCharter": false,
-      "isSeasonal": false,
+      "isSeasonal": true,
       "startDate": null
     }
   },
@@ -2153,7 +2153,7 @@
       "name": "Reykjavík–Keflavík",
       "link": "Keflav%C3%ADk_International_Airport",
       "isCharter": false,
-      "isSeasonal": false,
+      "isSeasonal": true,
       "startDate": null
     }
   },
