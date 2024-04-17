@@ -47,19 +47,35 @@ const data = await got(url)
         .filter(({ tagName, value }) => !(tagName === null && ['', ','].includes(value)))
         .map((d, index) => ({ index, ...d }))
 
-      const markers = destinationsNodes.filter((node) => node.tagName === 'B')
+      const markers = destinationsNodes
+        .filter((node) => node.tagName === 'B')
+        .map((marker, i, arr) => {
+          return {
+            ...marker,
+            nextIndex: [arr.find((d) => d.index > marker.index)][0]?.index || Infinity
+          }
+        })
+
+      const seasonalMarker = markers.find((marker) => marker.value === 'Seasonal:')
+      const seasonalFromTo = seasonalMarker ? [seasonalMarker.index, seasonalMarker.nextIndex] : [Infinity, Infinity]
+
+      const charterMarker = markers.find((marker) => marker.value === 'Charter:')
+      const charterFromTo = charterMarker ? [charterMarker.index, charterMarker.nextIndex] : [Infinity, Infinity]
+
+      const seasonalCharterMarker = markers.find((marker) => marker.value === 'Seasonal charter:')
+      const seasonalCharterFromTo = seasonalCharterMarker ? [seasonalCharterMarker.index, seasonalCharterMarker.nextIndex] : [Infinity, Infinity]
+
       const airportEntries = destinationsNodes.filter((node) => node.tagName === 'A')
 
       const destinations = airportEntries.map((airport, i) => {
         const { index, value: name, link } = airport
-
-        const seasonalFrom = markers.find((marker) => marker.value === 'Seasonal:')?.index
-        const seasonalCharterFrom = markers.find((marker) => marker.value === 'Seasonal charter:')?.index
-
-        const isSeasonal = seasonalFrom !== undefined ? index > seasonalFrom : false
-        const isCharter = seasonalCharterFrom !== undefined ? index > seasonalCharterFrom : false
-
         const extraTextEntry = destinationsNodes.slice(index + 1, airportEntries[i + 1]?.index).filter((node) => node.tagName !== 'B')[0] || null
+
+        // Determine charter/seasonal
+        const isSeasonal = (index > seasonalFromTo[0] && index < seasonalFromTo[1]) || (index > seasonalCharterFromTo[0] && index < seasonalCharterFromTo[1])
+        const isCharter = (index > charterFromTo[0] && index < charterFromTo[1]) || (index > seasonalCharterFromTo[0] && index < seasonalCharterFromTo[1])
+
+        // Determine start date (if any)
         const startDateMatch = extraTextEntry?.value.match(/\((begins|resumes) (.+)\)/) || null
         const startDate = startDateMatch ? dayjs(startDateMatch[2]).format('YYYY-MM-DD') : null
 
