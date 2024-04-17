@@ -79,12 +79,17 @@ const data = await got(url)
         const startDateMatch = extraTextEntry?.value.match(/\((begins|resumes) (.+)\)/) || null
         const startDate = startDateMatch ? dayjs(startDateMatch[2]).format('YYYY-MM-DD') : null
 
+        // Determine end date (if any)
+        const endDateMatch = extraTextEntry?.value.match(/\(ends (.+)\)/) || null
+        const endDate = endDateMatch ? dayjs(endDateMatch[1]).format('YYYY-MM-DD') : null
+
         const destination = {
           name,
           link,
           isCharter,
           isSeasonal,
-          startDate
+          startDate,
+          endDate
         }
 
         return {
