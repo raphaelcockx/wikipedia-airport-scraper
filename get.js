@@ -98,7 +98,7 @@ const data = await got(url)
         const endDate = endDateMatch ? dayjs(endDateMatch[1]).format('YYYY-MM-DD') : null
 
         // Check if destination is suspended
-        const suspended = /\(suspended\)/.test(extraTextEntry?.value)
+        const suspended = /\(suspended/.test(extraTextEntry?.value)
 
         const destination = {
           name,
