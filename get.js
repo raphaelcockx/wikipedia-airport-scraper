@@ -102,5 +102,5 @@ const data = await got(url)
     }).toArray()
   })
 
-const outputPath = new URL('./data/ANR.json', import.meta.url).pathname
+const outputPath = new URL('./data/output.json', import.meta.url).pathname
 await write(outputPath, JSON.stringify(data, null, 2))
