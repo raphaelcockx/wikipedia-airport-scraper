@@ -3,7 +3,7 @@ import dayjs from 'dayjs'
 import got from 'got'
 import write from 'write'
 
-const url = 'https://en.wikipedia.org/wiki/Brussels_Airport'
+const url = 'https://en.m.wikipedia.org/wiki/Warsaw_Chopin_Airport'
 
 const data = await got(url)
   .then((response) => response.body)
@@ -36,10 +36,24 @@ const data = await got(url)
           const link = $(this).attr('href')?.replace('/wiki/', '') || null
           const value = this.nodeValue ? this.nodeValue.trim() : $(this).text()
 
-          return {
-            tagName,
-            link,
-            value
+          if (tagName === 'P') { // Content shouldn't be wrapped in a paragraph tag, but if it is...
+            return $(this).contents().map(function () {
+              const tagName = $(this).prop('tagName') || null
+              const link = $(this).attr('href')?.replace('/wiki/', '') || null
+              const value = this.nodeValue ? this.nodeValue.trim() : $(this).text()
+
+              return {
+                tagName,
+                link,
+                value
+              }
+            }).get()
+          } else {
+            return {
+              tagName,
+              link,
+              value
+            }
           }
         })
         .get()
