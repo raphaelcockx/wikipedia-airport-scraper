@@ -1,7 +1,7 @@
 import * as cheerio from 'cheerio'
 import dayjs from 'dayjs'
 
-const processData = function (body) {
+const airportEntry = function (body) {
   const $ = cheerio.load(body)
 
   const $adSection = $('span.mw-headline#Airlines_and_destinations').parent().next()
@@ -115,4 +115,6 @@ const processData = function (body) {
   }).toArray()
 }
 
-export default processData
+export default {
+  airportEntry
+}
