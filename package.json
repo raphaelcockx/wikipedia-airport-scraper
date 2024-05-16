@@ -7,6 +7,7 @@
   "author": "Raphael Cockx",
   "license": "UNLICENSED",
   "dependencies": {
+    "bottleneck": "^2.19.5",
     "cheerio": "^1.0.0-rc.12",
     "dayjs": "^1.11.10",
     "got": "^14.2.0",

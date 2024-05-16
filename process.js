@@ -1,7 +1,7 @@
 import * as cheerio from 'cheerio'
 import dayjs from 'dayjs'
 
-const airportEntry = function (body) {
+const airportPage = function (body) {
   const $ = cheerio.load(body)
 
   const $adSection = $('span.mw-headline#Airlines_and_destinations').parent().next()
@@ -115,6 +115,30 @@ const airportEntry = function (body) {
   }).toArray()
 }
 
+const listOfAirports = function (body) {
+  const $ = cheerio.load(body)
+
+  return $('tbody tr:has(td)').map(function () {
+    const $cols = $('td', $(this))
+    
+    const code = $cols.eq(0).text().replace('\n', '').replace(/\[[0-9a-z]{1,2}\]/g, '')
+    
+    const $name = $cols.eq(2)
+    const name = $name.text().trim().replace('\n', '').replace(/\[[0-9a-z]{1,2}\]/g, '')
+    
+    const rawLink = $('a', $name).attr('href') || null
+    const hasNoPage = /action=edit/.test(rawLink)
+    const link = hasNoPage || rawLink === null ? null : rawLink.replace('/wiki/', '')
+
+    return {
+      code,
+      name,
+      link
+    }
+  }).get()
+}
+
 export default {
-  airportEntry
+  airportPage,
+  listOfAirports
 }
