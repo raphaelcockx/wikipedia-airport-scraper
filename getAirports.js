@@ -1,4 +1,4 @@
-import { process } from './index.js'
+import { scrape } from './index.js'
 
 import Bottleneck from 'bottleneck'
 import chalk from 'chalk'
@@ -19,7 +19,7 @@ for (const letter of letters) {
   logUpdate(`● Getting airports for IATA codes starting with ${chalk.white.bold(letter)}`)
 
   const url = 'https://en.m.wikipedia.org/wiki/List_of_airports_by_IATA_airport_code:_' + letter
-  const letterData = await limiter.schedule(() => got(url).then((response) => process.listOfAirports(response.body)))
+  const letterData = await limiter.schedule(() => got(url).then((response) => scrape.listOfAirports(response.body)))
 
   logUpdate(`● Getting airports for IATA codes starting with ${chalk.white.bold(letter)} (${chalk.yellow.bold(letterData.length + ' entries found')})`)
 

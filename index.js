@@ -141,7 +141,7 @@ const listOfAirports = function (body) {
     .filter((d) => d.link)
 }
 
-export const process = {
+export const scrape = {
   airportPage,
   listOfAirports
 }
