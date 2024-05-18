@@ -141,7 +141,7 @@ const listOfAirports = function (body) {
     .filter((d) => d.link)
 }
 
-export default {
+export const process = {
   airportPage,
   listOfAirports
 }

@@ -1,4 +1,4 @@
-import process from './process.js'
+import { process } from './index.js'
 
 import got from 'got'
 import write from 'write'

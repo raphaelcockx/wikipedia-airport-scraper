@@ -1,4 +1,4 @@
-import process from './process.js'
+import { process } from './index.js'
 
 import Bottleneck from 'bottleneck'
 import chalk from 'chalk'
