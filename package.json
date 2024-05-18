@@ -7,17 +7,19 @@
   "author": "Raphael Cockx",
   "license": "UNLICENSED",
   "dependencies": {
-    "bottleneck": "^2.19.5",
     "cheerio": "^1.0.0-rc.12",
-    "dayjs": "^1.11.10",
-    "got": "^14.2.0",
-    "write": "^2.0.0"
+    "dayjs": "^1.11.10"
   },
   "devDependencies": {
+    "bottleneck": "^2.19.5",
+    "chalk": "^5.3.0",
     "eslint": "^8.57.0",
     "eslint-config-standard": "^17.1.0",
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-n": "^16.6.2",
-    "eslint-plugin-promise": "^6.1.1"
+    "eslint-plugin-promise": "^6.1.1",
+    "got": "^14.2.1",
+    "log-update": "^6.0.0",
+    "write": "^2.0.0"
   }
 }
