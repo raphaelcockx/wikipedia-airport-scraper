@@ -9,12 +9,9 @@ import write from 'write'
 const airportsPath = new URL('./data/airports.json', import.meta.url).pathname
 const airports = await readFile(airportsPath, 'utf-8').then(JSON.parse)
 
-// Get code from command line
-const code = process.argv[2]
-
-// Get the right airport
-const airport = airports.find((airport) => airport.code === code)
-const { name, link } = airport
+// Pick a random one
+const airport = airports[Math.round(Math.random() * airports.length)]
+const { code, name, link } = airport
 
 const url = `https://en.m.wikipedia.org/wiki/${link}`
 console.log(`Checking ${chalk.bold.white(name)} (${code}) at ${chalk.blue(url)}`)
