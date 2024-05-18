@@ -20,9 +20,13 @@ const airportPage = function (body) {
 
     // Get airline data
     const $airlineLink = $('a[title]', $airlineCol)
+    const rawAirlineLink = $airlineLink.attr('href') || null
+    const hasNoPage = /action=edit/.test(rawAirlineLink)
+    const airlineLink = hasNoPage || rawAirlineLink === null ? null : rawAirlineLink.replace('/wiki/', '')
+
     const airline = {
       name: $airlineLink.text() || $('span.nowrap', $airlineCol).text(),
-      link: $airlineLink.attr('href')?.replace('/wiki/', '') || null
+      link: airlineLink
     }
 
     const destinationsNodes = $destinationsCol.contents()
