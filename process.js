@@ -118,24 +118,27 @@ const airportPage = function (body) {
 const listOfAirports = function (body) {
   const $ = cheerio.load(body)
 
-  return $('tbody tr:has(td)').map(function () {
-    const $cols = $('td', $(this))
+  return $('tbody tr:has(td)')
+    .map(function () {
+      const $cols = $('td', $(this))
     
-    const code = $cols.eq(0).text().replace('\n', '').replace(/\[[0-9a-z]{1,2}\]/g, '')
+      const code = $cols.eq(0).text().replace('\n', '').replace(/\[[0-9a-z]{1,2}\]/g, '')
     
-    const $name = $cols.eq(2)
-    const name = $name.text().trim().replace('\n', '').replace(/\[[0-9a-z]{1,2}\]/g, '')
+      const $name = $cols.eq(2)
+      const name = $name.text().trim().replace('\n', '').replace(/\[[0-9a-z]{1,2}\]/g, '')
     
-    const rawLink = $('a', $name).attr('href') || null
-    const hasNoPage = /action=edit/.test(rawLink)
-    const link = hasNoPage || rawLink === null ? null : rawLink.replace('/wiki/', '')
+      const rawLink = $('a', $name).attr('href') || null
+      const hasNoPage = /action=edit/.test(rawLink)
+      const link = hasNoPage || rawLink === null ? null : rawLink.replace('/wiki/', '')
 
-    return {
-      code,
-      name,
-      link
-    }
-  }).get()
+      return {
+        code,
+        name,
+        link
+      }
+    })
+    .get()
+    .filter((d) => d.link)
 }
 
 export default {
