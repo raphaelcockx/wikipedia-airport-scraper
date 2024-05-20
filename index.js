@@ -1,7 +1,7 @@
 import * as cheerio from 'cheerio'
 import dayjs from 'dayjs'
 
-const dateRegex = /[0-9]{1,2} (January|February|March|April|May|June|July|August|September|October|November|December) [0-9]{4}/i
+const dateRegex = /([0-9]{1,2} )?(January|February|March|April|May|June|July|August|September|October|November|December) ([0-9]{1,2}, )?[0-9]{4}/i
 
 const airportPage = function (body) {
   const $ = cheerio.load(body)
