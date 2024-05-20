@@ -1,6 +1,8 @@
 import * as cheerio from 'cheerio'
 import dayjs from 'dayjs'
 
+const dateRegex = /[0-9]{1,2} (January|February|March|April|May|June|July|August|September|October|November|December) [0-9]{4}/i
+
 const airportPage = function (body) {
   const $ = cheerio.load(body)
 
@@ -59,45 +61,44 @@ const airportPage = function (body) {
       .filter((d) => !['BR', 'SUP'].includes(d.tagName))
       .filter(({ tagName, value }) => !(tagName === null && ['', ','].includes(value)))
       .map((d, index) => ({ index, ...d }))
+      .reduce((acc, curr, i, arr) => {
+        if (i === 0 || curr.tagName === 'B') acc.push([])
+        acc[acc.length - 1].push(curr)
 
-    const markers = destinationsNodes
-      .filter((node) => node.tagName === 'B')
-      .map((marker, i, arr) => {
+        return acc
+      }, [])
+      .flatMap((nodes, blockIndex) => nodes.map((node) => ({ ...node, blockIndex })))
+
+    // Get markers and modifiers
+    const markers = destinationsNodes.filter((node) => node.tagName === 'B')
+    const modifiers = destinationsNodes
+      .filter((node) => node.tagName === null)
+      .map((modifier) => {
         return {
-          ...marker,
-          nextIndex: [arr.find((d) => d.index > marker.index)][0]?.index || Infinity
+          ...modifier,
+          formattedDate: dayjs(modifier.value.match(dateRegex)[0]).format('YYYY-MM-DD')
         }
       })
 
-    const seasonalMarker = markers.find((marker) => marker.value === 'Seasonal:')
-    const seasonalFromTo = seasonalMarker ? [seasonalMarker.index, seasonalMarker.nextIndex] : [Infinity, Infinity]
-
-    const charterMarker = markers.find((marker) => marker.value === 'Charter:')
-    const charterFromTo = charterMarker ? [charterMarker.index, charterMarker.nextIndex] : [Infinity, Infinity]
-
-    const seasonalCharterMarker = markers.find((marker) => marker.value === 'Seasonal charter:')
-    const seasonalCharterFromTo = seasonalCharterMarker ? [seasonalCharterMarker.index, seasonalCharterMarker.nextIndex] : [Infinity, Infinity]
-
+    // Get airports
     const airportEntries = destinationsNodes.filter((node) => node.tagName === 'A')
 
-    const destinations = airportEntries.map((airport, i) => {
-      const { index, value: name, link } = airport
-      const extraTextEntry = destinationsNodes.slice(index + 1, airportEntries[i + 1]?.index).filter((node) => node.tagName !== 'B')[0] || null
+    const destinations = airportEntries.map((airport) => {
+      const { index, blockIndex, value: name, link } = airport
 
-      // Determine charter/seasonal
-      const isSeasonal = (index > seasonalFromTo[0] && index < seasonalFromTo[1]) || (index > seasonalCharterFromTo[0] && index < seasonalCharterFromTo[1])
-      const isCharter = (index > charterFromTo[0] && index < charterFromTo[1]) || (index > seasonalCharterFromTo[0] && index < seasonalCharterFromTo[1])
+      // Process markers
+      const isCharter = markers.find((marker) => marker.value === 'Charter:' && marker.blockIndex === blockIndex) !== undefined ||
+        markers.find((marker) => marker.value === 'Seasonal charter:' && marker.blockIndex === blockIndex) !== undefined
 
-      // Determine start date (if any)
-      const startDateMatch = extraTextEntry?.value.match(/\((begins|resumes) (.+)\)/) || null
-      const startDate = startDateMatch ? dayjs(startDateMatch[2]).format('YYYY-MM-DD') : null
+      const isSeasonal = markers.find((marker) => marker.value === 'Seasonal:' && marker.blockIndex === blockIndex) !== undefined ||
+        markers.find((marker) => marker.value === 'Seasonal charter:' && marker.blockIndex === blockIndex) !== undefined
 
-      // Determine end date (if any)
-      const endDateMatch = extraTextEntry?.value.match(/\(ends (.+)\)/) || null
-      const endDate = endDateMatch ? dayjs(endDateMatch[1]).format('YYYY-MM-DD') : null
+      // Process modifiers
+      const suspended = modifiers.find((modifier) => /\((temporarily )?suspended/.test(modifier.value) && modifier.index === index + 1) !== undefined
+      const startDate = (modifiers.find((modifier) => /\((begins|resumes)/.test(modifier.value) && modifier.index === index + 1)?.formattedDate || null) ||
+        (modifiers.find((modifier) => /\((both begin|both resume)/.test(modifier.value) && modifier.blockIndex === blockIndex)?.formattedDate || null)
 
-      // Check if destination is suspended
-      const suspended = /\((temporarily )?suspended/.test(extraTextEntry?.value)
+      const endDate = modifiers.find((modifier) => /\((ends)/.test(modifier.value) && modifier.index === index + 1)?.formattedDate || null
 
       const destination = {
         name,
