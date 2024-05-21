@@ -17,5 +17,8 @@ const url = `https://en.m.wikipedia.org/wiki/${link}`
 console.log(`Checking ${chalk.bold.white(name)} (${code}) at ${chalk.blue(url)}`)
 
 const data = await got(url).then((response) => scrape.airportPage(response.body))
-const outputPath = new URL(`./data/${code}.json`, import.meta.url).pathname
-await write(outputPath, JSON.stringify(data, null, 2))
+
+if (data.length > 0) {
+  const outputPath = new URL(`./data/${code}.json`, import.meta.url).pathname
+  await write(outputPath, JSON.stringify(data, null, 2))
+}
