@@ -82,7 +82,7 @@ const airportPage = function (body) {
       .map((modifier) => {
         return {
           ...modifier,
-          formattedDate: dayjs(modifier.value.match(dateRegex)[0]).format('YYYY-MM-DD')
+          formattedDate: dateRegex.test(modifier.value) ? dayjs(modifier.value.match(dateRegex)[0]).format('YYYY-MM-DD') : null
         }
       })
 
