@@ -31,8 +31,6 @@ const airportPage = function (body) {
       link: airlineLink
     }
 
-    console.log(airline.name)
-
     const destinationsNodes = $destinationsCol.contents()
       .map(function () {
         let tagName = $(this).prop('tagName') || null
@@ -76,8 +74,6 @@ const airportPage = function (body) {
         return acc
       }, [])
       .flatMap((nodes, blockIndex) => nodes.map((node) => ({ ...node, blockIndex })))
-
-    console.table(destinationsNodes)
 
     // Get markers and modifiers
     const markers = destinationsNodes.filter((node) => node.tagName === 'B')
