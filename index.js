@@ -27,15 +27,23 @@ const airportPage = function (body) {
     const airlineLink = hasNoPage || rawAirlineLink === null ? null : rawAirlineLink.replace('/wiki/', '')
 
     const airline = {
-      name: $airlineLink.text() || $('span.nowrap', $airlineCol).text(),
+      name: $airlineLink.text() || $('span.nowrap', $airlineCol).text() || $airlineCol.text().replace(/\[[0-9a-z]{1,}\]/, '').trim(),
       link: airlineLink
     }
 
+    console.log(airline.name)
+
     const destinationsNodes = $destinationsCol.contents()
       .map(function () {
-        const tagName = $(this).prop('tagName') || null
+        let tagName = $(this).prop('tagName') || null
         const link = $(this).attr('href')?.replace('/wiki/', '') || null
-        const value = this.nodeValue ? this.nodeValue.trim() : $(this).text()
+        let value = this.nodeValue ? this.nodeValue.trim() : $(this).text()
+
+        // Some airports will be listed with no link. We should try to detect those cases
+        if (tagName === null && /^,\s?[a-zA-Z]+/.test(value)) {
+          tagName = 'A'
+          value = value.replace(',', '').trim()
+        }
 
         if (tagName === 'P') { // Content shouldn't be wrapped in a paragraph tag, but if it is...
           return $(this).contents().map(function () {
@@ -59,7 +67,7 @@ const airportPage = function (body) {
       })
       .get()
       .filter((d) => !['BR', 'SUP'].includes(d.tagName))
-      .filter(({ tagName, value }) => !(tagName === null && ['', ','].includes(value)))
+      .filter(({ tagName, value }) => !(tagName === null && ['', ',', ', '].includes(value)))
       .map((d, index) => ({ index, ...d }))
       .reduce((acc, curr, i, arr) => {
         if (i === 0 || curr.tagName === 'B') acc.push([])
@@ -68,6 +76,8 @@ const airportPage = function (body) {
         return acc
       }, [])
       .flatMap((nodes, blockIndex) => nodes.map((node) => ({ ...node, blockIndex })))
+
+    console.table(destinationsNodes)
 
     // Get markers and modifiers
     const markers = destinationsNodes.filter((node) => node.tagName === 'B')
