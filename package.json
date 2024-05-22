@@ -20,6 +20,7 @@
     "eslint-plugin-promise": "^6.1.1",
     "got": "^14.2.1",
     "log-update": "^6.0.0",
+    "open": "^10.1.0",
     "write": "^2.0.0"
   }
 }

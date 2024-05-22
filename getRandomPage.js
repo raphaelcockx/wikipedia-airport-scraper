@@ -3,6 +3,7 @@ import { scrape } from './index.js'
 
 import chalk from 'chalk'
 import got from 'got'
+import open from 'open'
 import write from 'write'
 
 // Read list of airports
@@ -22,3 +23,5 @@ if (data.length > 0) {
   const outputPath = new URL(`./data/${code}.json`, import.meta.url).pathname
   await write(outputPath, JSON.stringify(data, null, 2))
 }
+
+await open(url)
