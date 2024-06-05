@@ -73,7 +73,7 @@ const airportPage = function (body) {
         .filter((d) => !['BR', 'SUP'].includes(d.tagName))
         .filter(({ tagName, value }) => !(tagName === null && ['', ',', ', '].includes(value)))
         .map((d, index) => ({ index, ...d }))
-        .reduce((acc, curr, i, arr) => {
+        .reduce((acc, curr, i) => {
           if (i === 0 || curr.tagName === 'B') acc.push([])
           acc[acc.length - 1].push(curr)
 
