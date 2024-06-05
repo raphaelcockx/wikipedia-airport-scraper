@@ -6,7 +6,7 @@ const dateRegex = /([0-9]{1,2} )?(January|February|March|April|May|June|July|Aug
 const airportPage = function (body) {
   const $ = cheerio.load(body)
 
-  const $adSection = $('span.mw-headline#Airlines_and_destinations, span.mw-headline#Airline_and_destination').parent().next()
+  const $adSection = $('span.mw-headline#Airlines_and_destinations, span.mw-headline#Airline_and_destination, span.mw-headline#Airline_and_destinations').parent().next()
   const $passengerHeading = $('h3 span.mw-headline#Passenger', $adSection)
 
   const $passengerTable = $passengerHeading.length > 0
