@@ -99,8 +99,7 @@ const airportPage = function (body) {
         const { index, blockIndex, value: name, link } = airport
 
         // Process markers
-        const isCharter = markers.find((marker) => marker.value === 'Charter:' && marker.blockIndex === blockIndex) !== undefined ||
-          markers.find((marker) => marker.value === 'Seasonal charter:' && marker.blockIndex === blockIndex) !== undefined
+        const isCharter = markers.find((marker) => /^([A-Za-z]+\s)?(c|C)harter/.test(marker.value) && marker.blockIndex === blockIndex) !== undefined
 
         const isSeasonal = markers.find((marker) => marker.value === 'Seasonal:' && marker.blockIndex === blockIndex) !== undefined ||
           markers.find((marker) => marker.value === 'Seasonal charter:' && marker.blockIndex === blockIndex) !== undefined
