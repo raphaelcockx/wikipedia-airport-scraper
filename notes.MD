@@ -36,3 +36,25 @@
   }
 ]
 ```
+
+- Not every destination airport that the script picks up on airport pages will have an actual link. If the link leads to a Wikipedia edit page, it will appear in the JSON as Here's part of the output from [Ignatyevo Airport](https://en.m.wikipedia.org/wiki/Ignatyevo_Airport) that shows Zeya as a destination airport with no Wikipedia page to link to:
+
+```json
+[
+   {
+    "airline": {
+      "name": "Angara Airlines",
+      "link": "Angara_Airlines"
+    },
+    "destination": {
+      "name": "Zeya",
+      "link": null,
+      "isCharter": false,
+      "isSeasonal": true,
+      "suspended": false,
+      "startDate": "2024-06-06",
+      "endDate": null
+    }
+  }
+]
+```

@@ -34,7 +34,9 @@ const airportPage = function (body) {
     const destinationsNodes = $destinationsCol.contents()
       .map(function () {
         let tagName = $(this).prop('tagName') || null
-        const link = $(this).attr('href')?.replace('/wiki/', '') || null
+        const rawAirportLink = $(this).attr('href') || null
+        const hasNoPage = /action=edit/.test(rawAirportLink)
+        const airportLink = hasNoPage || rawAirportLink === null ? null : rawAirportLink.replace('/wiki/', '')
         let value = this.nodeValue ? this.nodeValue.trim() : $(this).text()
 
         // Some airports will be listed with no link. We should try to detect those cases
@@ -58,7 +60,7 @@ const airportPage = function (body) {
         } else {
           return {
             tagName,
-            link,
+            link: airportLink,
             value
           }
         }
