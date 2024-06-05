@@ -11,7 +11,7 @@ const airportPage = function (body) {
 
   const $passengerTable = $passengerHeading.length > 0
     ? $passengerHeading.parent().nextUntil('h3').filter('table')
-    : $('table:first-of-type', $adSection)
+    : $('table.wikitable', $adSection).eq(0)
 
   const $rows = $('tbody tr:not(:has(th))', $passengerTable)
 
