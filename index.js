@@ -139,8 +139,9 @@ const listOfAirports = function (body) {
       const name = $name.text().trim().replace('\n', '').replace(/\[[0-9a-z]{1,2}\]/g, '')
 
       const rawLink = $('a', $name).attr('href') || null
+      const isNoteOnly = /^#endnote/.test(rawLink)
       const hasNoPage = /action=edit/.test(rawLink)
-      const link = hasNoPage || rawLink === null ? null : rawLink.replace('/wiki/', '')
+      const link = hasNoPage || isNoteOnly || rawLink === null ? null : rawLink.replace('/wiki/', '')
 
       return {
         code,
