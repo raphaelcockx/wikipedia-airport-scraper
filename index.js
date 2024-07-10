@@ -12,7 +12,8 @@ const airportPage = function (body) {
     'span.mw-headline#Airline_and_destinations',
     'h2#Airlines_and_destinations',
     'h2#Airline_and_destination',
-    'h2#Airline_and_destinations'
+    'h2#Airline_and_destinations',
+    'h2#Charters_and_destinations'
   ].join(', ')).parent().next()
 
   const $passengerHeading = $('h3 span.mw-headline#Passenger', $adSection)
