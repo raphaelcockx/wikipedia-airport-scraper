@@ -1,5 +1,5 @@
 import { readFile } from 'node:fs/promises'
-import { scrape } from './index.js'
+import scrape from './index.js'
 
 import chalk from 'chalk'
 import got from 'got'
@@ -17,9 +17,9 @@ const { code, name, link } = airport
 const url = `https://en.m.wikipedia.org/wiki/${link}`
 console.log(`Checking ${chalk.bold.white(name)} (${code}) at ${chalk.blue(url)}`)
 
-const data = await got(url).then((response) => scrape.airportPage(response.body))
+const data = await got(url).then((response) => scrape(response.body))
 
-if (data.length > 0) {
+if (data.flights.length > 0) {
   const outputPath = new URL(`./data/${code}.json`, import.meta.url).pathname
   await write(outputPath, JSON.stringify(data, null, 2))
 }
