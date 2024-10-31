@@ -6,6 +6,11 @@ const dateRegex = /([0-9]{1,2} )?(January|February|March|April|May|June|July|Aug
 const scrape = (body) => {
   const $ = cheerio.load(body)
 
+  // Get name and IATA/ICAO codes
+  const name = $('span.mw-page-title-main').text().trim()
+  const iataCode = $('span.nickname', $('li a[title="IATA airport code"]').parent()).text().trim()
+  const icaoCode = $('span.nickname', $('li a[title="ICAO airport code"]').parent()).text().trim()
+
   // Get flights
   const $passengerTable = getPassengerTable($)
 
@@ -15,6 +20,9 @@ const scrape = (body) => {
   const flights = isCorrectTable ? getFlights($passengerTable, $) : []
 
   return {
+    name,
+    iataCode,
+    icaoCode,
     flights
   }
 }
