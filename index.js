@@ -169,6 +169,6 @@ const getFlights = ($passengerTable, $) => {
   }).toArray()
 }
 
-const pageTitleFromLink = (link) => decodeURI(link.replaceAll('_', ' '))
+const pageTitleFromLink = (link) => link ? decodeURI(link.replaceAll('_', ' ')) : null
 
 export default scrape
