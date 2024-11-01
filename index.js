@@ -133,7 +133,7 @@ const getFlights = ($passengerTable, $) => {
     const airportEntries = destinationsNodes.filter((node) => node.tagName === 'A')
 
     const destinations = airportEntries.map((airport) => {
-      const { index, blockIndex, value: name, link } = airport
+      const { index, blockIndex, value: shortName, link } = airport
 
       // Process markers
       const isCharter = markers.find((marker) => /^([A-Za-z]+\s)?(c|C)harter/.test(marker.value) && marker.blockIndex === blockIndex) !== undefined
@@ -149,7 +149,8 @@ const getFlights = ($passengerTable, $) => {
       const endDate = modifiers.find((modifier) => /\((ends)/.test(modifier.value) && modifier.index === index + 1)?.formattedDate || null
 
       const destination = {
-        name,
+        shortName,
+        fullName: pageTitleFromLink(link),
         link,
         isCharter,
         isSeasonal,
@@ -167,5 +168,7 @@ const getFlights = ($passengerTable, $) => {
     return destinations
   }).toArray()
 }
+
+const pageTitleFromLink = (link) => decodeURI(link.replaceAll('_', ' '))
 
 export default scrape
