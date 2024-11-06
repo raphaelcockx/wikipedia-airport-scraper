@@ -1,12 +1,19 @@
 {
   "name": "wikipedia-airport-scraper",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Get airport codes and flight connections from Wikipedia airport pages",
   "type": "module",
   "main": "./source/index.js",
   "exports": "./source/index.js",
   "author": "Raphael Cockx",
-  "keywords": ["wikipedia", "airports", "airlines", "flights", "destinations", "scraper"],
+  "keywords": [
+    "wikipedia",
+    "airports",
+    "airlines",
+    "flights",
+    "destinations",
+    "scraper"
+  ],
   "license": "GPL-3.0-only",
   "repository": "raphaelcockx/wikipedia-airport-scraper",
   "files": [
