@@ -3,9 +3,12 @@
   "version": "0.1.0",
   "description": "Get airport codes and flight connections from Wikipedia airport pages",
   "type": "module",
+  "main": "./index.js",
   "exports": "./index.js",
   "author": "Raphael Cockx",
+  "keywords": ["wikipedia", "airports", "airlines", "flights", "destinations", "scraper"],
   "license": "GPL-3.0-only",
+  "repository": "raphaelcockx/wikipedia-airport-scraper",
   "dependencies": {
     "cheerio": "^1.0.0-rc.12",
     "dayjs": "^1.11.10"
