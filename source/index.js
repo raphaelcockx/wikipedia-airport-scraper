@@ -1,5 +1,6 @@
 import * as cheerio from 'cheerio'
 import dayjs from 'dayjs'
+import round from 'lodash.round'
 
 const dateRegex = /([0-9]{1,2} )?(January|February|March|April|May|June|July|August|September|October|November|December) ([0-9]{1,2}, )?[0-9]{4}/i
 
@@ -10,6 +11,16 @@ const scrape = (body) => {
   const name = $('span.mw-page-title-main').text().trim()
   const iataCode = $('span.nickname', $('li a[title="IATA airport code"]').parent()).text().trim()
   const icaoCode = $('span.nickname', $('li a[title="ICAO airport code"]').parent()).text().trim()
+
+  // Get coordinates
+  const $coordinates = $('td.infobox-data span.geo-inline ')
+  const latitude = convertDegrees(...Array.from($('span.latitude', $coordinates).text().trim().matchAll(/[0-9ENSW]+/g)).map((d) => d[0]))
+  const longitude = convertDegrees(...Array.from($('span.longitude', $coordinates).text().trim().matchAll(/[0-9ENSW]+/g)).map((d) => d[0]))
+
+  const coordinates = {
+    latitude,
+    longitude
+  }
 
   // Get flights
   const $passengerTable = getPassengerTable($)
@@ -23,8 +34,14 @@ const scrape = (body) => {
     name,
     iataCode,
     icaoCode,
+    coordinates,
     flights
   }
+}
+
+const convertDegrees = (degrees, minutes, seconds, direction) => {
+  const degreesDecimal = round((+degrees + (+minutes / 60) + (+seconds / 3600)), 6)
+  return ['S', 'W'].includes(direction) ? degreesDecimal * -1 : degreesDecimal
 }
 
 const getPassengerTable = ($) => {
