@@ -1,6 +1,6 @@
 {
   "name": "wikipedia-airport-scraper",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Get airport codes and flight connections from Wikipedia airport pages",
   "type": "module",
   "main": "./source/index.js",
