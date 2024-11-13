@@ -153,10 +153,8 @@ const getFlights = ($passengerTable, $) => {
       const { index, blockIndex, value: shortName, link } = airport
 
       // Process markers
-      const isCharter = markers.find((marker) => /^([A-Za-z]+\s)?(c|C)harter/.test(marker.value) && marker.blockIndex === blockIndex) !== undefined
-
-      const isSeasonal = markers.find((marker) => marker.value === 'Seasonal:' && marker.blockIndex === blockIndex) !== undefined ||
-        markers.find((marker) => marker.value === 'Seasonal charter:' && marker.blockIndex === blockIndex) !== undefined
+      const isCharter = markers.find((marker) => (/^([A-Za-z\s]+)?[c|C]harter/.test(marker.value) || /^Hajj\s?&\s?Umrah/.test(marker.value)) && marker.blockIndex === blockIndex) !== undefined
+      const isSeasonal = markers.find((marker) => (/^Seasonal/.test(marker.value) || /^Hajj\s?&\s?Umrah/.test(marker.value)) && marker.blockIndex === blockIndex) !== undefined
 
       // Process modifiers
       const suspended = modifiers.find((modifier) => /\((temporarily )?suspended/.test(modifier.value) && modifier.index === index + 1) !== undefined
