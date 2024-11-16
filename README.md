@@ -39,6 +39,10 @@ The data (simplified to show only one airline and one destination) then looks li
   "name": "Brussels Airport",
   "iataCode": "BRU",
   "icaoCode": "EBBR",
+    "coordinates": {
+    "latitude": 50.901389,
+    "longitude": 4.484444
+  },
   "flights": [
     {
       "airline": {
