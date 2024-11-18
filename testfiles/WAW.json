@@ -1,0 +1,3995 @@
+{
+  "name": "Warsaw Chopin Airport",
+  "iataCode": "WAW",
+  "icaoCode": "EPWA",
+  "coordinates": {
+    "latitude": 52.165833,
+    "longitude": 20.967222
+  },
+  "flights": [
+    {
+      "airline": {
+        "name": "Aegean Airlines",
+        "link": "Aegean_Airlines"
+      },
+      "destination": {
+        "shortName": "Athens",
+        "fullName": "Athens International Airport",
+        "link": "Athens_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Aer Lingus",
+        "link": "Aer_Lingus"
+      },
+      "destination": {
+        "shortName": "Dublin",
+        "fullName": "Dublin Airport",
+        "link": "Dublin_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Air Arabia",
+        "link": "Air_Arabia"
+      },
+      "destination": {
+        "shortName": "Sharjah",
+        "fullName": "Sharjah International Airport",
+        "link": "Sharjah_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": "2024-12-20",
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Air China",
+        "link": "Air_China"
+      },
+      "destination": {
+        "shortName": "Beijing–Capital",
+        "fullName": "Beijing Capital International Airport",
+        "link": "Beijing_Capital_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Air France",
+        "link": "Air_France"
+      },
+      "destination": {
+        "shortName": "Paris–Charles de Gaulle",
+        "fullName": "Charles de Gaulle Airport",
+        "link": "Charles_de_Gaulle_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Austrian Airlines",
+        "link": "Austrian_Airlines"
+      },
+      "destination": {
+        "shortName": "Vienna",
+        "fullName": "Vienna International Airport",
+        "link": "Vienna_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Austrian Airlines",
+        "link": "Austrian_Airlines"
+      },
+      "destination": {
+        "shortName": "Innsbruck",
+        "fullName": "Innsbruck Airport",
+        "link": "Innsbruck_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": "2024-12-07",
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "British Airways",
+        "link": "British_Airways"
+      },
+      "destination": {
+        "shortName": "London–Heathrow",
+        "fullName": "Heathrow Airport",
+        "link": "Heathrow_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Brussels Airlines",
+        "link": "Brussels_Airlines"
+      },
+      "destination": {
+        "shortName": "Brussels",
+        "fullName": "Brussels Airport",
+        "link": "Brussels_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Corendon Airlines",
+        "link": "Corendon_Airlines"
+      },
+      "destination": {
+        "shortName": "Antalya",
+        "fullName": "Antalya Airport",
+        "link": "Antalya_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Corendon Airlines",
+        "link": "Corendon_Airlines"
+      },
+      "destination": {
+        "shortName": "Heraklion",
+        "fullName": "Heraklion International Airport",
+        "link": "Heraklion_International_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Corendon Airlines",
+        "link": "Corendon_Airlines"
+      },
+      "destination": {
+        "shortName": "Gazipaşa",
+        "fullName": "Gazipaşa–Alanya Airport",
+        "link": "Gazipa%C5%9Fa%E2%80%93Alanya_Airport",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Emirates",
+        "link": "Emirates_(airline)"
+      },
+      "destination": {
+        "shortName": "Dubai–International",
+        "fullName": "Dubai International Airport",
+        "link": "Dubai_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Enter Air",
+        "link": "Enter_Air"
+      },
+      "destination": {
+        "shortName": "Dubai–International",
+        "fullName": "Dubai International Airport",
+        "link": "Dubai_International_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Enter Air",
+        "link": "Enter_Air"
+      },
+      "destination": {
+        "shortName": "Antalya",
+        "fullName": "Antalya Airport",
+        "link": "Antalya_Airport",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Enter Air",
+        "link": "Enter_Air"
+      },
+      "destination": {
+        "shortName": "Bodrum",
+        "fullName": "Milas–Bodrum Airport",
+        "link": "Milas%E2%80%93Bodrum_Airport",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Enter Air",
+        "link": "Enter_Air"
+      },
+      "destination": {
+        "shortName": "Burgas",
+        "fullName": "Burgas Airport",
+        "link": "Burgas_Airport",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Enter Air",
+        "link": "Enter_Air"
+      },
+      "destination": {
+        "shortName": "Dalaman",
+        "fullName": "Dalaman Airport",
+        "link": "Dalaman_Airport",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Enter Air",
+        "link": "Enter_Air"
+      },
+      "destination": {
+        "shortName": "Enfidha",
+        "fullName": "Enfidha–Hammamet International Airport",
+        "link": "Enfidha%E2%80%93Hammamet_International_Airport",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Enter Air",
+        "link": "Enter_Air"
+      },
+      "destination": {
+        "shortName": "Fuerteventura",
+        "fullName": "Fuerteventura Airport",
+        "link": "Fuerteventura_Airport",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Enter Air",
+        "link": "Enter_Air"
+      },
+      "destination": {
+        "shortName": "Gran Canaria",
+        "fullName": "Gran Canaria Airport",
+        "link": "Gran_Canaria_Airport",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Enter Air",
+        "link": "Enter_Air"
+      },
+      "destination": {
+        "shortName": "Heraklion",
+        "fullName": "Heraklion International Airport",
+        "link": "Heraklion_International_Airport",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Enter Air",
+        "link": "Enter_Air"
+      },
+      "destination": {
+        "shortName": "Hurghada",
+        "fullName": "Hurghada International Airport",
+        "link": "Hurghada_International_Airport",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Enter Air",
+        "link": "Enter_Air"
+      },
+      "destination": {
+        "shortName": "İzmir",
+        "fullName": "Izmir Adnan Menderes Airport",
+        "link": "Izmir_Adnan_Menderes_Airport",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Enter Air",
+        "link": "Enter_Air"
+      },
+      "destination": {
+        "shortName": "Kos",
+        "fullName": "Kos International Airport",
+        "link": "Kos_International_Airport",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Enter Air",
+        "link": "Enter_Air"
+      },
+      "destination": {
+        "shortName": "Marsa Alam",
+        "fullName": "Marsa Alam International Airport",
+        "link": "Marsa_Alam_International_Airport",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Enter Air",
+        "link": "Enter_Air"
+      },
+      "destination": {
+        "shortName": "Patras",
+        "fullName": "Patras Araxos Airport",
+        "link": "Patras_Araxos_Airport",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Enter Air",
+        "link": "Enter_Air"
+      },
+      "destination": {
+        "shortName": "Sal",
+        "fullName": "Amílcar Cabral International Airport",
+        "link": "Am%C3%ADlcar_Cabral_International_Airport",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Enter Air",
+        "link": "Enter_Air"
+      },
+      "destination": {
+        "shortName": "Sharm El Sheikh",
+        "fullName": "Sharm El Sheikh International Airport",
+        "link": "Sharm_El_Sheikh_International_Airport",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Enter Air",
+        "link": "Enter_Air"
+      },
+      "destination": {
+        "shortName": "Tirana",
+        "fullName": "Tirana International Airport Nënë Tereza",
+        "link": "Tirana_International_Airport_N%C3%ABn%C3%AB_Tereza",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Ethiopian Airlines",
+        "link": "Ethiopian_Airlines"
+      },
+      "destination": {
+        "shortName": "Addis Ababa",
+        "fullName": "Addis Ababa Bole International Airport",
+        "link": "Addis_Ababa_Bole_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Etihad Airways",
+        "link": "Etihad_Airways"
+      },
+      "destination": {
+        "shortName": "Abu Dhabi",
+        "fullName": "Zayed International Airport",
+        "link": "Zayed_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": "2025-06-03",
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Finnair",
+        "link": "Finnair"
+      },
+      "destination": {
+        "shortName": "Helsinki",
+        "fullName": "Helsinki Airport",
+        "link": "Helsinki_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "flydubai",
+        "link": "Flydubai"
+      },
+      "destination": {
+        "shortName": "Dubai–International",
+        "fullName": "Dubai International Airport",
+        "link": "Dubai_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "KLM",
+        "link": "KLM"
+      },
+      "destination": {
+        "shortName": "Amsterdam",
+        "fullName": "Amsterdam Airport Schiphol",
+        "link": "Amsterdam_Airport_Schiphol",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Amsterdam",
+        "fullName": "Amsterdam Airport Schiphol",
+        "link": "Amsterdam_Airport_Schiphol",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Astana",
+        "fullName": "Nursultan Nazarbayev International Airport",
+        "link": "Nursultan_Nazarbayev_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Athens",
+        "fullName": "Athens International Airport",
+        "link": "Athens_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Baku",
+        "fullName": "Heydar Aliyev International Airport",
+        "link": "Heydar_Aliyev_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Barcelona",
+        "fullName": "Barcelona–El Prat Airport",
+        "link": "Barcelona%E2%80%93El_Prat_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Beirut",
+        "fullName": "Beirut–Rafic Hariri International Airport",
+        "link": "Beirut%E2%80%93Rafic_Hariri_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": "2025-04-01",
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Belgrade",
+        "fullName": "Belgrade Nikola Tesla Airport",
+        "link": "Belgrade_Nikola_Tesla_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Berlin",
+        "fullName": "Berlin Brandenburg Airport",
+        "link": "Berlin_Brandenburg_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Billund",
+        "fullName": "Billund Airport",
+        "link": "Billund_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Brussels",
+        "fullName": "Brussels Airport",
+        "link": "Brussels_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Bucharest–Otopeni",
+        "fullName": "Henri Coandă International Airport",
+        "link": "Henri_Coand%C4%83_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Budapest",
+        "fullName": "Budapest Ferenc Liszt International Airport",
+        "link": "Budapest_Ferenc_Liszt_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Bydgoszcz",
+        "fullName": "Bydgoszcz Ignacy Jan Paderewski Airport",
+        "link": "Bydgoszcz_Ignacy_Jan_Paderewski_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Cairo",
+        "fullName": "Cairo International Airport",
+        "link": "Cairo_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Chicago–O'Hare",
+        "fullName": "O'Hare International Airport",
+        "link": "O%27Hare_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Chișinău",
+        "fullName": "Chișinău International Airport",
+        "link": "Chi%C8%99in%C4%83u_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Cluj-Napoca",
+        "fullName": "Cluj International Airport",
+        "link": "Cluj_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Copenhagen",
+        "fullName": "Copenhagen Airport",
+        "link": "Copenhagen_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Delhi",
+        "fullName": "Indira Gandhi International Airport",
+        "link": "Indira_Gandhi_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Düsseldorf",
+        "fullName": "Düsseldorf Airport",
+        "link": "D%C3%BCsseldorf_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Frankfurt",
+        "fullName": "Frankfurt Airport",
+        "link": "Frankfurt_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Gdańsk",
+        "fullName": "Gdańsk Lech Wałęsa Airport",
+        "link": "Gda%C5%84sk_Lech_Wa%C5%82%C4%99sa_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Geneva",
+        "fullName": "Geneva Airport",
+        "link": "Geneva_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Gothenburg",
+        "fullName": "Göteborg Landvetter Airport",
+        "link": "G%C3%B6teborg_Landvetter_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Hamburg",
+        "fullName": "Hamburg Airport",
+        "link": "Hamburg_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Istanbul",
+        "fullName": "Istanbul Airport",
+        "link": "Istanbul_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Katowice",
+        "fullName": "Katowice Airport",
+        "link": "Katowice_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Košice",
+        "fullName": "Košice International Airport",
+        "link": "Ko%C5%A1ice_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Kraków",
+        "fullName": "Kraków John Paul II International Airport",
+        "link": "Krak%C3%B3w_John_Paul_II_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Larnaca",
+        "fullName": "Larnaca International Airport",
+        "link": "Larnaca_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Lisbon",
+        "fullName": "Lisbon Airport",
+        "link": "Lisbon_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": "2025-02-03",
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Ljubljana",
+        "fullName": "Ljubljana Jože Pučnik Airport",
+        "link": "Ljubljana_Jo%C5%BEe_Pu%C4%8Dnik_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "London–Heathrow",
+        "fullName": "Heathrow Airport",
+        "link": "Heathrow_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Los Angeles",
+        "fullName": "Los Angeles International Airport",
+        "link": "Los_Angeles_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Lublin",
+        "fullName": "Lublin Airport",
+        "link": "Lublin_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Luxembourg",
+        "fullName": "Luxembourg Airport",
+        "link": "Luxembourg_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Lyon",
+        "fullName": "Lyon–Saint-Exupéry Airport",
+        "link": "Lyon%E2%80%93Saint-Exup%C3%A9ry_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Madrid",
+        "fullName": "Adolfo Suárez Madrid–Barajas Airport",
+        "link": "Adolfo_Su%C3%A1rez_Madrid%E2%80%93Barajas_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Miami",
+        "fullName": "Miami International Airport",
+        "link": "Miami_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Milan–Malpensa",
+        "fullName": "Milan Malpensa Airport",
+        "link": "Milan_Malpensa_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Mumbai",
+        "fullName": "Chhatrapati Shivaji Maharaj International Airport",
+        "link": "Chhatrapati_Shivaji_Maharaj_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Munich",
+        "fullName": "Munich Airport",
+        "link": "Munich_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Newark",
+        "fullName": "Newark Liberty International Airport",
+        "link": "Newark_Liberty_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "New York–JFK",
+        "fullName": "John F. Kennedy International Airport",
+        "link": "John_F._Kennedy_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Nice",
+        "fullName": "Nice Côte d'Azur Airport",
+        "link": "Nice_C%C3%B4te_d%27Azur_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Oradea",
+        "fullName": "Oradea International Airport",
+        "link": "Oradea_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Oslo",
+        "fullName": "Oslo Airport, Gardermoen",
+        "link": "Oslo_Airport,_Gardermoen",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Ostrava",
+        "fullName": "Leoš Janáček Airport Ostrava",
+        "link": "Leo%C5%A1_Jan%C3%A1%C4%8Dek_Airport_Ostrava",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Paris–Charles de Gaulle",
+        "fullName": "Charles de Gaulle Airport",
+        "link": "Charles_de_Gaulle_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Podgorica",
+        "fullName": "Podgorica Airport",
+        "link": "Podgorica_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Poznań",
+        "fullName": "Poznań–Ławica Airport",
+        "link": "Pozna%C5%84%E2%80%93%C5%81awica_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Prague",
+        "fullName": "Václav Havel Airport Prague",
+        "link": "V%C3%A1clav_Havel_Airport_Prague",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Riga",
+        "fullName": "Riga International Airport",
+        "link": "Riga_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Riyadh",
+        "fullName": "King Khalid International Airport",
+        "link": "King_Khalid_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Rome–Fiumicino",
+        "fullName": "Leonardo da Vinci-Fiumicino Airport",
+        "link": "Leonardo_da_Vinci-Fiumicino_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Rzeszów",
+        "fullName": "Rzeszów–Jasionka Airport",
+        "link": "Rzesz%C3%B3w%E2%80%93Jasionka_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Sarajevo",
+        "fullName": "Sarajevo International Airport",
+        "link": "Sarajevo_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Seoul–Incheon",
+        "fullName": "Incheon International Airport",
+        "link": "Incheon_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Skopje",
+        "fullName": "Skopje International Airport",
+        "link": "Skopje_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Sofia",
+        "fullName": "Sofia Airport",
+        "link": "Sofia_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Stockholm–Arlanda",
+        "fullName": "Stockholm Arlanda Airport",
+        "link": "Stockholm_Arlanda_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Stuttgart",
+        "fullName": "Stuttgart Airport",
+        "link": "Stuttgart_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Szczecin",
+        "fullName": "Solidarity Szczecin–Goleniów Airport",
+        "link": "Solidarity_Szczecin%E2%80%93Goleni%C3%B3w_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Tallinn",
+        "fullName": "Tallinn Airport",
+        "link": "Tallinn_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Tashkent",
+        "fullName": "Islam Karimov Tashkent International Airport",
+        "link": "Islam_Karimov_Tashkent_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Tbilisi",
+        "fullName": "Shota Rustaveli Tbilisi International Airport",
+        "link": "Shota_Rustaveli_Tbilisi_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Tel Aviv",
+        "fullName": "Ben Gurion Airport",
+        "link": "Ben_Gurion_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Tirana",
+        "fullName": "Tirana International Airport Nënë Tereza",
+        "link": "Tirana_International_Airport_N%C3%ABn%C3%AB_Tereza",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Tokyo–Narita",
+        "fullName": "Narita International Airport",
+        "link": "Narita_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Toronto–Pearson",
+        "fullName": "Toronto Pearson International Airport",
+        "link": "Toronto_Pearson_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Venice",
+        "fullName": "Venice Marco Polo Airport",
+        "link": "Venice_Marco_Polo_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Vienna",
+        "fullName": "Vienna International Airport",
+        "link": "Vienna_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Vilnius",
+        "fullName": "Vilnius Airport",
+        "link": "Vilnius_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Wrocław",
+        "fullName": "Wrocław Airport",
+        "link": "Wroc%C5%82aw_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Yerevan",
+        "fullName": "Zvartnots International Airport",
+        "link": "Zvartnots_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Zagreb",
+        "fullName": "Zagreb Airport",
+        "link": "Zagreb_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Zielona Góra",
+        "fullName": "Zielona Góra Airport",
+        "link": "Zielona_G%C3%B3ra_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Zürich",
+        "fullName": "Zurich Airport",
+        "link": "Zurich_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Langkawi",
+        "fullName": "Langkawi International Airport",
+        "link": "Langkawi_International_Airport",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Burgas",
+        "fullName": "Burgas Airport",
+        "link": "Burgas_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Corfu",
+        "fullName": "Corfu International Airport",
+        "link": "Corfu_International_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Dubai–International",
+        "fullName": "Dubai International Airport",
+        "link": "Dubai_International_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Dubrovnik",
+        "fullName": "Dubrovnik Airport",
+        "link": "Dubrovnik_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Innsbruck",
+        "fullName": "Innsbruck Airport",
+        "link": "Innsbruck_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": "2024-11-29",
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Rhodes",
+        "fullName": "Rhodes International Airport",
+        "link": "Rhodes_International_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Split",
+        "fullName": "Split Airport",
+        "link": "Split_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Strasbourg",
+        "fullName": "Strasbourg Airport",
+        "link": "Strasbourg_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Tenerife–South",
+        "fullName": "Tenerife South Airport",
+        "link": "Tenerife_South_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": "2024-11-27",
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Antalya",
+        "fullName": "Antalya Airport",
+        "link": "Antalya_Airport",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Bangkok–Suvarnabhumi",
+        "fullName": "Suvarnabhumi Airport",
+        "link": "Suvarnabhumi_Airport",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Bodrum",
+        "fullName": "Milas–Bodrum Airport",
+        "link": "Milas%E2%80%93Bodrum_Airport",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Cancún",
+        "fullName": "Cancún International Airport",
+        "link": "Canc%C3%BAn_International_Airport",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Colombo–Bandaranaike",
+        "fullName": "Bandaranaike International Airport",
+        "link": "Bandaranaike_International_Airport",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Dalaman",
+        "fullName": "Dalaman Airport",
+        "link": "Dalaman_Airport",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Girona",
+        "fullName": "Girona–Costa Brava Airport",
+        "link": "Girona%E2%80%93Costa_Brava_Airport",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "İzmir",
+        "fullName": "İzmir Adnan Menderes Airport",
+        "link": "%C4%B0zmir_Adnan_Menderes_Airport",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Malé",
+        "fullName": "Velana International Airport",
+        "link": "Velana_International_Airport",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Nosy Be",
+        "fullName": "Fascene Airport",
+        "link": "Fascene_Airport",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Palma de Mallorca",
+        "fullName": "Palma de Mallorca Airport",
+        "link": "Palma_de_Mallorca_Airport",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Phuket",
+        "fullName": "Phuket International Airport",
+        "link": "Phuket_International_Airport",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Porlamar",
+        "fullName": "Santiago Mariño Caribbean International Airport",
+        "link": "Santiago_Mari%C3%B1o_Caribbean_International_Airport",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Phu Quoc",
+        "fullName": "Phu Quoc International Airport",
+        "link": "Phu_Quoc_International_Airport",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Puerto Plata",
+        "fullName": "Gregorio Luperón International Airport",
+        "link": "Gregorio_Luper%C3%B3n_International_Airport",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Punta Cana",
+        "fullName": "Punta Cana International Airport",
+        "link": "Punta_Cana_International_Airport",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Salvador da Bahia",
+        "fullName": "Salvador Bahia Airport",
+        "link": "Salvador_Bahia_Airport",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Varadero",
+        "fullName": "Juan Gualberto Gómez Airport",
+        "link": "Juan_Gualberto_G%C3%B3mez_Airport",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "LOT Polish Airlines",
+        "link": "LOT_Polish_Airlines"
+      },
+      "destination": {
+        "shortName": "Zanzibar",
+        "fullName": "Abeid Amani Karume International Airport",
+        "link": "Abeid_Amani_Karume_International_Airport",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Lufthansa",
+        "link": "Lufthansa"
+      },
+      "destination": {
+        "shortName": "Frankfurt",
+        "fullName": "Frankfurt Airport",
+        "link": "Frankfurt_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Lufthansa",
+        "link": "Lufthansa"
+      },
+      "destination": {
+        "shortName": "Munich",
+        "fullName": "Munich Airport",
+        "link": "Munich_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Norwegian Air Shuttle",
+        "link": "Norwegian_Air_Shuttle"
+      },
+      "destination": {
+        "shortName": "Oslo",
+        "fullName": "Oslo Airport, Gardermoen",
+        "link": "Oslo_Airport,_Gardermoen",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Pegasus Airlines",
+        "link": "Pegasus_Airlines"
+      },
+      "destination": {
+        "shortName": "Ankara",
+        "fullName": "Ankara Airport",
+        "link": "Ankara_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Pegasus Airlines",
+        "link": "Pegasus_Airlines"
+      },
+      "destination": {
+        "shortName": "Antalya",
+        "fullName": "Antalya Airport",
+        "link": "Antalya_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Pegasus Airlines",
+        "link": "Pegasus_Airlines"
+      },
+      "destination": {
+        "shortName": "Izmir",
+        "fullName": "Izmir Adnan Menderes Airport",
+        "link": "Izmir_Adnan_Menderes_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Play",
+        "link": "Play_(airline)"
+      },
+      "destination": {
+        "shortName": "Reykjavík–Keflavik",
+        "fullName": "Keflavík International Airport",
+        "link": "Keflav%C3%ADk_International_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Qatar Airways",
+        "link": "Qatar_Airways"
+      },
+      "destination": {
+        "shortName": "Doha",
+        "fullName": "Hamad International Airport",
+        "link": "Hamad_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Ryanair",
+        "link": "Ryanair"
+      },
+      "destination": {
+        "shortName": "Alicante",
+        "fullName": "Alicante–Elche Miguel Hernández Airport",
+        "link": "Alicante%E2%80%93Elche_Miguel_Hern%C3%A1ndez_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Ryanair",
+        "link": "Ryanair"
+      },
+      "destination": {
+        "shortName": "Charleroi",
+        "fullName": "Brussels South Charleroi Airport",
+        "link": "Brussels_South_Charleroi_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Ryanair",
+        "link": "Ryanair"
+      },
+      "destination": {
+        "shortName": "Manchester",
+        "fullName": "Manchester Airport",
+        "link": "Manchester_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Ryanair",
+        "link": "Ryanair"
+      },
+      "destination": {
+        "shortName": "Palma de Mallorca",
+        "fullName": "Palma de Mallorca Airport",
+        "link": "Palma_de_Mallorca_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Ryanair",
+        "link": "Ryanair"
+      },
+      "destination": {
+        "shortName": "Paphos",
+        "fullName": "Paphos International Airport",
+        "link": "Paphos_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Ryanair",
+        "link": "Ryanair"
+      },
+      "destination": {
+        "shortName": "Vienna",
+        "fullName": "Vienna International Airport",
+        "link": "Vienna_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Scandinavian Airlines",
+        "link": "Scandinavian_Airlines"
+      },
+      "destination": {
+        "shortName": "Copenhagen",
+        "fullName": "Copenhagen Airport",
+        "link": "Copenhagen_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Sky Express",
+        "link": "Sky_Express_(Greece)"
+      },
+      "destination": {
+        "shortName": "Athens",
+        "fullName": "Athens International Airport",
+        "link": "Athens_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Smartwings",
+        "link": "Smartwings"
+      },
+      "destination": {
+        "shortName": "Fuerteventura",
+        "fullName": "Fuerteventura Airport",
+        "link": "Fuerteventura_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Smartwings",
+        "link": "Smartwings"
+      },
+      "destination": {
+        "shortName": "Istanbul",
+        "fullName": "Istanbul Airport",
+        "link": "Istanbul_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Smartwings",
+        "link": "Smartwings"
+      },
+      "destination": {
+        "shortName": "Agadir",
+        "fullName": "Agadir–Al Massira Airport",
+        "link": "Agadir%E2%80%93Al_Massira_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Smartwings",
+        "link": "Smartwings"
+      },
+      "destination": {
+        "shortName": "Catania",
+        "fullName": "Catania–Fontanarossa Airport",
+        "link": "Catania%E2%80%93Fontanarossa_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Smartwings",
+        "link": "Smartwings"
+      },
+      "destination": {
+        "shortName": "Corfu",
+        "fullName": "Corfu International Airport",
+        "link": "Corfu_International_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Smartwings",
+        "link": "Smartwings"
+      },
+      "destination": {
+        "shortName": "Dubrovnik",
+        "fullName": "Dubrovnik Airport",
+        "link": "Dubrovnik_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Smartwings",
+        "link": "Smartwings"
+      },
+      "destination": {
+        "shortName": "Faro",
+        "fullName": "Faro Airport",
+        "link": "Faro_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Smartwings",
+        "link": "Smartwings"
+      },
+      "destination": {
+        "shortName": "Girona",
+        "fullName": "Girona–Costa Brava Airport",
+        "link": "Girona%E2%80%93Costa_Brava_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Smartwings",
+        "link": "Smartwings"
+      },
+      "destination": {
+        "shortName": "Kos",
+        "fullName": "Kos International Airport",
+        "link": "Kos_International_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Smartwings",
+        "link": "Smartwings"
+      },
+      "destination": {
+        "shortName": "Mombasa",
+        "fullName": "Moi International Airport",
+        "link": "Moi_International_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Smartwings",
+        "link": "Smartwings"
+      },
+      "destination": {
+        "shortName": "Rhodes",
+        "fullName": "Rhodes International Airport",
+        "link": "Rhodes_International_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Smartwings",
+        "link": "Smartwings"
+      },
+      "destination": {
+        "shortName": "Santorini",
+        "fullName": "Santorini (Thira) International Airport",
+        "link": "Santorini_(Thira)_International_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Smartwings",
+        "link": "Smartwings"
+      },
+      "destination": {
+        "shortName": "Split",
+        "fullName": "Split Airport",
+        "link": "Split_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Smartwings",
+        "link": "Smartwings"
+      },
+      "destination": {
+        "shortName": "Antalya",
+        "fullName": "Antalya Airport",
+        "link": "Antalya_Airport",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Smartwings",
+        "link": "Smartwings"
+      },
+      "destination": {
+        "shortName": "Bodrum",
+        "fullName": "Milas–Bodrum Airport",
+        "link": "Milas%E2%80%93Bodrum_Airport",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Smartwings",
+        "link": "Smartwings"
+      },
+      "destination": {
+        "shortName": "Burgas",
+        "fullName": "Burgas Airport",
+        "link": "Burgas_Airport",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Smartwings",
+        "link": "Smartwings"
+      },
+      "destination": {
+        "shortName": "Dalaman",
+        "fullName": "Dalaman Airport",
+        "link": "Dalaman_Airport",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Smartwings",
+        "link": "Smartwings"
+      },
+      "destination": {
+        "shortName": "Hurghada",
+        "fullName": "Hurghada International Airport",
+        "link": "Hurghada_International_Airport",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Smartwings",
+        "link": "Smartwings"
+      },
+      "destination": {
+        "shortName": "Heraklion",
+        "fullName": "Heraklion International Airport",
+        "link": "Heraklion_International_Airport",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Smartwings",
+        "link": "Smartwings"
+      },
+      "destination": {
+        "shortName": "İzmir",
+        "fullName": "Izmir Adnan Menderes Airport",
+        "link": "Izmir_Adnan_Menderes_Airport",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Smartwings",
+        "link": "Smartwings"
+      },
+      "destination": {
+        "shortName": "Lanzarote",
+        "fullName": "Lanzarote Airport",
+        "link": "Lanzarote_Airport",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Smartwings",
+        "link": "Smartwings"
+      },
+      "destination": {
+        "shortName": "Marsa Alam",
+        "fullName": "Marsa Alam International Airport",
+        "link": "Marsa_Alam_International_Airport",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Smartwings",
+        "link": "Smartwings"
+      },
+      "destination": {
+        "shortName": "Palermo",
+        "fullName": "Falcone Borsellino Airport",
+        "link": "Falcone_Borsellino_Airport",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Smartwings",
+        "link": "Smartwings"
+      },
+      "destination": {
+        "shortName": "Palma de Mallorca",
+        "fullName": "Palma de Mallorca Airport",
+        "link": "Palma_de_Mallorca_Airport",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Smartwings",
+        "link": "Smartwings"
+      },
+      "destination": {
+        "shortName": "Patras",
+        "fullName": "Patras Araxos Airport",
+        "link": "Patras_Araxos_Airport",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Smartwings",
+        "link": "Smartwings"
+      },
+      "destination": {
+        "shortName": "Taba",
+        "fullName": "Taba International Airport",
+        "link": "Taba_International_Airport",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Smartwings",
+        "link": "Smartwings"
+      },
+      "destination": {
+        "shortName": "Tirana",
+        "fullName": "Tirana International Airport Nënë Tereza",
+        "link": "Tirana_International_Airport_N%C3%ABn%C3%AB_Tereza",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Sun d'Or",
+        "link": "Sun_d%27Or"
+      },
+      "destination": {
+        "shortName": "Tel Aviv",
+        "fullName": "Ben Gurion Airport",
+        "link": "Ben_Gurion_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "SunExpress",
+        "link": "SunExpress"
+      },
+      "destination": {
+        "shortName": "Antalya",
+        "fullName": "Antalya Airport",
+        "link": "Antalya_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "SunExpress",
+        "link": "SunExpress"
+      },
+      "destination": {
+        "shortName": "İzmir",
+        "fullName": "İzmir Adnan Menderes Airport",
+        "link": "%C4%B0zmir_Adnan_Menderes_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Swiss International Air Lines",
+        "link": "Swiss_International_Air_Lines"
+      },
+      "destination": {
+        "shortName": "Zürich",
+        "fullName": "Zurich Airport",
+        "link": "Zurich_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "TAP Air Portugal",
+        "link": "TAP_Air_Portugal"
+      },
+      "destination": {
+        "shortName": "Lisbon",
+        "fullName": "Lisbon Airport",
+        "link": "Lisbon_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Turkish Airlines",
+        "link": "Turkish_Airlines"
+      },
+      "destination": {
+        "shortName": "Istanbul",
+        "fullName": "Istanbul Airport",
+        "link": "Istanbul_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Barcelona",
+        "fullName": "Barcelona–El Prat Airport",
+        "link": "Barcelona%E2%80%93El_Prat_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Bari",
+        "fullName": "Bari Karol Wojtyła Airport",
+        "link": "Bari_Karol_Wojty%C5%82a_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Basel/Mulhouse",
+        "fullName": "EuroAirport Basel Mulhouse Freiburg",
+        "link": "EuroAirport_Basel_Mulhouse_Freiburg",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Bergamo",
+        "fullName": "Orio al Serio International Airport",
+        "link": "Orio_al_Serio_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Bilbao",
+        "fullName": "Bilbao Airport",
+        "link": "Bilbao_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Bologna",
+        "fullName": "Bologna Guglielmo Marconi Airport",
+        "link": "Bologna_Guglielmo_Marconi_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Budapest",
+        "fullName": "Budapest Ferenc Liszt International Airport",
+        "link": "Budapest_Ferenc_Liszt_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Catania",
+        "fullName": "Catania–Fontanarossa Airport",
+        "link": "Catania%E2%80%93Fontanarossa_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Charleroi",
+        "fullName": "Brussels South Charleroi Airport",
+        "link": "Brussels_South_Charleroi_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Chișinău",
+        "fullName": "Chișinău International Airport",
+        "link": "Chi%C8%99in%C4%83u_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Copenhagen",
+        "fullName": "Copenhagen Airport",
+        "link": "Copenhagen_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Eindhoven",
+        "fullName": "Eindhoven Airport",
+        "link": "Eindhoven_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Fuerteventura",
+        "fullName": "Fuerteventura Airport",
+        "link": "Fuerteventura_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Kutaisi",
+        "fullName": "David the Builder Kutaisi International Airport",
+        "link": "David_the_Builder_Kutaisi_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Larnaca",
+        "fullName": "Larnaca International Airport",
+        "link": "Larnaca_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Leeds/Bradford",
+        "fullName": "Leeds Bradford Airport",
+        "link": "Leeds_Bradford_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Liverpool",
+        "fullName": "Liverpool John Lennon Airport",
+        "link": "Liverpool_John_Lennon_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "London–Luton",
+        "fullName": "Luton Airport",
+        "link": "Luton_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Madrid",
+        "fullName": "Adolfo Suárez Madrid–Barajas Airport",
+        "link": "Adolfo_Su%C3%A1rez_Madrid%E2%80%93Barajas_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Malta",
+        "fullName": "Malta International Airport",
+        "link": "Malta_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Marrakesh",
+        "fullName": "Marrakesh Airport",
+        "link": "Marrakesh_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Milan–Malpensa",
+        "fullName": "Milan Malpensa Airport",
+        "link": "Milan_Malpensa_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Naples",
+        "fullName": "Naples International Airport",
+        "link": "Naples_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Nice",
+        "fullName": "Nice Airport",
+        "link": "Nice_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Paris–Orly",
+        "fullName": "Orly Airport",
+        "link": "Orly_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Reykjavík–Keflavik",
+        "fullName": "Keflavík International Airport",
+        "link": "Keflav%C3%ADk_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Rome–Fiumicino",
+        "fullName": "Leonardo da Vinci–Fiumicino Airport",
+        "link": "Leonardo_da_Vinci%E2%80%93Fiumicino_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Sandefjord",
+        "fullName": "Sandefjord Airport, Torp",
+        "link": "Sandefjord_Airport,_Torp",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Seville",
+        "fullName": "Seville Airport",
+        "link": "Seville_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Stockholm–Skavsta",
+        "fullName": "Stockholm Skavsta Airport",
+        "link": "Stockholm_Skavsta_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Tel Aviv",
+        "fullName": "Ben Gurion Airport",
+        "link": "Ben_Gurion_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Tenerife–South",
+        "fullName": "Tenerife South Airport",
+        "link": "Tenerife_South_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Valencia",
+        "fullName": "Valencia Airport",
+        "link": "Valencia_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Venice",
+        "fullName": "Venice Marco Polo Airport",
+        "link": "Venice_Marco_Polo_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Agadir",
+        "fullName": "Agadir–Al Massira Airport",
+        "link": "Agadir%E2%80%93Al_Massira_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Alicante",
+        "fullName": "Alicante–Elche Miguel Hernández Airport",
+        "link": "Alicante%E2%80%93Elche_Miguel_Hern%C3%A1ndez_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Burgas",
+        "fullName": "Burgas Airport",
+        "link": "Burgas_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Chania",
+        "fullName": "Chania International Airport",
+        "link": "Chania_International_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Corfu",
+        "fullName": "Corfu International Airport",
+        "link": "Corfu_International_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Dubrovnik",
+        "fullName": "Dubrovnik Airport",
+        "link": "Dubrovnik_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Funchal",
+        "fullName": "Madeira Airport",
+        "link": "Madeira_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Genoa",
+        "fullName": "Genoa Cristoforo Colombo Airport",
+        "link": "Genoa_Cristoforo_Colombo_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": "2025-05-01",
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Gothenburg",
+        "fullName": "Göteborg Landvetter Airport",
+        "link": "G%C3%B6teborg_Landvetter_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Grenoble",
+        "fullName": "Alpes–Isère Airport",
+        "link": "Alpes%E2%80%93Is%C3%A8re_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Heraklion",
+        "fullName": "Heraklion International Airport",
+        "link": "Heraklion_International_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Lisbon",
+        "fullName": "Lisbon Airport",
+        "link": "Lisbon_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Málaga",
+        "fullName": "Málaga Airport",
+        "link": "M%C3%A1laga_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Olbia",
+        "fullName": "Olbia Airport",
+        "link": "Olbia_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Palma de Mallorca",
+        "fullName": "Palma de Mallorca Airport",
+        "link": "Palma_de_Mallorca_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Podgorica",
+        "fullName": "Podgorica Airport",
+        "link": "Podgorica_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Porto",
+        "fullName": "Porto Airport",
+        "link": "Porto_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Rhodes",
+        "fullName": "Rhodes International Airport",
+        "link": "Rhodes_International_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Santorini",
+        "fullName": "Santorini (Thira) International Airport",
+        "link": "Santorini_(Thira)_International_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Split",
+        "fullName": "Split Airport",
+        "link": "Split_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Tirana",
+        "fullName": "Tirana International Airport Nënë Tereza",
+        "link": "Tirana_International_Airport_N%C3%ABn%C3%AB_Tereza",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Turin",
+        "fullName": "Turin Airport",
+        "link": "Turin_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Verona",
+        "fullName": "Verona Villafranca Airport",
+        "link": "Verona_Villafranca_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Wizz Air",
+        "link": "Wizz_Air"
+      },
+      "destination": {
+        "shortName": "Zakynthos",
+        "fullName": "Zakynthos International Airport",
+        "link": "Zakynthos_International_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    }
+  ]
+}

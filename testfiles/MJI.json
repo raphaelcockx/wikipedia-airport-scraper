@@ -1,0 +1,1051 @@
+{
+  "name": "Mitiga International Airport",
+  "iataCode": "MJI",
+  "icaoCode": "HLLM",
+  "coordinates": {
+    "latitude": 32.9,
+    "longitude": 13.283333
+  },
+  "flights": [
+    {
+      "airline": {
+        "name": "Afriqiyah Airways",
+        "link": "Afriqiyah_Airways"
+      },
+      "destination": {
+        "shortName": "Alexandria",
+        "fullName": "Borg El Arab International Airport",
+        "link": "Borg_El_Arab_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Afriqiyah Airways",
+        "link": "Afriqiyah_Airways"
+      },
+      "destination": {
+        "shortName": "Amman–Queen Alia",
+        "fullName": "Queen Alia International Airport",
+        "link": "Queen_Alia_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Afriqiyah Airways",
+        "link": "Afriqiyah_Airways"
+      },
+      "destination": {
+        "shortName": "Benghazi",
+        "fullName": "Benina International Airport",
+        "link": "Benina_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Afriqiyah Airways",
+        "link": "Afriqiyah_Airways"
+      },
+      "destination": {
+        "shortName": "Cairo",
+        "fullName": "Cairo International Airport",
+        "link": "Cairo_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Afriqiyah Airways",
+        "link": "Afriqiyah_Airways"
+      },
+      "destination": {
+        "shortName": "Istanbul",
+        "fullName": "Istanbul Airport",
+        "link": "Istanbul_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Afriqiyah Airways",
+        "link": "Afriqiyah_Airways"
+      },
+      "destination": {
+        "shortName": "Port Sudan",
+        "fullName": "Port Sudan New International Airport",
+        "link": "Port_Sudan_New_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Afriqiyah Airways",
+        "link": "Afriqiyah_Airways"
+      },
+      "destination": {
+        "shortName": "Sfax",
+        "fullName": "Sfax Thyna International Airport",
+        "link": "Sfax_Thyna_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Afriqiyah Airways",
+        "link": "Afriqiyah_Airways"
+      },
+      "destination": {
+        "shortName": "Tobruk",
+        "fullName": "Tobruk Airport",
+        "link": "Tobruk_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Afriqiyah Airways",
+        "link": "Afriqiyah_Airways"
+      },
+      "destination": {
+        "shortName": "Kufra",
+        "fullName": "Kufra Airport",
+        "link": "Kufra_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Afriqiyah Airways",
+        "link": "Afriqiyah_Airways"
+      },
+      "destination": {
+        "shortName": "Tunis",
+        "fullName": "Tunis Carthage Airport",
+        "link": "Tunis_Carthage_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Afriqiyah Airways",
+        "link": "Afriqiyah_Airways"
+      },
+      "destination": {
+        "shortName": "Jeddah",
+        "fullName": "King Abdulaziz International Airport",
+        "link": "King_Abdulaziz_International_Airport",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Air Libya",
+        "link": "Air_Libya"
+      },
+      "destination": {
+        "shortName": "Benghazi",
+        "fullName": "Benina International Airport",
+        "link": "Benina_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Berniq Airways",
+        "link": "Berniq_Airways"
+      },
+      "destination": {
+        "shortName": "Benghazi",
+        "fullName": "Benina International Airport",
+        "link": "Benina_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Berniq Airways",
+        "link": "Berniq_Airways"
+      },
+      "destination": {
+        "shortName": "Cairo",
+        "fullName": "Cairo International Airport",
+        "link": "Cairo_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Berniq Airways",
+        "link": "Berniq_Airways"
+      },
+      "destination": {
+        "shortName": "Istanbul",
+        "fullName": "Istanbul Airport",
+        "link": "Istanbul_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Berniq Airways",
+        "link": "Berniq_Airways"
+      },
+      "destination": {
+        "shortName": "Jeddah",
+        "fullName": "King Abdulaziz International Airport",
+        "link": "King_Abdulaziz_International_Airport",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Berniq Airways",
+        "link": "Berniq_Airways"
+      },
+      "destination": {
+        "shortName": "Medina",
+        "fullName": "Prince Mohammad bin Abdulaziz International Airport",
+        "link": "Prince_Mohammad_bin_Abdulaziz_International_Airport",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Buraq Air",
+        "link": "Buraq_Air"
+      },
+      "destination": {
+        "shortName": "Benghazi",
+        "fullName": "Benina International Airport",
+        "link": "Benina_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Egyptair",
+        "link": "Egyptair"
+      },
+      "destination": {
+        "shortName": "Cairo",
+        "fullName": "Cairo International Airport",
+        "link": "Cairo_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Air Cairo",
+        "link": "Air_Cairo"
+      },
+      "destination": {
+        "shortName": "Cairo",
+        "fullName": "Cairo International Airport",
+        "link": "Cairo_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Fly Crown",
+        "link": null
+      },
+      "destination": {
+        "shortName": "Benghazi",
+        "fullName": "Benina International Airport",
+        "link": "Benina_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Fly Crown",
+        "link": null
+      },
+      "destination": {
+        "shortName": "Cairo",
+        "fullName": "Cairo International Airport",
+        "link": "Cairo_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Fly Crown",
+        "link": null
+      },
+      "destination": {
+        "shortName": "Istanbul",
+        "fullName": "Istanbul Airport",
+        "link": "Istanbul_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Fly Oya",
+        "link": null
+      },
+      "destination": {
+        "shortName": "Alexandria",
+        "fullName": "Borg El Arab International Airport",
+        "link": "Borg_El_Arab_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Fly Oya",
+        "link": null
+      },
+      "destination": {
+        "shortName": "Beida",
+        "fullName": "Al Abraq International Airport",
+        "link": "Al_Abraq_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Fly Oya",
+        "link": null
+      },
+      "destination": {
+        "shortName": "Benghazi",
+        "fullName": "Benina International Airport",
+        "link": "Benina_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Fly Oya",
+        "link": null
+      },
+      "destination": {
+        "shortName": "Cairo",
+        "fullName": "Cairo International Airport",
+        "link": "Cairo_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Fly Oya",
+        "link": null
+      },
+      "destination": {
+        "shortName": "Dubai–International",
+        "fullName": "Dubai International Airport",
+        "link": "Dubai_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Fly Oya",
+        "link": null
+      },
+      "destination": {
+        "shortName": "Ghat",
+        "fullName": "Ghat Airport",
+        "link": "Ghat_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Fly Oya",
+        "link": null
+      },
+      "destination": {
+        "shortName": "Istanbul",
+        "fullName": "Istanbul Airport",
+        "link": "Istanbul_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Fly Oya",
+        "link": null
+      },
+      "destination": {
+        "shortName": "Niamey",
+        "fullName": "Diori Hamani International Airport",
+        "link": "Diori_Hamani_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Fly Oya",
+        "link": null
+      },
+      "destination": {
+        "shortName": "Sabha",
+        "fullName": "Sabha Airport",
+        "link": "Sabha_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Fly Oya",
+        "link": null
+      },
+      "destination": {
+        "shortName": "Tobruk",
+        "fullName": "Tobruk Airport",
+        "link": "Tobruk_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Fly Oya",
+        "link": null
+      },
+      "destination": {
+        "shortName": "Jeddah",
+        "fullName": "King Abdulaziz International Airport",
+        "link": "King_Abdulaziz_International_Airport",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Fly Oya",
+        "link": null
+      },
+      "destination": {
+        "shortName": "Medina",
+        "fullName": "Prince Mohammad bin Abdulaziz International Airport",
+        "link": "Prince_Mohammad_bin_Abdulaziz_International_Airport",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Ghadames Air Transport",
+        "link": "Ghadames_Air_Transport"
+      },
+      "destination": {
+        "shortName": "Tunis",
+        "fullName": "Tunis Carthage International Airport",
+        "link": "Tunis_Carthage_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Ghadames Air Transport",
+        "link": "Ghadames_Air_Transport"
+      },
+      "destination": {
+        "shortName": " Istanbul",
+        "fullName": "Istanbul Airport",
+        "link": "Istanbul_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Global Air",
+        "link": "Global_Aviation_and_Services_Group"
+      },
+      "destination": {
+        "shortName": "Beida",
+        "fullName": "Al Abraq International Airport",
+        "link": "Al_Abraq_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Global Air",
+        "link": "Global_Aviation_and_Services_Group"
+      },
+      "destination": {
+        "shortName": "Benghazi",
+        "fullName": "Benina International Airport",
+        "link": "Benina_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Global Air",
+        "link": "Global_Aviation_and_Services_Group"
+      },
+      "destination": {
+        "shortName": "Ghat",
+        "fullName": "Ghat Airport",
+        "link": "Ghat_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Global Air",
+        "link": "Global_Aviation_and_Services_Group"
+      },
+      "destination": {
+        "shortName": "Ubari",
+        "fullName": "Ubari Airport",
+        "link": "Ubari_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "ITA Airways",
+        "link": "ITA_Airways"
+      },
+      "destination": {
+        "shortName": "Rome–Fiumicino",
+        "fullName": "Rome Fiumicino Airport",
+        "link": "Rome_Fiumicino_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": "2025-01-12",
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Libyan Airlines",
+        "link": "Libyan_Airlines"
+      },
+      "destination": {
+        "shortName": "Alexandria",
+        "fullName": "Borg El Arab International Airport",
+        "link": "Borg_El_Arab_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Libyan Airlines",
+        "link": "Libyan_Airlines"
+      },
+      "destination": {
+        "shortName": "Amman–Queen Alia",
+        "fullName": "Queen Alia International Airport",
+        "link": "Queen_Alia_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Libyan Airlines",
+        "link": "Libyan_Airlines"
+      },
+      "destination": {
+        "shortName": "Benghazi",
+        "fullName": "Benina International Airport",
+        "link": "Benina_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Libyan Airlines",
+        "link": "Libyan_Airlines"
+      },
+      "destination": {
+        "shortName": "Cairo",
+        "fullName": "Cairo International Airport",
+        "link": "Cairo_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Libyan Airlines",
+        "link": "Libyan_Airlines"
+      },
+      "destination": {
+        "shortName": "Istanbul",
+        "fullName": "Istanbul Airport",
+        "link": "Istanbul_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Libyan Airlines",
+        "link": "Libyan_Airlines"
+      },
+      "destination": {
+        "shortName": "Niamey",
+        "fullName": "Diori Hamani International Airport",
+        "link": "Diori_Hamani_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Libyan Airlines",
+        "link": "Libyan_Airlines"
+      },
+      "destination": {
+        "shortName": "Tunis",
+        "fullName": "Tunis–Carthage International Airport",
+        "link": "Tunis%E2%80%93Carthage_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Libyan Airlines",
+        "link": "Libyan_Airlines"
+      },
+      "destination": {
+        "shortName": "Jeddah",
+        "fullName": "King Abdulaziz International Airport",
+        "link": "King_Abdulaziz_International_Airport",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Libyan Airlines",
+        "link": "Libyan_Airlines"
+      },
+      "destination": {
+        "shortName": "Medina",
+        "fullName": "Prince Mohammad bin Abdulaziz International Airport",
+        "link": "Prince_Mohammad_bin_Abdulaziz_International_Airport",
+        "isCharter": true,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Libyan Wings",
+        "link": "Libyan_Wings"
+      },
+      "destination": {
+        "shortName": "Benghazi",
+        "fullName": "Benina International Airport",
+        "link": "Benina_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Libyan Wings",
+        "link": "Libyan_Wings"
+      },
+      "destination": {
+        "shortName": "Istanbul",
+        "fullName": "Istanbul Airport",
+        "link": "Istanbul_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Libyan Wings",
+        "link": "Libyan_Wings"
+      },
+      "destination": {
+        "shortName": "Sabha",
+        "fullName": "Sabha Airport",
+        "link": "Sabha_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Libyan Wings",
+        "link": "Libyan_Wings"
+      },
+      "destination": {
+        "shortName": "Tunis",
+        "fullName": "Tunis Carthage International Airport",
+        "link": "Tunis_Carthage_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "MedSky Airways",
+        "link": null
+      },
+      "destination": {
+        "shortName": "Istanbul",
+        "fullName": "Istanbul Airport",
+        "link": "Istanbul_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "MedSky Airways",
+        "link": null
+      },
+      "destination": {
+        "shortName": "Malta",
+        "fullName": "Malta International Airport",
+        "link": "Malta_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "MedSky Airways",
+        "link": null
+      },
+      "destination": {
+        "shortName": "Rome–Fiumicino",
+        "fullName": "Leonardo da Vinci–Fiumicino Airport",
+        "link": "Leonardo_da_Vinci%E2%80%93Fiumicino_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "MedSky Airways",
+        "link": null
+      },
+      "destination": {
+        "shortName": "Sabha",
+        "fullName": "Sabha Airport",
+        "link": "Sabha_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Royal Jordanian",
+        "link": "Royal_Jordanian"
+      },
+      "destination": {
+        "shortName": "Amman–Queen Alia",
+        "fullName": "Queen Alia International Airport",
+        "link": "Queen_Alia_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Tunisair",
+        "link": "Tunisair"
+      },
+      "destination": {
+        "shortName": "Tunis",
+        "fullName": "Tunis Carthage International Airport",
+        "link": "Tunis_Carthage_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Tunisair Express",
+        "link": "Tunisair_Express"
+      },
+      "destination": {
+        "shortName": "Sfax",
+        "fullName": "Sfax–Thyna International Airport",
+        "link": "Sfax%E2%80%93Thyna_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Tunisair Express",
+        "link": "Tunisair_Express"
+      },
+      "destination": {
+        "shortName": "Djerba",
+        "fullName": "Djerba-Zarzis International Airport",
+        "link": "Djerba-Zarzis_International_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Turkish Airlines",
+        "link": "Turkish_Airlines"
+      },
+      "destination": {
+        "shortName": "Istanbul",
+        "fullName": "Istanbul Airport",
+        "link": "Istanbul_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Universal Air",
+        "link": "Universal_Air"
+      },
+      "destination": {
+        "shortName": "Malta",
+        "fullName": "Malta International Airport",
+        "link": "Malta_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    }
+  ]
+}
