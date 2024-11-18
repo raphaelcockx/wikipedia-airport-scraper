@@ -14,8 +14,9 @@ const scrape = (body) => {
 
   // Get coordinates
   const $coordinates = $('td.infobox-data span.geo-inline ')
-  const latitude = convertDegrees(...Array.from($('span.latitude', $coordinates).text().trim().matchAll(/[0-9ENSW]+/g)).map((d) => d[0]))
-  const longitude = convertDegrees(...Array.from($('span.longitude', $coordinates).text().trim().matchAll(/[0-9ENSW]+/g)).map((d) => d[0]))
+
+  const latitude = convertDegrees(.../([0-9]{2})°([0-9]{2}′)?([0-9]{2}″)?([ENSW])/.exec($('span.latitude', $coordinates).text().trim()).slice(1))
+  const longitude = convertDegrees(.../([0-9]{2})°([0-9]{2}′)?([0-9]{2}″)?([ENSW])/.exec($('span.longitude', $coordinates).text().trim()).slice(1))
 
   const coordinates = {
     latitude,
@@ -40,7 +41,7 @@ const scrape = (body) => {
 }
 
 const convertDegrees = (degrees, minutes, seconds, direction) => {
-  const degreesDecimal = round((+degrees + (+minutes / 60) + (+seconds / 3600)), 6)
+  const degreesDecimal = round((parseInt(degrees) + ((parseInt(minutes) || 0) / 60) + ((parseInt(seconds) || 0) / 3600)), 6)
   return ['S', 'W'].includes(direction) ? degreesDecimal * -1 : degreesDecimal
 }
 
