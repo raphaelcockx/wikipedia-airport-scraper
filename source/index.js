@@ -158,10 +158,11 @@ const getFlights = ($passengerTable, $) => {
       const isSeasonal = markers.find((marker) => (/^Seasonal/.test(marker.value) || /^Hajj\s?&\s?Umrah/.test(marker.value)) && marker.blockIndex === blockIndex) !== undefined
 
       // Process modifiers
-      const suspended = modifiers.find((modifier) => /\((temporarily )?suspended/.test(modifier.value) && modifier.index === index + 1) !== undefined
+      const suspended = modifiers.find((modifier) => /\((temporarily )?suspended/.test(modifier.value) && modifier.index === index + 1) !== undefined ||
+        modifiers.find((modifier) => /\((both suspended|all suspended)/.test(modifier.value) && modifier.blockIndex === blockIndex) !== undefined
+
       const startDate = (modifiers.find((modifier) => /\((begins|resumes)/.test(modifier.value) && modifier.index === index + 1)?.formattedDate || null) ||
         (modifiers.find((modifier) => /\((both begin|both resume)/.test(modifier.value) && modifier.blockIndex === blockIndex)?.formattedDate || null)
-
       const endDate = modifiers.find((modifier) => /\((ends)/.test(modifier.value) && modifier.index === index + 1)?.formattedDate || null
 
       const destination = {
