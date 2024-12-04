@@ -93,9 +93,7 @@ const getFlights = ($passengerTable, $) => {
     const destinationsNodes = $destinationsCol.contents()
       .map(function () {
         let tagName = $(this).prop('tagName') || null
-        const rawAirportLink = $(this).attr('href') || null
-        const hasNoPage = /action=edit/.test(rawAirportLink)
-        const airportLink = hasNoPage || rawAirportLink === null ? null : rawAirportLink.replace('/wiki/', '')
+        const airportLink = $(this).attr('href') || null
         let value = this.nodeValue ? this.nodeValue.trim() : $(this).text()
 
         // Some airports will be listed with no link. We should try to detect those cases
@@ -107,7 +105,7 @@ const getFlights = ($passengerTable, $) => {
         if (tagName === 'P') { // Content shouldn't be wrapped in a paragraph tag, but if it is...
           return $(this).contents().map(function () {
             const tagName = $(this).prop('tagName') || null
-            const link = $(this).attr('href')?.replace('/wiki/', '') || null
+            const link = $(this).attr('href') || null
             const value = this.nodeValue ? this.nodeValue.trim() : $(this).text()
 
             return {
@@ -167,8 +165,7 @@ const getFlights = ($passengerTable, $) => {
 
       const destination = {
         shortName,
-        fullName: pageTitleFromLink(link),
-        link,
+        ...getFullNameAndLink(link),
         isCharter,
         isSeasonal,
         suspended,
@@ -186,6 +183,18 @@ const getFlights = ($passengerTable, $) => {
   }).toArray()
 }
 
-const pageTitleFromLink = (link) => link ? decodeURI(link.replaceAll('_', ' ')) : null
+const getFullNameAndLink = (link) => {
+  const searchParams = new URL(link, 'https://en.m.wikipedia.org/').searchParams
+
+  return searchParams.size > 0
+    ? {
+        fullName: searchParams.get('title').replaceAll('_', ' '),
+        link: null
+      }
+    : {
+        fullName: decodeURI(link.split('/').slice(-1)[0].replaceAll('_', ' ')),
+        link: link.split('/').slice(-1)[0]
+      }
+}
 
 export default scrape
