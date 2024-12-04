@@ -15,8 +15,8 @@ const scrape = (body) => {
   // Get coordinates
   const $coordinates = $('td.infobox-data span.geo-inline ')
 
-  const latitude = convertDegrees(.../([0-9]{2})°([0-9]{2}′)?([0-9]{2}″)?([ENSW])/.exec($('span.latitude', $coordinates).text().trim()).slice(1))
-  const longitude = convertDegrees(.../([0-9]{2})°([0-9]{2}′)?([0-9]{2}″)?([ENSW])/.exec($('span.longitude', $coordinates).text().trim()).slice(1))
+  const latitude = convertDegrees(.../([0-9]{2})°([0-9]{2}′)?([0-9]{2}\.?[0-9]{0,2}″)?([ENSW])/.exec($('span.latitude', $coordinates).text().trim()).slice(1))
+  const longitude = convertDegrees(.../([0-9]{2})°([0-9]{2}′)?([0-9]{2}\.?[0-9]{0,2}″)?([ENSW])/.exec($('span.longitude', $coordinates).text().trim()).slice(1))
 
   const coordinates = {
     latitude,
