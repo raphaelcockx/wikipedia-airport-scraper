@@ -192,8 +192,8 @@ const getFullNameAndLink = (link) => {
         link: null
       }
     : {
-        fullName: decodeURI(link.split('/').slice(-1)[0].replaceAll('_', ' ')),
-        link: link.split('/').slice(-1)[0]
+        fullName: decodeURI(link.replace('/wiki/', '').replaceAll('_', ' ')),
+        link: link.replace('/wiki/', '')
       }
 }
 
