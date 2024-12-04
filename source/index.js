@@ -15,8 +15,8 @@ const scrape = (body) => {
   // Get coordinates
   const $coordinates = $('td.infobox-data span.geo-inline ')
 
-  const latitude = convertDegrees(.../([0-9]{2})°([0-9]{2}′)?([0-9]{2}\.?[0-9]{0,2}″)?([ENSW])/.exec($('span.latitude', $coordinates).text().trim()).slice(1))
-  const longitude = convertDegrees(.../([0-9]{2,3})°([0-9]{2}′)?([0-9]{2}\.?[0-9]{0,2}″)?([ENSW])/.exec($('span.longitude', $coordinates).text().trim()).slice(1))
+  const latitude = convertDegrees(.../([0-9]{1,2})°([0-9]{1,2}′)?([0-9]{1,2}\.?[0-9]{0,2}″)?([ENSW])/.exec($('span.latitude', $coordinates).text().trim()).slice(1))
+  const longitude = convertDegrees(.../([0-9]{1,3})°([0-9]{1,2}′)?([0-9]{1,2}\.?[0-9]{0,2}″)?([ENSW])/.exec($('span.longitude', $coordinates).text().trim()).slice(1))
 
   const coordinates = {
     latitude,
@@ -102,24 +102,10 @@ const getFlights = ($passengerTable, $) => {
           value = value.replace(',', '').trim()
         }
 
-        if (tagName === 'P') { // Content shouldn't be wrapped in a paragraph tag, but if it is...
-          return $(this).contents().map(function () {
-            const tagName = $(this).prop('tagName') || null
-            const link = $(this).attr('href') || null
-            const value = this.nodeValue ? this.nodeValue.trim() : $(this).text()
-
-            return {
-              tagName,
-              link,
-              value
-            }
-          }).get()
-        } else {
-          return {
-            tagName,
-            link: airportLink,
-            value
-          }
+        return {
+          tagName,
+          link: airportLink,
+          value
         }
       })
       .get()
