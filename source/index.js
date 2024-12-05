@@ -99,7 +99,7 @@ const getFlights = ($passengerTable, $) => {
         let value = this.nodeValue ? this.nodeValue.trim() : $(this).text()
 
         // Some airports will be listed with no link. We should try to detect those cases
-        if (tagName === null && /,\s/.test(value)) {
+        if (tagName === null && value !== ',' && value.includes(',') && !value.startsWith('(')) {
           tagName = 'A'
           value = value.split(',').filter((d) => d !== '').map((d) => d.trim()) // value.replaceAll(',', '').trim()
         }
@@ -121,6 +121,8 @@ const getFlights = ($passengerTable, $) => {
         return acc
       }, [])
       .flatMap((nodes, blockIndex) => nodes.map((node) => ({ ...node, blockIndex })))
+
+    if (airline.name === 'Allegiant Air') console.table(destinationsNodes)
 
     // Get markers and modifiers
     const markers = destinationsNodes.filter((node) => node.tagName === 'B')
