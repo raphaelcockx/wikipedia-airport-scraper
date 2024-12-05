@@ -122,8 +122,6 @@ const getFlights = ($passengerTable, $) => {
       }, [])
       .flatMap((nodes, blockIndex) => nodes.map((node) => ({ ...node, blockIndex })))
 
-    if (airline.name === 'Allegiant Air') console.table(destinationsNodes)
-
     // Get markers and modifiers
     const markers = destinationsNodes.filter((node) => node.tagName === 'B')
     const modifiers = destinationsNodes
