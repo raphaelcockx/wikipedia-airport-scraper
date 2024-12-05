@@ -99,9 +99,9 @@ const getFlights = ($passengerTable, $) => {
         let value = this.nodeValue ? this.nodeValue.trim() : $(this).text()
 
         // Some airports will be listed with no link. We should try to detect those cases
-        if (tagName === null && /^,\s?[a-zA-Z]+/.test(value)) {
+        if (tagName === null && /,\s/.test(value)) {
           tagName = 'A'
-          value = value.replace(',', '').trim()
+          value = value.split(',').filter((d) => d !== '').map((d) => d.trim()) // value.replaceAll(',', '').trim()
         }
 
         return {
@@ -136,7 +136,7 @@ const getFlights = ($passengerTable, $) => {
     // Get airports
     const airportEntries = destinationsNodes.filter((node) => node.tagName === 'A')
 
-    const destinations = airportEntries.map((airport) => {
+    const destinations = airportEntries.flatMap((airport) => {
       const { index, blockIndex, value: shortName, link } = airport
 
       // Process markers
@@ -161,10 +161,22 @@ const getFlights = ($passengerTable, $) => {
         endDate
       }
 
-      return {
-        airline,
-        destination
-      }
+      return Array.isArray(destination.shortName)
+        ? destination.shortName.map((sn) => {
+          const { shortName, ...rest } = destination
+
+          return {
+            airline,
+            destination: {
+              shortName: sn,
+              ...rest
+            }
+          }
+        })
+        : {
+            airline,
+            destination
+          }
     })
 
     return destinations
@@ -172,17 +184,24 @@ const getFlights = ($passengerTable, $) => {
 }
 
 const getFullNameAndLink = (link) => {
-  const searchParams = new URL(link, 'https://en.m.wikipedia.org/').searchParams
+  if (!link) {
+    return {
+      fullName: null,
+      link: null
+    }
+  } else {
+    const searchParams = new URL(link, 'https://en.m.wikipedia.org/').searchParams
 
-  return searchParams.size > 0
-    ? {
-        fullName: searchParams.get('title').replaceAll('_', ' '),
-        link: null
-      }
-    : {
-        fullName: decodeURI(link.replace('/wiki/', '').replaceAll('_', ' ')),
-        link: link.replace('/wiki/', '')
-      }
+    return searchParams.size > 0
+      ? {
+          fullName: searchParams.get('title').replaceAll('_', ' '),
+          link: null
+        }
+      : {
+          fullName: decodeURI(link.replace('/wiki/', '').replaceAll('_', ' ')),
+          link: link.replace('/wiki/', '')
+        }
+  }
 }
 
 export default scrape

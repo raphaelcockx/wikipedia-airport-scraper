@@ -22,7 +22,8 @@ export default [
       '@stylistic/semi': ['warn', 'never'],
       '@stylistic/space-before-blocks': ['warn', 'always'],
       '@stylistic/space-before-function-paren': ['warn', 'always'],
-      '@stylistic/no-trailing-spaces': 'warn'
+      '@stylistic/no-trailing-spaces': 'warn',
+      'no-unused-vars': ['warn', { ignoreRestSiblings: true, caughtErrors: 'none' }]
     }
   }
 ]
