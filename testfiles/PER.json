@@ -1,0 +1,2555 @@
+{
+  "name": "Perth Airport",
+  "iataCode": "PER",
+  "icaoCode": "YPPH",
+  "coordinates": {
+    "latitude": -31.94,
+    "longitude": 115.965
+  },
+  "flights": [
+    {
+      "airline": {
+        "name": "AirAsia",
+        "link": "AirAsia"
+      },
+      "destination": {
+        "shortName": "Kuala Lumpur–International",
+        "fullName": "Kuala Lumpur International Airport",
+        "link": "Kuala_Lumpur_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": "2024-12-06",
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "AirAsia X",
+        "link": "AirAsia_X"
+      },
+      "destination": {
+        "shortName": "Kuala Lumpur–International",
+        "fullName": "Kuala Lumpur International Airport",
+        "link": "Kuala_Lumpur_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Air Mauritius",
+        "link": "Air_Mauritius"
+      },
+      "destination": {
+        "shortName": "Mauritius",
+        "fullName": "Sir Seewoosagur Ramgoolam International Airport",
+        "link": "Sir_Seewoosagur_Ramgoolam_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Air New Zealand",
+        "link": "Air_New_Zealand"
+      },
+      "destination": {
+        "shortName": "Auckland",
+        "fullName": "Auckland Airport",
+        "link": "Auckland_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Airnorth",
+        "link": "Airnorth"
+      },
+      "destination": {
+        "shortName": "Alice Springs",
+        "fullName": "Alice Springs Airport",
+        "link": "Alice_Springs_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Airnorth",
+        "link": "Airnorth"
+      },
+      "destination": {
+        "shortName": "Darwin",
+        "fullName": "Darwin International Airport",
+        "link": "Darwin_International_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Airnorth",
+        "link": "Airnorth"
+      },
+      "destination": {
+        "shortName": "Kununurra",
+        "fullName": "Kununurra Airport",
+        "link": "Kununurra_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Alliance Airlines",
+        "link": "Alliance_Airlines"
+      },
+      "destination": {
+        "shortName": "Kalgoorlie",
+        "fullName": "Kalgoorlie-Boulder Airport",
+        "link": "Kalgoorlie-Boulder_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Alliance Airlines",
+        "link": "Alliance_Airlines"
+      },
+      "destination": {
+        "shortName": "Newman",
+        "fullName": "Newman Airport",
+        "link": "Newman_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Alliance Airlines",
+        "link": "Alliance_Airlines"
+      },
+      "destination": {
+        "shortName": "Port Hedland",
+        "fullName": "Port Hedland International Airport",
+        "link": "Port_Hedland_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Alliance Airlines",
+        "link": "Alliance_Airlines"
+      },
+      "destination": {
+        "shortName": "Barimunya",
+        "fullName": "Barimunya Airport",
+        "link": "Barimunya_Airport",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Alliance Airlines",
+        "link": "Alliance_Airlines"
+      },
+      "destination": {
+        "shortName": "Cape Preston",
+        "fullName": "Cape Preston",
+        "link": "Cape_Preston",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Alliance Airlines",
+        "link": "Alliance_Airlines"
+      },
+      "destination": {
+        "shortName": "Christmas Creek",
+        "fullName": "Graeme Rowley Aerodrome",
+        "link": "Graeme_Rowley_Aerodrome",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Alliance Airlines",
+        "link": "Alliance_Airlines"
+      },
+      "destination": {
+        "shortName": "Christmas Island",
+        "fullName": "Christmas Island Airport",
+        "link": "Christmas_Island_Airport",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Alliance Airlines",
+        "link": "Alliance_Airlines"
+      },
+      "destination": {
+        "shortName": "Coondewanna",
+        "fullName": "Coondewanna Airport",
+        "link": "Coondewanna_Airport",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Alliance Airlines",
+        "link": "Alliance_Airlines"
+      },
+      "destination": {
+        "shortName": "Karratha",
+        "fullName": "Karratha Airport",
+        "link": "Karratha_Airport",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Alliance Airlines",
+        "link": "Alliance_Airlines"
+      },
+      "destination": {
+        "shortName": "Leinster",
+        "fullName": "Leinster Airport",
+        "link": "Leinster_Airport",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Alliance Airlines",
+        "link": "Alliance_Airlines"
+      },
+      "destination": {
+        "shortName": "Leonora",
+        "fullName": "Leonora Airport",
+        "link": "Leonora_Airport",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Alliance Airlines",
+        "link": "Alliance_Airlines"
+      },
+      "destination": {
+        "shortName": "Mount Keith",
+        "fullName": "Mount Keith Airport",
+        "link": "Mount_Keith_Airport",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Alliance Airlines",
+        "link": "Alliance_Airlines"
+      },
+      "destination": {
+        "shortName": "Paraburdoo",
+        "fullName": "Paraburdoo Airport",
+        "link": "Paraburdoo_Airport",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Alliance Airlines",
+        "link": "Alliance_Airlines"
+      },
+      "destination": {
+        "shortName": "Telfer",
+        "fullName": "Telfer Airport",
+        "link": "Telfer_Airport",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Alliance Airlines",
+        "link": "Alliance_Airlines"
+      },
+      "destination": {
+        "shortName": "The Granites",
+        "fullName": "The Granites Airport",
+        "link": "The_Granites_Airport",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "All Nippon Airways",
+        "link": "All_Nippon_Airways"
+      },
+      "destination": {
+        "shortName": "Tokyo–Narita",
+        "fullName": "Narita International Airport",
+        "link": "Narita_International_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Batik Air",
+        "link": "Batik_Air"
+      },
+      "destination": {
+        "shortName": "Denpasar",
+        "fullName": "Ngurah Rai International Airport",
+        "link": "Ngurah_Rai_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Batik Air",
+        "link": "Batik_Air"
+      },
+      "destination": {
+        "shortName": "Jakarta–Soekarno-Hatta",
+        "fullName": "Soekarno-Hatta International Airport",
+        "link": "Soekarno-Hatta_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Batik Air Malaysia",
+        "link": "Batik_Air_Malaysia"
+      },
+      "destination": {
+        "shortName": "Denpasar",
+        "fullName": "Ngurah Rai International Airport",
+        "link": "Ngurah_Rai_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Batik Air Malaysia",
+        "link": "Batik_Air_Malaysia"
+      },
+      "destination": {
+        "shortName": "Kuala Lumpur–International",
+        "fullName": "Kuala Lumpur International Airport",
+        "link": "Kuala_Lumpur_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Cathay Pacific",
+        "link": "Cathay_Pacific"
+      },
+      "destination": {
+        "shortName": "Hong Kong",
+        "fullName": "Hong Kong International Airport",
+        "link": "Hong_Kong_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "China Eastern Airlines",
+        "link": "China_Eastern_Airlines"
+      },
+      "destination": {
+        "shortName": "Shanghai–Pudong",
+        "fullName": "Shanghai Pudong International Airport",
+        "link": "Shanghai_Pudong_International_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "China Southern Airlines",
+        "link": "China_Southern_Airlines"
+      },
+      "destination": {
+        "shortName": "Guangzhou",
+        "fullName": "Guangzhou Baiyun International Airport",
+        "link": "Guangzhou_Baiyun_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Citilink",
+        "link": "Citilink"
+      },
+      "destination": {
+        "shortName": "Denpasar",
+        "fullName": "Ngurah Rai International Airport",
+        "link": "Ngurah_Rai_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Emirates",
+        "link": "Emirates_(airline)"
+      },
+      "destination": {
+        "shortName": "Dubai–International",
+        "fullName": "Dubai International Airport",
+        "link": "Dubai_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Indonesia AirAsia",
+        "link": "Indonesia_AirAsia"
+      },
+      "destination": {
+        "shortName": "Denpasar",
+        "fullName": "Ngurah Rai International Airport",
+        "link": "Ngurah_Rai_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Jetstar",
+        "link": "Jetstar"
+      },
+      "destination": {
+        "shortName": "Adelaide",
+        "fullName": "Adelaide Airport",
+        "link": "Adelaide_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Jetstar",
+        "link": "Jetstar"
+      },
+      "destination": {
+        "shortName": "Bangkok–Suvarnabhumi",
+        "fullName": "Bangkok Suvarnabhumi Airport",
+        "link": "Bangkok_Suvarnabhumi_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Jetstar",
+        "link": "Jetstar"
+      },
+      "destination": {
+        "shortName": "Brisbane",
+        "fullName": "Brisbane Airport",
+        "link": "Brisbane_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Jetstar",
+        "link": "Jetstar"
+      },
+      "destination": {
+        "shortName": "Cairns",
+        "fullName": "Cairns Airport",
+        "link": "Cairns_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Jetstar",
+        "link": "Jetstar"
+      },
+      "destination": {
+        "shortName": "Denpasar",
+        "fullName": "Ngurah Rai International Airport",
+        "link": "Ngurah_Rai_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Jetstar",
+        "link": "Jetstar"
+      },
+      "destination": {
+        "shortName": "Gold Coast",
+        "fullName": "Gold Coast Airport",
+        "link": "Gold_Coast_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Jetstar",
+        "link": "Jetstar"
+      },
+      "destination": {
+        "shortName": "Melbourne",
+        "fullName": "Melbourne Airport",
+        "link": "Melbourne_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Jetstar",
+        "link": "Jetstar"
+      },
+      "destination": {
+        "shortName": "Phuket",
+        "fullName": "Phuket Airport",
+        "link": "Phuket_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Jetstar",
+        "link": "Jetstar"
+      },
+      "destination": {
+        "shortName": "Singapore",
+        "fullName": "Singapore Airport",
+        "link": "Singapore_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Jetstar",
+        "link": "Jetstar"
+      },
+      "destination": {
+        "shortName": "Sydney",
+        "fullName": "Sydney Airport",
+        "link": "Sydney_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Malaysia Airlines",
+        "link": "Malaysia_Airlines"
+      },
+      "destination": {
+        "shortName": "Kuala Lumpur–International",
+        "fullName": "Kuala Lumpur International Airport",
+        "link": "Kuala_Lumpur_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Maroomba Airlines",
+        "link": "Maroomba_Airlines"
+      },
+      "destination": {
+        "shortName": "Dalgaranga",
+        "fullName": null,
+        "link": null,
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Maroomba Airlines",
+        "link": "Maroomba_Airlines"
+      },
+      "destination": {
+        "shortName": "Golden Grove",
+        "fullName": null,
+        "link": null,
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Maroomba Airlines",
+        "link": "Maroomba_Airlines"
+      },
+      "destination": {
+        "shortName": "Mount Magnet",
+        "fullName": "Mount Magnet Airport",
+        "link": "Mount_Magnet_Airport",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "National Jet Express",
+        "link": "National_Jet_Express"
+      },
+      "destination": {
+        "shortName": "Barrow Island",
+        "fullName": "Barrow Island Airport",
+        "link": "Barrow_Island_Airport",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "National Jet Express",
+        "link": "National_Jet_Express"
+      },
+      "destination": {
+        "shortName": "Cue",
+        "fullName": "Cue, Western Australia",
+        "link": "Cue,_Western_Australia",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "National Jet Express",
+        "link": "National_Jet_Express"
+      },
+      "destination": {
+        "shortName": "Jundee",
+        "fullName": "Jundee Gold Mine",
+        "link": "Jundee_Gold_Mine",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "National Jet Express",
+        "link": "National_Jet_Express"
+      },
+      "destination": {
+        "shortName": "Karara",
+        "fullName": "Karara, Western Australia",
+        "link": "Karara,_Western_Australia",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "National Jet Express",
+        "link": "National_Jet_Express"
+      },
+      "destination": {
+        "shortName": "Laverton",
+        "fullName": "Laverton, Western Australia",
+        "link": "Laverton,_Western_Australia",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "National Jet Express",
+        "link": "National_Jet_Express"
+      },
+      "destination": {
+        "shortName": "Leinster",
+        "fullName": "Leinster, Western Australia",
+        "link": "Leinster,_Western_Australia",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "National Jet Express",
+        "link": "National_Jet_Express"
+      },
+      "destination": {
+        "shortName": "Leonora",
+        "fullName": "Leonora, Western Australia",
+        "link": "Leonora,_Western_Australia",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "National Jet Express",
+        "link": "National_Jet_Express"
+      },
+      "destination": {
+        "shortName": "Meekatharra",
+        "fullName": "Meekatharra, Western Australia",
+        "link": "Meekatharra,_Western_Australia",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "National Jet Express",
+        "link": "National_Jet_Express"
+      },
+      "destination": {
+        "shortName": "Mount Keith",
+        "fullName": "Mount Keith, Western Australia",
+        "link": "Mount_Keith,_Western_Australia",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "National Jet Express",
+        "link": "National_Jet_Express"
+      },
+      "destination": {
+        "shortName": "Murrin Murrin",
+        "fullName": "Murrin Murrin Airport",
+        "link": "Murrin_Murrin_Airport",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "National Jet Express",
+        "link": "National_Jet_Express"
+      },
+      "destination": {
+        "shortName": "Newman",
+        "fullName": "Newman, Western Australia",
+        "link": "Newman,_Western_Australia",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "National Jet Express",
+        "link": "National_Jet_Express"
+      },
+      "destination": {
+        "shortName": "Nova",
+        "fullName": null,
+        "link": null,
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "National Jet Express",
+        "link": "National_Jet_Express"
+      },
+      "destination": {
+        "shortName": "Plutonic",
+        "fullName": "Plutonic Gold Mine",
+        "link": "Plutonic_Gold_Mine",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "National Jet Express",
+        "link": "National_Jet_Express"
+      },
+      "destination": {
+        "shortName": "Tropicana",
+        "fullName": "Tropicana Gold Mine",
+        "link": "Tropicana_Gold_Mine",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Nexus Airlines",
+        "link": "Nexus_Airlines_(Australia)"
+      },
+      "destination": {
+        "shortName": "Geraldton",
+        "fullName": "Geraldton Airport",
+        "link": "Geraldton_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Philippine Airlines",
+        "link": "Philippine_Airlines"
+      },
+      "destination": {
+        "shortName": "Manila",
+        "fullName": "Ninoy Aquino International Airport",
+        "link": "Ninoy_Aquino_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Qantas",
+        "link": "Qantas"
+      },
+      "destination": {
+        "shortName": "Adelaide",
+        "fullName": "Adelaide Airport",
+        "link": "Adelaide_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Qantas",
+        "link": "Qantas"
+      },
+      "destination": {
+        "shortName": "Alice Springs",
+        "fullName": "Alice Springs Airport",
+        "link": "Alice_Springs_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Qantas",
+        "link": "Qantas"
+      },
+      "destination": {
+        "shortName": "Brisbane",
+        "fullName": "Brisbane Airport",
+        "link": "Brisbane_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Qantas",
+        "link": "Qantas"
+      },
+      "destination": {
+        "shortName": "Broome",
+        "fullName": "Broome Airport",
+        "link": "Broome_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Qantas",
+        "link": "Qantas"
+      },
+      "destination": {
+        "shortName": "Canberra",
+        "fullName": "Canberra Airport",
+        "link": "Canberra_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Qantas",
+        "link": "Qantas"
+      },
+      "destination": {
+        "shortName": "Darwin",
+        "fullName": "Darwin Airport",
+        "link": "Darwin_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Qantas",
+        "link": "Qantas"
+      },
+      "destination": {
+        "shortName": "Kalgoorlie",
+        "fullName": "Kalgoorlie Airport",
+        "link": "Kalgoorlie_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Qantas",
+        "link": "Qantas"
+      },
+      "destination": {
+        "shortName": "Karratha",
+        "fullName": "Karratha Airport",
+        "link": "Karratha_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Qantas",
+        "link": "Qantas"
+      },
+      "destination": {
+        "shortName": "London–Heathrow",
+        "fullName": "Heathrow Airport",
+        "link": "Heathrow_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Qantas",
+        "link": "Qantas"
+      },
+      "destination": {
+        "shortName": "Melbourne",
+        "fullName": "Melbourne Airport",
+        "link": "Melbourne_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Qantas",
+        "link": "Qantas"
+      },
+      "destination": {
+        "shortName": "Newman",
+        "fullName": "Newman Airport",
+        "link": "Newman_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Qantas",
+        "link": "Qantas"
+      },
+      "destination": {
+        "shortName": "Paris–Charles de Gaulle",
+        "fullName": "Charles de Gaulle Airport",
+        "link": "Charles_de_Gaulle_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Qantas",
+        "link": "Qantas"
+      },
+      "destination": {
+        "shortName": "Port Hedland",
+        "fullName": "Port Hedland Airport",
+        "link": "Port_Hedland_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Qantas",
+        "link": "Qantas"
+      },
+      "destination": {
+        "shortName": "Singapore",
+        "fullName": "Changi Airport",
+        "link": "Changi_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Qantas",
+        "link": "Qantas"
+      },
+      "destination": {
+        "shortName": "Sydney",
+        "fullName": "Sydney Airport",
+        "link": "Sydney_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Qantas",
+        "link": "Qantas"
+      },
+      "destination": {
+        "shortName": "Antarctica",
+        "fullName": "Antarctica",
+        "link": "Antarctica",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Qantas",
+        "link": "Qantas"
+      },
+      "destination": {
+        "shortName": "Rome–Fiumicino",
+        "fullName": "Fiumicino Airport",
+        "link": "Fiumicino_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Qantas",
+        "link": "Qantas"
+      },
+      "destination": {
+        "shortName": "Christmas Creek",
+        "fullName": "Graeme Rowley Aerodrome",
+        "link": "Graeme_Rowley_Aerodrome",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Qantas",
+        "link": "Qantas"
+      },
+      "destination": {
+        "shortName": "Cloudbreak",
+        "fullName": "Graeme Rowley Aerodrome",
+        "link": "Graeme_Rowley_Aerodrome",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Qantas",
+        "link": "Qantas"
+      },
+      "destination": {
+        "shortName": "Ginbata",
+        "fullName": "Roy Hill mine",
+        "link": "Roy_Hill_mine",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Qantas",
+        "link": "Qantas"
+      },
+      "destination": {
+        "shortName": "Solomon",
+        "fullName": "Solomon Airport",
+        "link": "Solomon_Airport",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "QantasLink",
+        "link": "QantasLink"
+      },
+      "destination": {
+        "shortName": "Broome",
+        "fullName": "Broome International Airport",
+        "link": "Broome_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "QantasLink",
+        "link": "QantasLink"
+      },
+      "destination": {
+        "shortName": "Darwin",
+        "fullName": "Darwin Airport",
+        "link": "Darwin_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "QantasLink",
+        "link": "QantasLink"
+      },
+      "destination": {
+        "shortName": "Exmouth",
+        "fullName": "Learmonth Airport",
+        "link": "Learmonth_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "QantasLink",
+        "link": "QantasLink"
+      },
+      "destination": {
+        "shortName": "Geraldton",
+        "fullName": "Geraldton Airport",
+        "link": "Geraldton_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "QantasLink",
+        "link": "QantasLink"
+      },
+      "destination": {
+        "shortName": "Kalgoorlie",
+        "fullName": "Kalgoorlie-Boulder Airport",
+        "link": "Kalgoorlie-Boulder_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "QantasLink",
+        "link": "QantasLink"
+      },
+      "destination": {
+        "shortName": "Karratha",
+        "fullName": "Karratha Airport",
+        "link": "Karratha_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "QantasLink",
+        "link": "QantasLink"
+      },
+      "destination": {
+        "shortName": "Newman",
+        "fullName": "Newman Airport",
+        "link": "Newman_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "QantasLink",
+        "link": "QantasLink"
+      },
+      "destination": {
+        "shortName": "Onslow",
+        "fullName": "Onslow Airport",
+        "link": "Onslow_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "QantasLink",
+        "link": "QantasLink"
+      },
+      "destination": {
+        "shortName": "Paraburdoo",
+        "fullName": "Paraburdoo Airport",
+        "link": "Paraburdoo_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "QantasLink",
+        "link": "QantasLink"
+      },
+      "destination": {
+        "shortName": "Port Hedland",
+        "fullName": "Port Hedland International Airport",
+        "link": "Port_Hedland_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "QantasLink",
+        "link": "QantasLink"
+      },
+      "destination": {
+        "shortName": "Carosue Dam",
+        "fullName": "Carosue Dam Gold Mine",
+        "link": "Carosue_Dam_Gold_Mine",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "QantasLink",
+        "link": "QantasLink"
+      },
+      "destination": {
+        "shortName": "Christmas Creek",
+        "fullName": "Graeme Rowley Aerodrome",
+        "link": "Graeme_Rowley_Aerodrome",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "QantasLink",
+        "link": "QantasLink"
+      },
+      "destination": {
+        "shortName": "Cloudbreak",
+        "fullName": "Fortescue Dave Forrest Airport",
+        "link": "Fortescue_Dave_Forrest_Airport",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "QantasLink",
+        "link": "QantasLink"
+      },
+      "destination": {
+        "shortName": "Eliwana",
+        "fullName": "Eliwana mine",
+        "link": "Eliwana_mine",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "QantasLink",
+        "link": "QantasLink"
+      },
+      "destination": {
+        "shortName": "Ginbata",
+        "fullName": "Roy Hill mine",
+        "link": "Roy_Hill_mine",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "QantasLink",
+        "link": "QantasLink"
+      },
+      "destination": {
+        "shortName": "Iron Bridge",
+        "fullName": null,
+        "link": null,
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "QantasLink",
+        "link": "QantasLink"
+      },
+      "destination": {
+        "shortName": "Koolan Island",
+        "fullName": "Koolan Island",
+        "link": "Koolan_Island",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "QantasLink",
+        "link": "QantasLink"
+      },
+      "destination": {
+        "shortName": "Solomon",
+        "fullName": "Solomon Airport",
+        "link": "Solomon_Airport",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "QantasLink",
+        "link": "QantasLink"
+      },
+      "destination": {
+        "shortName": "Wodgina",
+        "fullName": "Wodgina mine",
+        "link": "Wodgina_mine",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Qatar Airways",
+        "link": "Qatar_Airways"
+      },
+      "destination": {
+        "shortName": "Doha",
+        "fullName": "Hamad International Airport",
+        "link": "Hamad_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Rex Airlines",
+        "link": "Rex_Airlines"
+      },
+      "destination": {
+        "shortName": "Albany",
+        "fullName": "Albany Airport (Australia)",
+        "link": "Albany_Airport_(Australia)",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Rex Airlines",
+        "link": "Rex_Airlines"
+      },
+      "destination": {
+        "shortName": "Carnarvon",
+        "fullName": "Carnarvon Airport (Australia)",
+        "link": "Carnarvon_Airport_(Australia)",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Rex Airlines",
+        "link": "Rex_Airlines"
+      },
+      "destination": {
+        "shortName": "Esperance",
+        "fullName": "Esperance Airport",
+        "link": "Esperance_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Rex Airlines",
+        "link": "Rex_Airlines"
+      },
+      "destination": {
+        "shortName": "Monkey Mia",
+        "fullName": "Shark Bay Airport",
+        "link": "Shark_Bay_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Scoot",
+        "link": "Scoot"
+      },
+      "destination": {
+        "shortName": "Singapore",
+        "fullName": "Changi Airport",
+        "link": "Changi_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Singapore Airlines",
+        "link": "Singapore_Airlines"
+      },
+      "destination": {
+        "shortName": "Singapore",
+        "fullName": "Changi Airport",
+        "link": "Changi_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Skippers Aviation",
+        "link": "Skippers_Aviation"
+      },
+      "destination": {
+        "shortName": "Burnakura",
+        "fullName": "Burnakura Gold Mine",
+        "link": "Burnakura_Gold_Mine",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Skippers Aviation",
+        "link": "Skippers_Aviation"
+      },
+      "destination": {
+        "shortName": "Darlot-Centenary",
+        "fullName": "Darlot Airport",
+        "link": "Darlot_Airport",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Skippers Aviation",
+        "link": "Skippers_Aviation"
+      },
+      "destination": {
+        "shortName": "Jundee",
+        "fullName": "Jundee Airport",
+        "link": "Jundee_Airport",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Skippers Aviation",
+        "link": "Skippers_Aviation"
+      },
+      "destination": {
+        "shortName": "Kalbarri",
+        "fullName": "Kalbarri Airport",
+        "link": "Kalbarri_Airport",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Skippers Aviation",
+        "link": "Skippers_Aviation"
+      },
+      "destination": {
+        "shortName": "Laverton",
+        "fullName": "Laverton Airport",
+        "link": "Laverton_Airport",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Skippers Aviation",
+        "link": "Skippers_Aviation"
+      },
+      "destination": {
+        "shortName": "Lawlers",
+        "fullName": "Lawlers Airport",
+        "link": "Lawlers_Airport",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Skippers Aviation",
+        "link": "Skippers_Aviation"
+      },
+      "destination": {
+        "shortName": "Leinster",
+        "fullName": "Leinster Airport",
+        "link": "Leinster_Airport",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Skippers Aviation",
+        "link": "Skippers_Aviation"
+      },
+      "destination": {
+        "shortName": "Leonora",
+        "fullName": "Leonora Airport",
+        "link": "Leonora_Airport",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Skippers Aviation",
+        "link": "Skippers_Aviation"
+      },
+      "destination": {
+        "shortName": "Meekatharra",
+        "fullName": "Meekatharra Airport",
+        "link": "Meekatharra_Airport",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Skippers Aviation",
+        "link": "Skippers_Aviation"
+      },
+      "destination": {
+        "shortName": "Mount Magnet",
+        "fullName": "Mount Magnet Airport",
+        "link": "Mount_Magnet_Airport",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Skippers Aviation",
+        "link": "Skippers_Aviation"
+      },
+      "destination": {
+        "shortName": "Plutonic",
+        "fullName": "Plutonic Airport",
+        "link": "Plutonic_Airport",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Skippers Aviation",
+        "link": "Skippers_Aviation"
+      },
+      "destination": {
+        "shortName": "Sunrise Dam",
+        "fullName": "Sunrise Dam Airport",
+        "link": "Sunrise_Dam_Airport",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Skippers Aviation",
+        "link": "Skippers_Aviation"
+      },
+      "destination": {
+        "shortName": "Wiluna",
+        "fullName": "Wiluna Airport",
+        "link": "Wiluna_Airport",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "South African Airways",
+        "link": "South_African_Airways"
+      },
+      "destination": {
+        "shortName": "Johannesburg–O.R. Tambo",
+        "fullName": "O. R. Tambo International Airport",
+        "link": "O._R._Tambo_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Thai Airways International",
+        "link": "Thai_Airways_International"
+      },
+      "destination": {
+        "shortName": "Bangkok–Suvarnabhumi",
+        "fullName": "Suvarnabhumi Airport",
+        "link": "Suvarnabhumi_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "VietJet Air",
+        "link": "VietJet_Air"
+      },
+      "destination": {
+        "shortName": "Ho Chi Minh City",
+        "fullName": "Tan Son Nhat International Airport",
+        "link": "Tan_Son_Nhat_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Vietnam Airlines",
+        "link": "Vietnam_Airlines"
+      },
+      "destination": {
+        "shortName": "Ho Chi Minh City",
+        "fullName": "Tan Son Nhat International Airport",
+        "link": "Tan_Son_Nhat_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Virgin Australia",
+        "link": "Virgin_Australia"
+      },
+      "destination": {
+        "shortName": "Adelaide",
+        "fullName": "Adelaide Airport",
+        "link": "Adelaide_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Virgin Australia",
+        "link": "Virgin_Australia"
+      },
+      "destination": {
+        "shortName": "Brisbane",
+        "fullName": "Brisbane Airport",
+        "link": "Brisbane_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Virgin Australia",
+        "link": "Virgin_Australia"
+      },
+      "destination": {
+        "shortName": "Broome",
+        "fullName": "Broome Airport",
+        "link": "Broome_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Virgin Australia",
+        "link": "Virgin_Australia"
+      },
+      "destination": {
+        "shortName": "Cairns",
+        "fullName": "Cairns Airport",
+        "link": "Cairns_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Virgin Australia",
+        "link": "Virgin_Australia"
+      },
+      "destination": {
+        "shortName": "Darwin",
+        "fullName": "Darwin International Airport",
+        "link": "Darwin_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Virgin Australia",
+        "link": "Virgin_Australia"
+      },
+      "destination": {
+        "shortName": "Hobart",
+        "fullName": "Hobart Airport",
+        "link": "Hobart_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Virgin Australia",
+        "link": "Virgin_Australia"
+      },
+      "destination": {
+        "shortName": "Kalgoorlie",
+        "fullName": "Kalgoorlie-Boulder Airport",
+        "link": "Kalgoorlie-Boulder_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Virgin Australia",
+        "link": "Virgin_Australia"
+      },
+      "destination": {
+        "shortName": "Karratha",
+        "fullName": "Karratha Airport",
+        "link": "Karratha_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Virgin Australia",
+        "link": "Virgin_Australia"
+      },
+      "destination": {
+        "shortName": "Kununurra",
+        "fullName": "Kununurra Airport",
+        "link": "Kununurra_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Virgin Australia",
+        "link": "Virgin_Australia"
+      },
+      "destination": {
+        "shortName": "Melbourne",
+        "fullName": "Melbourne Airport",
+        "link": "Melbourne_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Virgin Australia",
+        "link": "Virgin_Australia"
+      },
+      "destination": {
+        "shortName": "Newman",
+        "fullName": "Newman Airport",
+        "link": "Newman_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Virgin Australia",
+        "link": "Virgin_Australia"
+      },
+      "destination": {
+        "shortName": "Port Hedland",
+        "fullName": "Port Hedland International Airport",
+        "link": "Port_Hedland_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Virgin Australia",
+        "link": "Virgin_Australia"
+      },
+      "destination": {
+        "shortName": "Sydney",
+        "fullName": "Sydney Airport",
+        "link": "Sydney_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Virgin Australia",
+        "link": "Virgin_Australia"
+      },
+      "destination": {
+        "shortName": "Launceston",
+        "fullName": "Launceston Airport",
+        "link": "Launceston_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Virgin Australia Regional Airlines",
+        "link": "Virgin_Australia_Regional_Airlines"
+      },
+      "destination": {
+        "shortName": "Adelaide",
+        "fullName": "Adelaide Airport",
+        "link": "Adelaide_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Virgin Australia Regional Airlines",
+        "link": "Virgin_Australia_Regional_Airlines"
+      },
+      "destination": {
+        "shortName": "Broome",
+        "fullName": "Broome International Airport",
+        "link": "Broome_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Virgin Australia Regional Airlines",
+        "link": "Virgin_Australia_Regional_Airlines"
+      },
+      "destination": {
+        "shortName": "Christmas Island",
+        "fullName": "Christmas Island Airport",
+        "link": "Christmas_Island_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Virgin Australia Regional Airlines",
+        "link": "Virgin_Australia_Regional_Airlines"
+      },
+      "destination": {
+        "shortName": "Cocos (Keeling) Islands",
+        "fullName": "Cocos (Keeling) Islands Airport",
+        "link": "Cocos_(Keeling)_Islands_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Virgin Australia Regional Airlines",
+        "link": "Virgin_Australia_Regional_Airlines"
+      },
+      "destination": {
+        "shortName": "Darwin",
+        "fullName": "Darwin International Airport",
+        "link": "Darwin_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Virgin Australia Regional Airlines",
+        "link": "Virgin_Australia_Regional_Airlines"
+      },
+      "destination": {
+        "shortName": "Hobart",
+        "fullName": "Hobart Airport",
+        "link": "Hobart_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Virgin Australia Regional Airlines",
+        "link": "Virgin_Australia_Regional_Airlines"
+      },
+      "destination": {
+        "shortName": "Kalgoorlie",
+        "fullName": "Kalgoorlie-Boulder Airport",
+        "link": "Kalgoorlie-Boulder_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Virgin Australia Regional Airlines",
+        "link": "Virgin_Australia_Regional_Airlines"
+      },
+      "destination": {
+        "shortName": "Karratha",
+        "fullName": "Karratha Airport",
+        "link": "Karratha_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Virgin Australia Regional Airlines",
+        "link": "Virgin_Australia_Regional_Airlines"
+      },
+      "destination": {
+        "shortName": "Kununurra",
+        "fullName": "Kununurra Airport",
+        "link": "Kununurra_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Virgin Australia Regional Airlines",
+        "link": "Virgin_Australia_Regional_Airlines"
+      },
+      "destination": {
+        "shortName": "Onslow",
+        "fullName": "Onslow Airport",
+        "link": "Onslow_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Virgin Australia Regional Airlines",
+        "link": "Virgin_Australia_Regional_Airlines"
+      },
+      "destination": {
+        "shortName": "Port Hedland",
+        "fullName": "Port Hedland International Airport",
+        "link": "Port_Hedland_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Virgin Australia Regional Airlines",
+        "link": "Virgin_Australia_Regional_Airlines"
+      },
+      "destination": {
+        "shortName": "Argyle",
+        "fullName": "Argyle Airport",
+        "link": "Argyle_Airport",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Virgin Australia Regional Airlines",
+        "link": "Virgin_Australia_Regional_Airlines"
+      },
+      "destination": {
+        "shortName": "Barimunya",
+        "fullName": "Barimunya Airport",
+        "link": "Barimunya_Airport",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Virgin Australia Regional Airlines",
+        "link": "Virgin_Australia_Regional_Airlines"
+      },
+      "destination": {
+        "shortName": "Barrow Island",
+        "fullName": "Barrow Island Airport",
+        "link": "Barrow_Island_Airport",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Virgin Australia Regional Airlines",
+        "link": "Virgin_Australia_Regional_Airlines"
+      },
+      "destination": {
+        "shortName": "Boolgeeda",
+        "fullName": "Boolgeeda Airport",
+        "link": "Boolgeeda_Airport",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Virgin Australia Regional Airlines",
+        "link": "Virgin_Australia_Regional_Airlines"
+      },
+      "destination": {
+        "shortName": "Busselton",
+        "fullName": "Busselton Airport",
+        "link": "Busselton_Airport",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Virgin Australia Regional Airlines",
+        "link": "Virgin_Australia_Regional_Airlines"
+      },
+      "destination": {
+        "shortName": "West Angelas",
+        "fullName": "West Angelas mine",
+        "link": "West_Angelas_mine",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Virgin Australia Regional Airlines",
+        "link": "Virgin_Australia_Regional_Airlines"
+      },
+      "destination": {
+        "shortName": "Woodie Woodie",
+        "fullName": "Woodie Woodie Airport",
+        "link": "Woodie_Woodie_Airport",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    }
+  ]
+}

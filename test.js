@@ -14,6 +14,17 @@ test('ANR', async (t) => {
   t.deepEqual(scrape(htmlData), jsonData)
 })
 
+test('HGU', async (t) => {
+  // Missing link for one of the airports
+  const htmlPath = new URL('./testfiles/HGU.html', import.meta.url).pathname
+  const htmlData = await readFile(htmlPath, 'utf-8')
+
+  const jsonPath = new URL('./testfiles/HGU.json', import.meta.url).pathname
+  const jsonData = await readFile(jsonPath, 'utf-8').then(JSON.parse)
+
+  t.deepEqual(scrape(htmlData), jsonData)
+})
+
 test('MJI', async (t) => {
   // Hajj & Umrah flights
   const htmlPath = new URL('./testfiles/MJI.html', import.meta.url).pathname
@@ -25,8 +36,19 @@ test('MJI', async (t) => {
   t.deepEqual(scrape(htmlData), jsonData)
 })
 
+test('PER', async (t) => {
+  // Several missing links for airports
+  const htmlPath = new URL('./testfiles/PER.html', import.meta.url).pathname
+  const htmlData = await readFile(htmlPath, 'utf-8')
+
+  const jsonPath = new URL('./testfiles/PER.json', import.meta.url).pathname
+  const jsonData = await readFile(jsonPath, 'utf-8').then(JSON.parse)
+
+  t.deepEqual(scrape(htmlData), jsonData)
+})
+
 test('TLV', async (t) => {
-  // Many (and complex suspended destinations)
+  // Many (and complex) suspended destinations
   const htmlPath = new URL('./testfiles/TLV.html', import.meta.url).pathname
   const htmlData = await readFile(htmlPath, 'utf-8')
 

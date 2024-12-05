@@ -1,0 +1,203 @@
+{
+  "name": "Mount Hagen Airport",
+  "iataCode": "HGU",
+  "icaoCode": "AYMH",
+  "coordinates": {
+    "latitude": -5.826667,
+    "longitude": 144.295833
+  },
+  "flights": [
+    {
+      "airline": {
+        "name": "Air Niugini",
+        "link": "Air_Niugini"
+      },
+      "destination": {
+        "shortName": "Port Moresby",
+        "fullName": "Jacksons International Airport",
+        "link": "Jacksons_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Air Niugini",
+        "link": "Air_Niugini"
+      },
+      "destination": {
+        "shortName": "Wewak",
+        "fullName": "Wewak Airport",
+        "link": "Wewak_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Hevilift",
+        "link": null
+      },
+      "destination": {
+        "shortName": "Port Moresby",
+        "fullName": "Jacksons International Airport",
+        "link": "Jacksons_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Hevilift",
+        "link": null
+      },
+      "destination": {
+        "shortName": "Cairns",
+        "fullName": "Cairns Airport",
+        "link": "Cairns_Airport",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "MAF",
+        "link": "Mission_Aviation_Fellowship"
+      },
+      "destination": {
+        "shortName": "Sumbai",
+        "fullName": "Sumbai Airport",
+        "link": null,
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "MAF",
+        "link": "Mission_Aviation_Fellowship"
+      },
+      "destination": {
+        "shortName": "Telefomin",
+        "fullName": "Telefomin Airport",
+        "link": "Telefomin_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "PNG Air",
+        "link": "PNG_Air"
+      },
+      "destination": {
+        "shortName": "Goroka",
+        "fullName": "Goroka Airport",
+        "link": "Goroka_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "PNG Air",
+        "link": "PNG_Air"
+      },
+      "destination": {
+        "shortName": "Kiunga",
+        "fullName": "Kiunga Airport",
+        "link": "Kiunga_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "PNG Air",
+        "link": "PNG_Air"
+      },
+      "destination": {
+        "shortName": "Moro",
+        "fullName": "Moro Airport",
+        "link": "Moro_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "PNG Air",
+        "link": "PNG_Air"
+      },
+      "destination": {
+        "shortName": "Port Moresby",
+        "fullName": "Jacksons International Airport",
+        "link": "Jacksons_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "PNG Air",
+        "link": "PNG_Air"
+      },
+      "destination": {
+        "shortName": "Tabubil",
+        "fullName": "Tabubil Airport",
+        "link": "Tabubil_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "PNG Air",
+        "link": "PNG_Air"
+      },
+      "destination": {
+        "shortName": "Wewak",
+        "fullName": "Wewak Airport",
+        "link": "Wewak_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    }
+  ]
+}
