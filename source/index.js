@@ -13,7 +13,7 @@ const scrape = (body) => {
   const icaoCode = /[A-Z]{4}/.exec($('span.nickname', $('li a[title="ICAO airport code"]').parent()).text())[0]
 
   // Get coordinates
-  const $coordinates = $('td.infobox-data span.geo-inline ')
+  const $coordinates = $('span.geo-dms')
 
   const coordsRegex = /([0-9]{1,3})°([0-9]{1,2}\.?[0-9]{0,2}′)?([0-9]{1,2}\.?[0-9]{0,2}″)?([ENSW])/
 
