@@ -1,0 +1,267 @@
+{
+  "name": "Santa Barbara Municipal Airport",
+  "iataCode": "SBA",
+  "icaoCode": "KSBA",
+  "coordinates": {
+    "latitude": 34.426111,
+    "longitude": -119.840278
+  },
+  "flights": [
+    {
+      "airline": {
+        "name": "Alaska Airlines",
+        "link": "Alaska_Airlines"
+      },
+      "destination": {
+        "shortName": "Portland (OR)",
+        "fullName": "Portland International Airport",
+        "link": "Portland_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Alaska Airlines",
+        "link": "Alaska_Airlines"
+      },
+      "destination": {
+        "shortName": "Seattle/Tacoma",
+        "fullName": "Seattle–Tacoma International Airport",
+        "link": "Seattle%E2%80%93Tacoma_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "American Airlines",
+        "link": "American_Airlines"
+      },
+      "destination": {
+        "shortName": "Dallas/Fort Worth",
+        "fullName": "Dallas/Fort Worth International Airport",
+        "link": "Dallas/Fort_Worth_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "American Airlines",
+        "link": "American_Airlines"
+      },
+      "destination": {
+        "shortName": "Phoenix–Sky Harbor",
+        "fullName": "Phoenix Sky Harbor International Airport",
+        "link": "Phoenix_Sky_Harbor_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "American Eagle",
+        "link": "American_Eagle_(airline_brand)"
+      },
+      "destination": {
+        "shortName": "Phoenix–Sky Harbor",
+        "fullName": "Phoenix Sky Harbor International Airport",
+        "link": "Phoenix_Sky_Harbor_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Delta Air Lines",
+        "link": "Delta_Air_Lines"
+      },
+      "destination": {
+        "shortName": "Atlanta",
+        "fullName": "Hartsfield–Jackson Atlanta International Airport",
+        "link": "Hartsfield%E2%80%93Jackson_Atlanta_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Delta Air Lines",
+        "link": "Delta_Air_Lines"
+      },
+      "destination": {
+        "shortName": "Salt Lake City",
+        "fullName": "Salt Lake City International Airport",
+        "link": "Salt_Lake_City_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Southwest Airlines",
+        "link": "Southwest_Airlines"
+      },
+      "destination": {
+        "shortName": "Denver",
+        "fullName": "Denver International Airport",
+        "link": "Denver_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Southwest Airlines",
+        "link": "Southwest_Airlines"
+      },
+      "destination": {
+        "shortName": "Las Vegas",
+        "fullName": "Harry Reid International Airport",
+        "link": "Harry_Reid_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Southwest Airlines",
+        "link": "Southwest_Airlines"
+      },
+      "destination": {
+        "shortName": "Oakland",
+        "fullName": "San Francisco Bay Oakland International Airport",
+        "link": "San_Francisco_Bay_Oakland_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Southwest Airlines",
+        "link": "Southwest_Airlines"
+      },
+      "destination": {
+        "shortName": "Sacramento",
+        "fullName": "Sacramento International Airport",
+        "link": "Sacramento_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "United Airlines",
+        "link": "United_Airlines"
+      },
+      "destination": {
+        "shortName": "Denver",
+        "fullName": "Denver International Airport",
+        "link": "Denver_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "United Airlines",
+        "link": "United_Airlines"
+      },
+      "destination": {
+        "shortName": "San Francisco",
+        "fullName": "San Francisco International Airport",
+        "link": "San_Francisco_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "United Express",
+        "link": "United_Express"
+      },
+      "destination": {
+        "shortName": "Denver",
+        "fullName": "Denver International Airport",
+        "link": "Denver_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "United Express",
+        "link": "United_Express"
+      },
+      "destination": {
+        "shortName": "Los Angeles",
+        "fullName": "Los Angeles International Airport",
+        "link": "Los_Angeles_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "United Express",
+        "link": "United_Express"
+      },
+      "destination": {
+        "shortName": "San Francisco",
+        "fullName": "San Francisco International Airport",
+        "link": "San_Francisco_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    }
+  ]
+}

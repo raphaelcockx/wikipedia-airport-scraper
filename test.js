@@ -47,6 +47,17 @@ test('PER', async (t) => {
   t.deepEqual(scrape(htmlData), jsonData)
 })
 
+test('SBA', async (t) => {
+  // Unconventional AD header
+  const htmlPath = new URL('./testfiles/SBA.html', import.meta.url).pathname
+  const htmlData = await readFile(htmlPath, 'utf-8')
+
+  const jsonPath = new URL('./testfiles/SBA.json', import.meta.url).pathname
+  const jsonData = await readFile(jsonPath, 'utf-8').then(JSON.parse)
+
+  t.deepEqual(scrape(htmlData), jsonData)
+})
+
 test('TLV', async (t) => {
   // Many (and complex) suspended destinations
   const htmlPath = new URL('./testfiles/TLV.html', import.meta.url).pathname
