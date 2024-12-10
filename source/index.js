@@ -62,7 +62,8 @@ const getPassengerTable = ($) => {
     'h2#Airline_and_destinations',
     'h2#Airline_and_Destinations',
     'h2#Charters_and_destinations',
-    'h2#Charters_and_Destinations'
+    'h2#Charters_and_Destinations',
+    'h2#Destinations'
   ]
 
   const $adSection = $(adSelectors.join(', ')).parent().next()
