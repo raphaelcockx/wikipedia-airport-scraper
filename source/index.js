@@ -15,7 +15,7 @@ const scrape = (body) => {
   // Get coordinates
   const $coordinates = $('span.geo-dms')
 
-  const coordsRegex = /([0-9]{1,3})°([0-9]{1,2}\.?[0-9]{0,2}′)?([0-9]{1,2}\.?[0-9]{0,2}″)?([ENSW])/
+  const coordsRegex = /([0-9]{1,3})°([0-9]{1,2}\.?[0-9]{0,3}′)?([0-9]{1,2}\.?[0-9]{0,3}″)?([ENSW])/
 
   const latitude = convertDegrees(...coordsRegex.exec($('span.latitude', $coordinates).text().trim()).slice(1))
   const longitude = convertDegrees(...coordsRegex.exec($('span.longitude', $coordinates).text().trim()).slice(1))
