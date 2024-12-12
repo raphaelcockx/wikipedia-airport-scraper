@@ -9,8 +9,8 @@ const scrape = (body) => {
 
   // Get name and IATA/ICAO codes
   const name = $('span.mw-page-title-main').text().trim()
-  const iataCode = /[A-Z]{3}/.exec($('span.nickname', $('li a[title="IATA airport code"]').parent()).text())[0]
-  const icaoCode = /[A-Z]{4}/.exec($('span.nickname', $('li a[title="ICAO airport code"]').parent()).text())[0]
+  const iataCode = /[A-Z]{3}/.exec($('span.nickname', $('li a[title="IATA airport code"]').parent()).text()) || [null][0]
+  const icaoCode = /[A-Z]{4}/.exec($('span.nickname', $('li a[title="ICAO airport code"]').parent()).text()) || [null][0]
 
   // Get coordinates
   const $coordinates = $('span.geo-dms')
