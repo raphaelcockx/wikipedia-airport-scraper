@@ -14,6 +14,17 @@ test('ANR', async (t) => {
   t.deepEqual(scrape(htmlData), jsonData)
 })
 
+test('BOY', async (t) => {
+  // Overly detailed coordinates
+  const htmlPath = new URL('./testfiles/BOY.html', import.meta.url).pathname
+  const htmlData = await readFile(htmlPath, 'utf-8')
+
+  const jsonPath = new URL('./testfiles/BOY.json', import.meta.url).pathname
+  const jsonData = await readFile(jsonPath, 'utf-8').then(JSON.parse)
+
+  t.deepEqual(scrape(htmlData), jsonData)
+})
+
 test('HGU', async (t) => {
   // Missing link for one of the airports
   const htmlPath = new URL('./testfiles/HGU.html', import.meta.url).pathname
@@ -64,6 +75,17 @@ test('TLV', async (t) => {
   const htmlData = await readFile(htmlPath, 'utf-8')
 
   const jsonPath = new URL('./testfiles/TLV.json', import.meta.url).pathname
+  const jsonData = await readFile(jsonPath, 'utf-8').then(JSON.parse)
+
+  t.deepEqual(scrape(htmlData), jsonData)
+})
+
+test('YBG', async (t) => {
+  // No IATA or ICAO code in sidebar
+  const htmlPath = new URL('./testfiles/YBG.html', import.meta.url).pathname
+  const htmlData = await readFile(htmlPath, 'utf-8')
+
+  const jsonPath = new URL('./testfiles/YBG.json', import.meta.url).pathname
   const jsonData = await readFile(jsonPath, 'utf-8').then(JSON.parse)
 
   t.deepEqual(scrape(htmlData), jsonData)

@@ -1,0 +1,43 @@
+{
+  "name": "Bobo Dioulasso Airport",
+  "iataCode": "BOY",
+  "icaoCode": "DFOO",
+  "coordinates": {
+    "latitude": 11.16,
+    "longitude": -4.330833
+  },
+  "flights": [
+    {
+      "airline": {
+        "name": "Air Burkina",
+        "link": "Air_Burkina"
+      },
+      "destination": {
+        "shortName": "Abidjan",
+        "fullName": "Port Bouet Airport",
+        "link": "Port_Bouet_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Air Burkina",
+        "link": "Air_Burkina"
+      },
+      "destination": {
+        "shortName": "Ouagadougou",
+        "fullName": "Ouagadougou Airport",
+        "link": "Ouagadougou_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    }
+  ]
+}

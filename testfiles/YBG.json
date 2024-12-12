@@ -1,0 +1,75 @@
+{
+  "name": "CFB Bagotville",
+  "iataCode": null,
+  "icaoCode": null,
+  "coordinates": {
+    "latitude": 48.330556,
+    "longitude": -70.996389
+  },
+  "flights": [
+    {
+      "airline": {
+        "name": "Air Canada Express",
+        "link": "Air_Canada_Express"
+      },
+      "destination": {
+        "shortName": "Montreal–Trudeau",
+        "fullName": "Montréal–Pierre Elliott Trudeau International Airport",
+        "link": "Montr%C3%A9al%E2%80%93Pierre_Elliott_Trudeau_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Sunwing Airlines",
+        "link": "Sunwing_Airlines"
+      },
+      "destination": {
+        "shortName": "Cancún",
+        "fullName": "Cancún International Airport",
+        "link": "Canc%C3%BAn_International_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Sunwing Airlines",
+        "link": "Sunwing_Airlines"
+      },
+      "destination": {
+        "shortName": "Punta Cana",
+        "fullName": "Punta Cana International Airport",
+        "link": "Punta_Cana_International_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Sunwing Airlines",
+        "link": "Sunwing_Airlines"
+      },
+      "destination": {
+        "shortName": "Varadero",
+        "fullName": "Juan Gualberto Gómez Airport",
+        "link": "Juan_Gualberto_G%C3%B3mez_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    }
+  ]
+}
