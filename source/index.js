@@ -48,30 +48,34 @@ const convertDegrees = (degrees, minutes, seconds, direction) => {
 }
 
 const getPassengerTable = ($) => {
-  const adSelectors = [
-    'span.mw-headline#Airlines_and_destinations',
-    'span.mw-headline#Airlines_and_Destinations',
-    'span.mw-headline#Airline_and_destination',
-    'span.mw-headline#Airline_and_Destination',
-    'span.mw-headline#Airline_and_destinations',
-    'span.mw-headline#Airline_and_Destinations',
-    'h2#Airlines_and_destinations',
-    'h2#Airlines_and_Destinations',
-    'h2#Airline_and_destination',
-    'h2#Airline_and_Destination',
-    'h2#Airline_and_destinations',
-    'h2#Airline_and_Destinations',
-    'h2#Charters_and_destinations',
-    'h2#Charters_and_Destinations',
-    'h2#Destinations'
+  const headlineTextIds = [
+    'Airlines_and_destinations',
+    'Airlines_and_Destinations',
+    'Airline_and_destination',
+    'Airline_and_Destination',
+    'Airline_and_destinations',
+    'Airline_and_Destinations',
+    'Charters_and_destinations',
+    'Charters_and_Destinations',
+    'Destinations'
   ]
 
-  const $adSection = $(adSelectors.join(', ')).parent().next()
-  const $passengerHeading = $('h3 span.mw-headline#Passenger', $adSection)
+  const tablesAndHeadings = $('div.mw-heading2').has(headlineTextIds.map((id) => `h2#${id}`).join(', '))
+    .nextUntil('div.mw-heading2')
+    .filter('div.mw-heading3, table')
+    .map(function () {
+      const $this = $(this)
+      const tagName = $this.prop('tagName')
+      const heading = $('h3', $this).text() || null
 
-  return $passengerHeading.length > 0
-    ? $passengerHeading.parent().nextUntil('h3').filter('table.wikitable')
-    : $('table.wikitable', $adSection).eq(0)
+      return {
+        tagName,
+        heading,
+        $this
+      }
+    }).get()
+
+  return tablesAndHeadings[tablesAndHeadings.findIndex(({ heading }) => heading === 'Passenger') + 1].$this
 }
 
 const getFlights = ($passengerTable, $) => {
