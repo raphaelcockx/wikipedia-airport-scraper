@@ -8,7 +8,7 @@ const scrape = (body) => {
   const $ = cheerio.load(body)
 
   // Get name and IATA/ICAO codes
-  const name = $('span.mw-page-title-main').text().trim()
+  const name = $('h1 span.mw-page-title-main').text().trim()
   const iataCode = (/[A-Z]{3}/.exec($('span.nickname', $('li a[title="IATA airport code"]').parent()).text()) || [null])[0]
   const icaoCode = (/[A-Z]{4}/.exec($('span.nickname', $('li a[title="ICAO airport code"]').parent()).text()) || [null])[0]
 
