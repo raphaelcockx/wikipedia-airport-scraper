@@ -25,8 +25,24 @@
     },
     {
       "airline": {
-        "name": "SkyAlps",
-        "link": "SkyAlps"
+        "name": "ASL Fly Executive",
+        "link": null
+      },
+      "destination": {
+        "shortName": "Innsbruck",
+        "fullName": "Innsbruck Airport",
+        "link": "Innsbruck_Airport",
+        "isCharter": false,
+        "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Sky Alps",
+        "link": "Sky_Alps"
       },
       "destination": {
         "shortName": "Bolzano",
@@ -64,38 +80,6 @@
         "shortName": "Málaga",
         "fullName": "Málaga Airport",
         "link": "M%C3%A1laga_Airport",
-        "isCharter": false,
-        "isSeasonal": false,
-        "suspended": false,
-        "startDate": null,
-        "endDate": null
-      }
-    },
-    {
-      "airline": {
-        "name": "TUI fly Belgium",
-        "link": "TUI_fly_Belgium"
-      },
-      "destination": {
-        "shortName": "Nador",
-        "fullName": "Nador International Airport",
-        "link": "Nador_International_Airport",
-        "isCharter": false,
-        "isSeasonal": false,
-        "suspended": false,
-        "startDate": null,
-        "endDate": null
-      }
-    },
-    {
-      "airline": {
-        "name": "TUI fly Belgium",
-        "link": "TUI_fly_Belgium"
-      },
-      "destination": {
-        "shortName": "Tangier",
-        "fullName": "Tangier Airport",
-        "link": "Tangier_Airport",
         "isCharter": false,
         "isSeasonal": false,
         "suspended": false,
@@ -205,41 +189,9 @@
         "link": "TUI_fly_Belgium"
       },
       "destination": {
-        "shortName": "Oujda",
-        "fullName": "Angads Airport",
-        "link": "Angads_Airport",
-        "isCharter": false,
-        "isSeasonal": true,
-        "suspended": false,
-        "startDate": null,
-        "endDate": null
-      }
-    },
-    {
-      "airline": {
-        "name": "TUI fly Belgium",
-        "link": "TUI_fly_Belgium"
-      },
-      "destination": {
         "shortName": "Palma de Mallorca",
         "fullName": "Palma de Mallorca Airport",
         "link": "Palma_de_Mallorca_Airport",
-        "isCharter": false,
-        "isSeasonal": true,
-        "suspended": false,
-        "startDate": null,
-        "endDate": null
-      }
-    },
-    {
-      "airline": {
-        "name": "TUI fly Belgium",
-        "link": "TUI_fly_Belgium"
-      },
-      "destination": {
-        "shortName": "Split",
-        "fullName": "Split Airport",
-        "link": "Split_Airport",
         "isCharter": false,
         "isSeasonal": true,
         "suspended": false,

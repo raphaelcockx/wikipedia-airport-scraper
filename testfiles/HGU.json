@@ -45,10 +45,10 @@
         "link": null
       },
       "destination": {
-        "shortName": "Port Moresby",
-        "fullName": "Jacksons International Airport",
-        "link": "Jacksons_International_Airport",
-        "isCharter": false,
+        "shortName": "Cairns",
+        "fullName": "Cairns Airport",
+        "link": "Cairns_Airport",
+        "isCharter": true,
         "isSeasonal": false,
         "suspended": false,
         "startDate": null,
@@ -61,9 +61,9 @@
         "link": null
       },
       "destination": {
-        "shortName": "Cairns",
-        "fullName": "Cairns Airport",
-        "link": "Cairns_Airport",
+        "shortName": "Port Moresby",
+        "fullName": "Jacksons International Airport",
+        "link": "Jacksons_International_Airport",
         "isCharter": true,
         "isSeasonal": false,
         "suspended": false,

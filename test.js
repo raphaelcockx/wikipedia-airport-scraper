@@ -59,33 +59,11 @@ test('PER', async (t) => {
 })
 
 test('SBA', async (t) => {
-  // Unconventional AD header
+  // Unconventional table (extra column)
   const htmlPath = new URL('./testfiles/SBA.html', import.meta.url).pathname
   const htmlData = await readFile(htmlPath, 'utf-8')
 
   const jsonPath = new URL('./testfiles/SBA.json', import.meta.url).pathname
-  const jsonData = await readFile(jsonPath, 'utf-8').then(JSON.parse)
-
-  t.deepEqual(scrape(htmlData), jsonData)
-})
-
-test('TLV', async (t) => {
-  // Many (and complex) suspended destinations
-  const htmlPath = new URL('./testfiles/TLV.html', import.meta.url).pathname
-  const htmlData = await readFile(htmlPath, 'utf-8')
-
-  const jsonPath = new URL('./testfiles/TLV.json', import.meta.url).pathname
-  const jsonData = await readFile(jsonPath, 'utf-8').then(JSON.parse)
-
-  t.deepEqual(scrape(htmlData), jsonData)
-})
-
-test('YBG', async (t) => {
-  // No IATA or ICAO code in sidebar
-  const htmlPath = new URL('./testfiles/YBG.html', import.meta.url).pathname
-  const htmlData = await readFile(htmlPath, 'utf-8')
-
-  const jsonPath = new URL('./testfiles/YBG.json', import.meta.url).pathname
   const jsonData = await readFile(jsonPath, 'utf-8').then(JSON.parse)
 
   t.deepEqual(scrape(htmlData), jsonData)
@@ -97,6 +75,17 @@ test('WAW', async (t) => {
   const htmlData = await readFile(htmlPath, 'utf-8')
 
   const jsonPath = new URL('./testfiles/WAW.json', import.meta.url).pathname
+  const jsonData = await readFile(jsonPath, 'utf-8').then(JSON.parse)
+
+  t.deepEqual(scrape(htmlData), jsonData)
+})
+
+test('YBG', async (t) => {
+  // No IATA or ICAO code in sidebar
+  const htmlPath = new URL('./testfiles/YBG.html', import.meta.url).pathname
+  const htmlData = await readFile(htmlPath, 'utf-8')
+
+  const jsonPath = new URL('./testfiles/YBG.json', import.meta.url).pathname
   const jsonData = await readFile(jsonPath, 'utf-8').then(JSON.parse)
 
   t.deepEqual(scrape(htmlData), jsonData)

@@ -13,7 +13,7 @@
         "link": "Air_Canada_Express"
       },
       "destination": {
-        "shortName": "Montreal–Trudeau",
+        "shortName": "Montréal–Trudeau",
         "fullName": "Montréal–Pierre Elliott Trudeau International Airport",
         "link": "Montr%C3%A9al%E2%80%93Pierre_Elliott_Trudeau_International_Airport",
         "isCharter": false,
@@ -25,8 +25,8 @@
     },
     {
       "airline": {
-        "name": "Sunwing Airlines",
-        "link": "Sunwing_Airlines"
+        "name": "WestJet",
+        "link": "WestJet"
       },
       "destination": {
         "shortName": "Cancún",
@@ -41,8 +41,8 @@
     },
     {
       "airline": {
-        "name": "Sunwing Airlines",
-        "link": "Sunwing_Airlines"
+        "name": "WestJet",
+        "link": "WestJet"
       },
       "destination": {
         "shortName": "Punta Cana",
@@ -57,8 +57,8 @@
     },
     {
       "airline": {
-        "name": "Sunwing Airlines",
-        "link": "Sunwing_Airlines"
+        "name": "WestJet",
+        "link": "WestJet"
       },
       "destination": {
         "shortName": "Varadero",

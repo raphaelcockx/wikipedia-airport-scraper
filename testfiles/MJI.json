@@ -93,6 +93,22 @@
         "link": "Afriqiyah_Airways"
       },
       "destination": {
+        "shortName": "Kufra",
+        "fullName": "Kufra Airport",
+        "link": "Kufra_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Afriqiyah Airways",
+        "link": "Afriqiyah_Airways"
+      },
+      "destination": {
         "shortName": "Port Sudan",
         "fullName": "Port Sudan New International Airport",
         "link": "Port_Sudan_New_International_Airport",
@@ -141,22 +157,6 @@
         "link": "Afriqiyah_Airways"
       },
       "destination": {
-        "shortName": "Kufra",
-        "fullName": "Kufra Airport",
-        "link": "Kufra_Airport",
-        "isCharter": false,
-        "isSeasonal": false,
-        "suspended": false,
-        "startDate": null,
-        "endDate": null
-      }
-    },
-    {
-      "airline": {
-        "name": "Afriqiyah Airways",
-        "link": "Afriqiyah_Airways"
-      },
-      "destination": {
         "shortName": "Tunis",
         "fullName": "Tunis Carthage Airport",
         "link": "Tunis_Carthage_Airport",
@@ -178,6 +178,22 @@
         "link": "King_Abdulaziz_International_Airport",
         "isCharter": true,
         "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Air Cairo",
+        "link": "Air_Cairo"
+      },
+      "destination": {
+        "shortName": "Cairo",
+        "fullName": "Cairo International Airport",
+        "link": "Cairo_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
         "suspended": false,
         "startDate": null,
         "endDate": null
@@ -299,22 +315,6 @@
       "airline": {
         "name": "Egyptair",
         "link": "Egyptair"
-      },
-      "destination": {
-        "shortName": "Cairo",
-        "fullName": "Cairo International Airport",
-        "link": "Cairo_International_Airport",
-        "isCharter": false,
-        "isSeasonal": false,
-        "suspended": false,
-        "startDate": null,
-        "endDate": null
-      }
-    },
-    {
-      "airline": {
-        "name": "Air Cairo",
-        "link": "Air_Cairo"
       },
       "destination": {
         "shortName": "Cairo",
@@ -573,9 +573,9 @@
         "link": "Ghadames_Air_Transport"
       },
       "destination": {
-        "shortName": "Tunis",
-        "fullName": "Tunis Carthage International Airport",
-        "link": "Tunis_Carthage_International_Airport",
+        "shortName": "Istanbul",
+        "fullName": "Istanbul Airport",
+        "link": "Istanbul_Airport",
         "isCharter": false,
         "isSeasonal": false,
         "suspended": false,
@@ -589,9 +589,9 @@
         "link": "Ghadames_Air_Transport"
       },
       "destination": {
-        "shortName": " Istanbul",
-        "fullName": "Istanbul Airport",
-        "link": "Istanbul_Airport",
+        "shortName": "Tunis",
+        "fullName": "Tunis Carthage International Airport",
+        "link": "Tunis_Carthage_International_Airport",
         "isCharter": false,
         "isSeasonal": false,
         "suspended": false,
@@ -675,7 +675,7 @@
         "isCharter": false,
         "isSeasonal": false,
         "suspended": false,
-        "startDate": "2025-01-12",
+        "startDate": null,
         "endDate": null
       }
     },
@@ -688,22 +688,6 @@
         "shortName": "Alexandria",
         "fullName": "Borg El Arab International Airport",
         "link": "Borg_El_Arab_International_Airport",
-        "isCharter": false,
-        "isSeasonal": false,
-        "suspended": false,
-        "startDate": null,
-        "endDate": null
-      }
-    },
-    {
-      "airline": {
-        "name": "Libyan Airlines",
-        "link": "Libyan_Airlines"
-      },
-      "destination": {
-        "shortName": "Amman–Queen Alia",
-        "fullName": "Queen Alia International Airport",
-        "link": "Queen_Alia_International_Airport",
         "isCharter": false,
         "isSeasonal": false,
         "suspended": false,
@@ -829,6 +813,22 @@
         "link": "Libyan_Wings"
       },
       "destination": {
+        "shortName": "Amman–Queen Alia",
+        "fullName": "Queen Alia International Airport",
+        "link": "Queen_Alia_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Libyan Wings",
+        "link": "Libyan_Wings"
+      },
+      "destination": {
         "shortName": "Benghazi",
         "fullName": "Benina International Airport",
         "link": "Benina_International_Airport",
@@ -893,6 +893,38 @@
         "link": null
       },
       "destination": {
+        "shortName": "Athens",
+        "fullName": "Athens International Airport",
+        "link": "Athens_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "MedSky Airways",
+        "link": null
+      },
+      "destination": {
+        "shortName": "Benghazi",
+        "fullName": "Benina International Airport",
+        "link": "Benina_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "MedSky Airways",
+        "link": null
+      },
+      "destination": {
         "shortName": "Istanbul",
         "fullName": "Istanbul Airport",
         "link": "Istanbul_Airport",
@@ -912,6 +944,22 @@
         "shortName": "Malta",
         "fullName": "Malta International Airport",
         "link": "Malta_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "MedSky Airways",
+        "link": null
+      },
+      "destination": {
+        "shortName": "Milan–Malpensa",
+        "fullName": "Milan Malpensa Airport",
+        "link": "Milan_Malpensa_Airport",
         "isCharter": false,
         "isSeasonal": false,
         "suspended": false,
@@ -1024,22 +1072,6 @@
         "shortName": "Istanbul",
         "fullName": "Istanbul Airport",
         "link": "Istanbul_Airport",
-        "isCharter": false,
-        "isSeasonal": false,
-        "suspended": false,
-        "startDate": null,
-        "endDate": null
-      }
-    },
-    {
-      "airline": {
-        "name": "Universal Air",
-        "link": "Universal_Air"
-      },
-      "destination": {
-        "shortName": "Malta",
-        "fullName": "Malta International Airport",
-        "link": "Malta_International_Airport",
         "isCharter": false,
         "isSeasonal": false,
         "suspended": false,

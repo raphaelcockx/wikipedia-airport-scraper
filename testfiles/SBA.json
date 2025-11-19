@@ -29,6 +29,22 @@
         "link": "Alaska_Airlines"
       },
       "destination": {
+        "shortName": "San Diego",
+        "fullName": "San Diego International Airport",
+        "link": "San_Diego_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": "2026-04-22",
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Alaska Airlines",
+        "link": "Alaska_Airlines"
+      },
+      "destination": {
         "shortName": "Seattle/Tacoma",
         "fullName": "Seattle–Tacoma International Airport",
         "link": "Seattle%E2%80%93Tacoma_International_Airport",
@@ -65,7 +81,7 @@
         "fullName": "Phoenix Sky Harbor International Airport",
         "link": "Phoenix_Sky_Harbor_International_Airport",
         "isCharter": false,
-        "isSeasonal": false,
+        "isSeasonal": true,
         "suspended": false,
         "startDate": null,
         "endDate": null
@@ -121,6 +137,22 @@
     },
     {
       "airline": {
+        "name": "Delta Connection",
+        "link": "Delta_Connection"
+      },
+      "destination": {
+        "shortName": "Salt Lake City",
+        "fullName": "Salt Lake City International Airport",
+        "link": "Salt_Lake_City_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
         "name": "Southwest Airlines",
         "link": "Southwest_Airlines"
       },
@@ -158,8 +190,24 @@
       },
       "destination": {
         "shortName": "Oakland",
-        "fullName": "San Francisco Bay Oakland International Airport",
-        "link": "San_Francisco_Bay_Oakland_International_Airport",
+        "fullName": "Oakland San Francisco Bay Airport",
+        "link": "Oakland_San_Francisco_Bay_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Southwest Airlines",
+        "link": "Southwest_Airlines"
+      },
+      "destination": {
+        "shortName": "Phoenix–Sky Harbor",
+        "fullName": "Phoenix Sky Harbor International Airport",
+        "link": "Phoenix_Sky_Harbor_International_Airport",
         "isCharter": false,
         "isSeasonal": false,
         "suspended": false,

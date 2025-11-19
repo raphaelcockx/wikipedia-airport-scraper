@@ -19,22 +19,6 @@
         "isCharter": false,
         "isSeasonal": false,
         "suspended": false,
-        "startDate": "2024-12-06",
-        "endDate": null
-      }
-    },
-    {
-      "airline": {
-        "name": "AirAsia X",
-        "link": "AirAsia_X"
-      },
-      "destination": {
-        "shortName": "Kuala Lumpur–International",
-        "fullName": "Kuala Lumpur International Airport",
-        "link": "Kuala_Lumpur_International_Airport",
-        "isCharter": false,
-        "isSeasonal": false,
-        "suspended": false,
         "startDate": null,
         "endDate": null
       }
@@ -93,6 +77,22 @@
         "link": "Airnorth"
       },
       "destination": {
+        "shortName": "Cairns",
+        "fullName": "Cairns Airport",
+        "link": "Cairns_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Airnorth",
+        "link": "Airnorth"
+      },
+      "destination": {
         "shortName": "Darwin",
         "fullName": "Darwin International Airport",
         "link": "Darwin_International_Airport",
@@ -114,6 +114,22 @@
         "link": "Kununurra_Airport",
         "isCharter": false,
         "isSeasonal": true,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "All Nippon Airways",
+        "link": "All_Nippon_Airways"
+      },
+      "destination": {
+        "shortName": "Tokyo–Narita",
+        "fullName": "Narita International Airport",
+        "link": "Narita_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
         "suspended": false,
         "startDate": null,
         "endDate": null
@@ -176,22 +192,6 @@
         "shortName": "Barimunya",
         "fullName": "Barimunya Airport",
         "link": "Barimunya_Airport",
-        "isCharter": true,
-        "isSeasonal": false,
-        "suspended": false,
-        "startDate": null,
-        "endDate": null
-      }
-    },
-    {
-      "airline": {
-        "name": "Alliance Airlines",
-        "link": "Alliance_Airlines"
-      },
-      "destination": {
-        "shortName": "Cape Preston",
-        "fullName": "Cape Preston",
-        "link": "Cape_Preston",
         "isCharter": true,
         "isSeasonal": false,
         "suspended": false,
@@ -361,22 +361,6 @@
     },
     {
       "airline": {
-        "name": "All Nippon Airways",
-        "link": "All_Nippon_Airways"
-      },
-      "destination": {
-        "shortName": "Tokyo–Narita",
-        "fullName": "Narita International Airport",
-        "link": "Narita_International_Airport",
-        "isCharter": false,
-        "isSeasonal": true,
-        "suspended": false,
-        "startDate": null,
-        "endDate": null
-      }
-    },
-    {
-      "airline": {
         "name": "Batik Air",
         "link": "Batik_Air"
       },
@@ -457,22 +441,6 @@
     },
     {
       "airline": {
-        "name": "China Eastern Airlines",
-        "link": "China_Eastern_Airlines"
-      },
-      "destination": {
-        "shortName": "Shanghai–Pudong",
-        "fullName": "Shanghai Pudong International Airport",
-        "link": "Shanghai_Pudong_International_Airport",
-        "isCharter": false,
-        "isSeasonal": true,
-        "suspended": false,
-        "startDate": null,
-        "endDate": null
-      }
-    },
-    {
-      "airline": {
         "name": "China Southern Airlines",
         "link": "China_Southern_Airlines"
       },
@@ -481,23 +449,7 @@
         "fullName": "Guangzhou Baiyun International Airport",
         "link": "Guangzhou_Baiyun_International_Airport",
         "isCharter": false,
-        "isSeasonal": false,
-        "suspended": false,
-        "startDate": null,
-        "endDate": null
-      }
-    },
-    {
-      "airline": {
-        "name": "Citilink",
-        "link": "Citilink"
-      },
-      "destination": {
-        "shortName": "Denpasar",
-        "fullName": "Ngurah Rai International Airport",
-        "link": "Ngurah_Rai_International_Airport",
-        "isCharter": false,
-        "isSeasonal": false,
+        "isSeasonal": true,
         "suspended": false,
         "startDate": null,
         "endDate": null
@@ -637,6 +589,22 @@
         "link": "Jetstar"
       },
       "destination": {
+        "shortName": "Manila",
+        "fullName": "Ninoy Aquino International Airport",
+        "link": "Ninoy_Aquino_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": "2025-11-27",
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Jetstar",
+        "link": "Jetstar"
+      },
+      "destination": {
         "shortName": "Melbourne",
         "fullName": "Melbourne Airport",
         "link": "Melbourne_Airport",
@@ -734,8 +702,8 @@
       },
       "destination": {
         "shortName": "Golden Grove",
-        "fullName": null,
-        "link": null,
+        "fullName": "Golden Grove mine",
+        "link": "Golden_Grove_mine",
         "isCharter": true,
         "isSeasonal": false,
         "suspended": false,
@@ -942,8 +910,8 @@
       },
       "destination": {
         "shortName": "Nova",
-        "fullName": null,
-        "link": null,
+        "fullName": "Nova Mine",
+        "link": "Nova_Mine",
         "isCharter": true,
         "isSeasonal": false,
         "suspended": false,
@@ -989,9 +957,41 @@
         "link": "Nexus_Airlines_(Australia)"
       },
       "destination": {
+        "shortName": "Broome",
+        "fullName": "Broome Airport",
+        "link": "Broome_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Nexus Airlines",
+        "link": "Nexus_Airlines_(Australia)"
+      },
+      "destination": {
         "shortName": "Geraldton",
         "fullName": "Geraldton Airport",
         "link": "Geraldton_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Nexus Airlines",
+        "link": "Nexus_Airlines_(Australia)"
+      },
+      "destination": {
+        "shortName": "Kalgoorlie",
+        "fullName": "Kalgoorlie Airport",
+        "link": "Kalgoorlie_Airport",
         "isCharter": false,
         "isSeasonal": false,
         "suspended": false,
@@ -1037,13 +1037,13 @@
         "link": "Qantas"
       },
       "destination": {
-        "shortName": "Alice Springs",
-        "fullName": "Alice Springs Airport",
-        "link": "Alice_Springs_Airport",
+        "shortName": "Auckland",
+        "fullName": "Auckland Airport",
+        "link": "Auckland_Airport",
         "isCharter": false,
         "isSeasonal": false,
         "suspended": false,
-        "startDate": null,
+        "startDate": "2025-12-08",
         "endDate": null
       }
     },
@@ -1070,8 +1070,8 @@
       },
       "destination": {
         "shortName": "Broome",
-        "fullName": "Broome Airport",
-        "link": "Broome_Airport",
+        "fullName": "Broome International Airport",
+        "link": "Broome_International_Airport",
         "isCharter": false,
         "isSeasonal": false,
         "suspended": false,
@@ -1117,13 +1117,13 @@
         "link": "Qantas"
       },
       "destination": {
-        "shortName": "Kalgoorlie",
-        "fullName": "Kalgoorlie Airport",
-        "link": "Kalgoorlie_Airport",
+        "shortName": "Johannesburg–O.R. Tambo",
+        "fullName": "O. R. Tambo International Airport",
+        "link": "O._R._Tambo_International_Airport",
         "isCharter": false,
         "isSeasonal": false,
         "suspended": false,
-        "startDate": null,
+        "startDate": "2025-12-07",
         "endDate": null
       }
     },
@@ -1133,9 +1133,9 @@
         "link": "Qantas"
       },
       "destination": {
-        "shortName": "Karratha",
-        "fullName": "Karratha Airport",
-        "link": "Karratha_Airport",
+        "shortName": "Kalgoorlie",
+        "fullName": "Kalgoorlie Airport",
+        "link": "Kalgoorlie_Airport",
         "isCharter": false,
         "isSeasonal": false,
         "suspended": false,
@@ -1181,41 +1181,9 @@
         "link": "Qantas"
       },
       "destination": {
-        "shortName": "Newman",
-        "fullName": "Newman Airport",
-        "link": "Newman_Airport",
-        "isCharter": false,
-        "isSeasonal": false,
-        "suspended": false,
-        "startDate": null,
-        "endDate": null
-      }
-    },
-    {
-      "airline": {
-        "name": "Qantas",
-        "link": "Qantas"
-      },
-      "destination": {
         "shortName": "Paris–Charles de Gaulle",
         "fullName": "Charles de Gaulle Airport",
         "link": "Charles_de_Gaulle_Airport",
-        "isCharter": false,
-        "isSeasonal": false,
-        "suspended": false,
-        "startDate": null,
-        "endDate": null
-      }
-    },
-    {
-      "airline": {
-        "name": "Qantas",
-        "link": "Qantas"
-      },
-      "destination": {
-        "shortName": "Port Hedland",
-        "fullName": "Port Hedland Airport",
-        "link": "Port_Hedland_Airport",
         "isCharter": false,
         "isSeasonal": false,
         "suspended": false,
@@ -1261,9 +1229,9 @@
         "link": "Qantas"
       },
       "destination": {
-        "shortName": "Antarctica",
-        "fullName": "Antarctica",
-        "link": "Antarctica",
+        "shortName": "Hobart",
+        "fullName": "Hobart Airport",
+        "link": "Hobart_Airport",
         "isCharter": false,
         "isSeasonal": true,
         "suspended": false,
@@ -1373,6 +1341,38 @@
         "link": "QantasLink"
       },
       "destination": {
+        "shortName": "Christmas Island",
+        "fullName": "Christmas Island Airport",
+        "link": "Christmas_Island_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "QantasLink",
+        "link": "QantasLink"
+      },
+      "destination": {
+        "shortName": "Cocos (Keeling) Islands",
+        "fullName": "Cocos (Keeling) Islands Airport",
+        "link": "Cocos_(Keeling)_Islands_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "QantasLink",
+        "link": "QantasLink"
+      },
+      "destination": {
         "shortName": "Darwin",
         "fullName": "Darwin Airport",
         "link": "Darwin_Airport",
@@ -1421,6 +1421,22 @@
         "link": "QantasLink"
       },
       "destination": {
+        "shortName": "Hobart",
+        "fullName": "Hobart Airport",
+        "link": "Hobart_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "QantasLink",
+        "link": "QantasLink"
+      },
+      "destination": {
         "shortName": "Kalgoorlie",
         "fullName": "Kalgoorlie-Boulder Airport",
         "link": "Kalgoorlie-Boulder_Airport",
@@ -1440,6 +1456,22 @@
         "shortName": "Karratha",
         "fullName": "Karratha Airport",
         "link": "Karratha_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "QantasLink",
+        "link": "QantasLink"
+      },
+      "destination": {
+        "shortName": "Newcastle",
+        "fullName": "Newcastle Airport (New South Wales)",
+        "link": "Newcastle_Airport_(New_South_Wales)",
         "isCharter": false,
         "isSeasonal": false,
         "suspended": false,
@@ -1488,22 +1520,6 @@
         "shortName": "Paraburdoo",
         "fullName": "Paraburdoo Airport",
         "link": "Paraburdoo_Airport",
-        "isCharter": false,
-        "isSeasonal": false,
-        "suspended": false,
-        "startDate": null,
-        "endDate": null
-      }
-    },
-    {
-      "airline": {
-        "name": "QantasLink",
-        "link": "QantasLink"
-      },
-      "destination": {
-        "shortName": "Port Hedland",
-        "fullName": "Port Hedland International Airport",
-        "link": "Port_Hedland_International_Airport",
         "isCharter": false,
         "isSeasonal": false,
         "suspended": false,
@@ -2009,6 +2025,22 @@
     },
     {
       "airline": {
+        "name": "TransNusa",
+        "link": "TransNusa"
+      },
+      "destination": {
+        "shortName": "Denpasar",
+        "fullName": "Ngurah Rai International Airport",
+        "link": "Ngurah_Rai_International_Airport",
+        "isCharter": false,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
         "name": "VietJet Air",
         "link": "VietJet_Air"
       },
@@ -2093,9 +2125,9 @@
         "link": "Virgin_Australia"
       },
       "destination": {
-        "shortName": "Cairns",
-        "fullName": "Cairns Airport",
-        "link": "Cairns_Airport",
+        "shortName": "Darwin",
+        "fullName": "Darwin International Airport",
+        "link": "Darwin_International_Airport",
         "isCharter": false,
         "isSeasonal": false,
         "suspended": false,
@@ -2109,9 +2141,9 @@
         "link": "Virgin_Australia"
       },
       "destination": {
-        "shortName": "Darwin",
-        "fullName": "Darwin International Airport",
-        "link": "Darwin_International_Airport",
+        "shortName": "Doha",
+        "fullName": "Hamad International Airport",
+        "link": "Hamad_International_Airport",
         "isCharter": false,
         "isSeasonal": false,
         "suspended": false,
@@ -2324,7 +2356,7 @@
         "isSeasonal": false,
         "suspended": false,
         "startDate": null,
-        "endDate": null
+        "endDate": "2025-10-31"
       }
     },
     {
@@ -2510,8 +2542,24 @@
       },
       "destination": {
         "shortName": "Busselton",
-        "fullName": "Busselton Airport",
-        "link": "Busselton_Airport",
+        "fullName": "Busselton Margaret River Airport",
+        "link": "Busselton_Margaret_River_Airport",
+        "isCharter": true,
+        "isSeasonal": false,
+        "suspended": false,
+        "startDate": null,
+        "endDate": null
+      }
+    },
+    {
+      "airline": {
+        "name": "Virgin Australia Regional Airlines",
+        "link": "Virgin_Australia_Regional_Airlines"
+      },
+      "destination": {
+        "shortName": "Coondewanna",
+        "fullName": "Coondewanna Airport",
+        "link": "Coondewanna_Airport",
         "isCharter": true,
         "isSeasonal": false,
         "suspended": false,
