@@ -15,7 +15,10 @@
     "scraper"
   ],
   "license": "GPL-3.0-only",
-  "repository": "raphaelcockx/wikipedia-airport-scraper",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raphaelcockx/wikipedia-airport-scraper.git"
+  },
   "files": [
     "source"
   ],
